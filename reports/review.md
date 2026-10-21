@@ -175,3 +175,11 @@ An independent reviewer reproduced the quoted word counts and summary-length med
 All three notebooks completed on Kaggle. EDA tables match the local results. Kaggle uses NumPy 2.1.3, pandas 2.3.3, SciPy 1.16.3, scikit-learn 1.6.1, Matplotlib 3.10.0, and WordCloud 1.9.6. Compared with the pinned local environment, main-model and text-model MAEs differ by less than 0.005 rank places. Artist-holdout errors differ by less than 0.031 places. These differences do not change the conclusions. The later EDA revision moves writers, years, heroes, and villains first and removes the attribution and collection-link digressions.
 
 The README links Dan Ofer’s Scholar profile and the original ComicsXF rankings. The six CSVs stay on Kaggle; GitHub contains code, notebooks, figures, reference files, and tests. All 89 tests pass. The sharing bundles contain table descriptions for all 323 columns.
+
+## Notebook rewrite
+
+Each notebook received a full rewrite and a second reader’s critique. The EDA now focuses on writers, eras, characters, partnerships, and storytelling. The audience notebook compares specific disagreements before testing reader-versus-critic agreement on the same books. The prediction notebook follows a baseline through its failures and the plot-word experiment.
+
+Repeated setup, the EDA award and publication-age detours, the standalone importance chart, and the audience notebook’s prediction experiment were removed. Their earlier numerical results above remain part of the audit history. Retired figures and reports are excluded from the current sharing bundles. Feature-importance tables remain available from the prediction notebook.
+
+Review corrected tied positions on the audience comparison scale, distinguished writer age from experience, and fixed a misleading description of team continuity. The publication-era check now exports its stricter review-count calculations and leave-one-out range in `same_cohort_audiences.json`.

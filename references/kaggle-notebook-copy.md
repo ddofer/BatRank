@@ -15,7 +15,7 @@ Who Gets the Good Batman Stories?
 **Short description**
 
 ```text
-Writers, artists, years, heroes, and villains across 740 ranked Batman stories. Includes a cast atlas and Batman-shaped word clouds.
+Which writers and villains turn up in the best Batman stories? Explore 740 rankings, creative teams, and plot words.
 ```
 
 **Opening Markdown cell**
@@ -23,13 +23,11 @@ Writers, artists, years, heroes, and villains across 740 ranked Batman stories. 
 ```markdown
 # Who gets the good Batman stories?
 
-Doug Moench and Kelley Jones made both *Red Rain* and *Unseen*. BatChat ranks them **710 places apart**: #6 and #716. Same writer, same artist, very different results.
+Which writers dominate a Batman reading list? Which villains turn up in the best stories? And why do two books by Doug Moench and Kelley Jones land **710 places apart**?
 
-We'll start with writers, characters, and publication years. Then we'll look at artistic partnerships, coloring, lettering, and what plot summaries miss.
+Let's explore **740 stories ranked by BatChat**, the podcast hosted by Matt Lazorwitz and Will Nevin. We'll start with writers and publication years, then characters, creative teams, and the stories themselves.
 
-The data contains **740 stories ranked by BatChat**, the Batman podcast hosted by Matt Lazorwitz and Will Nevin. Each row is one story. **Rank 1 is best.** We use the **2026-10-21** snapshot of [ComicsXF's list](https://comicsxf.com/batchat-rankings/).
-
-
+**Rank 1 is best throughout.** This is the **2026-10-21** snapshot of [ComicsXF's list](https://comicsxf.com/batchat-rankings/). It reflects the hosts' choices and tastes, not a poll of Batman readers.
 
 *Part of [BatRank](https://github.com/ddofer/BatRank), by [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ).*
 ```
@@ -45,7 +43,7 @@ Can We Predict BatChat’s Favorite Batman Stories?
 **Short description**
 
 ```text
-BatChat ranks the silent story Undone at #47. Two models put it around #490. Can writers, artists, publication dates, or plot words explain the miss?
+Can creator names, publication dates, or plot words predict BatChat’s taste? Start with a simple guess and inspect the stories the models get wrong.
 ```
 
 **Opening Markdown cell**
@@ -53,16 +51,15 @@ BatChat ranks the silent story Undone at #47. Two models put it around #490. Can
 ```markdown
 # Can we predict BatChat's favorite Batman stories?
 
-*Undone*, a silent story about grief, ranks **47th** on BatChat's list. Two models using its creators and publication details put it around **490th**. What are they missing?
+*Undone* ranks **47th** among BatChat's 740 Batman stories. Two models put it near **490th**. They know who made it and when it appeared. They don't know how a silent comic about grief reads.
 
-We have **740 ranked stories** from Matt Lazorwitz and Will Nevin's Batman podcast, with writer and artist names, characters, publication dates, awards, and roughly **700,000 words of wiki plot summaries**. We'll test how much these tell us about the hosts' taste, including whether the models cope with unfamiliar artists and later episodes.
+Can names and dates predict the hosts' taste? Do plot summaries help? And what can we learn from the stories the models get wrong?
 
-**Rank 1 is best.** Everything runs from the supplied snapshot.
+We'll start with a simple guess, test a few improvements, and inspect the misses. **Rank 1 is best.**
 
+New to the dataset? Start with [the writers, years, and villains](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories). For reader and critic ratings, see [BatChat versus the crowd](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree).
 
-
-
-*Part of [BatRank](https://github.com/ddofer/BatRank), by [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ).*
+*Part of [BatRank](https://github.com/ddofer/BatRank), by [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ). Rankings: [Matt Lazorwitz and Will Nevin's BatChat](https://comicsxf.com/batchat-rankings/). Snapshot: October 21, 2026.*
 ```
 
 ## Audience comparison — notebook 3
@@ -84,31 +81,19 @@ BatChat loves Red Rain. Goodreads prefers White Knight. Compare the podcast with
 ```markdown
 # BatChat vs the crowd: where Batman fans disagree
 
-BatChat ranks *Red Rain* sixth, despite its **3.66/5 on Goodreads**. *White Knight* gets **4.28**, yet lands at **#734** on the podcast's list. That's a substantial disagreement about what makes a good Batman comic. [Red Rain rating](https://www.goodreads.com/book/show/72479.Batman_Dracula) · [White Knight rating](https://www.goodreads.com/book/show/37775321-batman)
+*Red Rain* is **#6** on BatChat's list. On Goodreads, it gets **3.66/5**. *White Knight* gets **4.28/5**, but BatChat puts it at **#734**. [Goodreads: Red Rain](https://www.goodreads.com/book/show/72479.Batman_Dracula) · [White Knight](https://www.goodreads.com/book/show/37775321-batman)
 
-We'll compare the [BatChat podcast's rankings](https://comicsxf.com/batchat-rankings/) with Goodreads readers, Comic Book RoundUp readers, and RoundUp critics. The dataset contains **740 stories**, captured on **21 October 2026**; **rank 1 is best**. Some disagreements recur across all three sources. The apparent difference between reader and critic agreement, though, largely disappears when we compare the same books.
+Which other books divide the podcast and its fellow readers? And do the hosts agree more with readers or critics?
 
-Everything runs from the attached snapshot. These are retrospective comparisons: outside ratings may postdate the episode, and each platform attracts its own audience.
+We'll compare [740 stories ranked by Matt Lazorwitz and Will Nevin on BatChat](https://comicsxf.com/batchat-rankings/) with Goodreads and Comic Book RoundUp. **Rank 1 is best. Higher outside ratings are better.** The data is a snapshot from **21 October 2026**.
 
-
-
-*Part of [BatRank](https://github.com/ddofer/BatRank), by [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ).*
+*By [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ), as part of [BatRank](https://github.com/ddofer/BatRank). [Start with the Batman EDA](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) for writers, eras, heroes, and villains.*
 ```
 
-## Shared closing cell — optional for each notebook
+## Source note — optional
 
 ```markdown
-## Data, sources, and reuse
-
-The rankings come from [ComicsXF’s BatChat list](https://comicsxf.com/batchat-rankings/), hosted by Matt Lazorwitz and Will Nevin. Issue metadata and plot summaries come primarily from [DC Database](https://dc.fandom.com/). The dataset retains source and revision links. Other sources include official award archives, publisher records, a small Grand Comics Database sample, Goodreads, and Comic Book RoundUp.
-
-Start with `data/processed/stories.csv`. Join story tables using `story_id`. Creator tables use `creator_id`. Full summaries are in `story_texts.csv`; an explicit status records missing text. Empty fields mean unknown or inapplicable.
-
-The attached files include a README, data dictionary, source notes, and validation reports. The analysis runs from those saved tables without live scraping. The local package versions are pinned in `uv.lock`.
-
-This is an independent analysis of one podcast’s reading list. Sources retain their respective terms and attribution requirements. See the bundled source notes before redistributing the material.
-
-Which pair of books would you compare next? A useful suggestion names the stories and a difference worth examining: pacing, characterization, page layout, coloring, or something these tables miss.
+Rankings: [ComicsXF’s BatChat](https://comicsxf.com/batchat-rankings/). Metadata and plot summaries: primarily [DC Database](https://dc.fandom.com/), with other sources linked in the tables. [Dataset](https://www.kaggle.com/datasets/danofer/batchat-batman-rankings) · [Code and notebooks](https://github.com/ddofer/BatRank).
 ```
 
 ## Dataset page — compact description
