@@ -1,0 +1,559 @@
+{
+  "Nightmare In Crimson (Batman V.1 #349-251, Detective Comics V.1 #517)": {
+    "titles": [
+      "Batman Vol 1 349",
+      "Batman Vol 1 350",
+      "Batman Vol 1 351",
+      "Detective Comics Vol 1 517"
+    ],
+    "complete": true,
+    "reason": "Printed 349-251 is a source typo; 349-351 is the coherent range. Verify against issue synopsis."
+  },
+  "The Joker": {
+    "titles": [
+      "The Joker Vol 2 1",
+      "The Joker Vol 2 2",
+      "The Joker Vol 2 3",
+      "The Joker Vol 2 4",
+      "The Joker Vol 2 5",
+      "The Joker Vol 2 6",
+      "The Joker Vol 2 7",
+      "The Joker Vol 2 8",
+      "The Joker Vol 2 9",
+      "The Joker Vol 2 10",
+      "The Joker Vol 2 11",
+      "The Joker Vol 2 12",
+      "The Joker Vol 2 13",
+      "The Joker Vol 2 14",
+      "The Joker Vol 2 15",
+      "The Joker 2021 Annual Vol 2 1",
+      "Batman Vol 3 100",
+      "Batman: The Joker War Zone Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Batman: Black and White Vol.1": {
+    "titles": [
+      "Batman: Black and White Vol 1 1",
+      "Batman: Black and White Vol 1 2",
+      "Batman: Black and White Vol 1 3",
+      "Batman: Black and White Vol 1 4"
+    ],
+    "complete": true,
+    "reason": "First collected volume contains the original four-issue miniseries, not a single comic issue."
+  },
+  "Leviathan Strikes (Batman Incorporated V.1 #1-8, Batman Incorporated: Leviathan Strikes One-Shot)": {
+    "titles": [
+      "Batman Incorporated Vol 1 1",
+      "Batman Incorporated Vol 1 2",
+      "Batman Incorporated Vol 1 3",
+      "Batman Incorporated Vol 1 4",
+      "Batman Incorporated Vol 1 5",
+      "Batman Incorporated Vol 1 6",
+      "Batman Incorporated Vol 1 7",
+      "Batman Incorporated Vol 1 8",
+      "Batman Incorporated: Leviathan Strikes Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Final Crisis (Final Crisis #1-7, Batman V.2 #682-683, Final Crisis: Superman Beyond #1-2, Final Crisis: Submit, DC Universe #0)": {
+    "titles": [
+      "Final Crisis Vol 1 1",
+      "Final Crisis Vol 1 2",
+      "Final Crisis Vol 1 3",
+      "Final Crisis Vol 1 4",
+      "Final Crisis Vol 1 5",
+      "Final Crisis Vol 1 6",
+      "Final Crisis Vol 1 7",
+      "Batman Vol 1 682",
+      "Batman Vol 1 683",
+      "Final Crisis: Superman Beyond Vol 1 1",
+      "Final Crisis: Superman Beyond Vol 1 2",
+      "Final Crisis: Submit Vol 1 1",
+      "DC Universe Vol 1 0"
+    ],
+    "complete": true,
+    "reason": "Source Batman V.2 #682-683 is impossible; these are original Batman Vol 1 issues. Include the named unnumbered Submit one-shot."
+  },
+  "No Law and New Order (Batman: No Man’s Land #1 etc.)": {
+    "titles": [
+      "Batman: No Man's Land Vol 1 1",
+      "Batman: Shadow of the Bat Vol 1 83",
+      "Batman Vol 1 563",
+      "Detective Comics Vol 1 730"
+    ],
+    "complete": true,
+    "reason": "Four explicitly numbered No Law and a New Order chapters listed at https://dc.fandom.com/wiki/Batman:_No_Man%27s_Land"
+  },
+  "Batman: Black & White- The Gotham Knights Stories V.1 (Batman: Gotham Knights #1-16, Batman: Black & White V.2 TPB)": {
+    "titles": [
+      "Batman: Gotham Knights Vol 1 1",
+      "Batman: Gotham Knights Vol 1 2",
+      "Batman: Gotham Knights Vol 1 3",
+      "Batman: Gotham Knights Vol 1 4",
+      "Batman: Gotham Knights Vol 1 5",
+      "Batman: Gotham Knights Vol 1 6",
+      "Batman: Gotham Knights Vol 1 7",
+      "Batman: Gotham Knights Vol 1 8",
+      "Batman: Gotham Knights Vol 1 9",
+      "Batman: Gotham Knights Vol 1 10",
+      "Batman: Gotham Knights Vol 1 11",
+      "Batman: Gotham Knights Vol 1 12",
+      "Batman: Gotham Knights Vol 1 13",
+      "Batman: Gotham Knights Vol 1 14",
+      "Batman: Gotham Knights Vol 1 15",
+      "Batman: Gotham Knights Vol 1 16"
+    ],
+    "complete": true,
+    "reason": "The trade paperback is a reprint of the explicitly listed backups, not an extra issue."
+  },
+  "Batman and Robin Must Die! (Batman and Robin V.1 #13-16, Batman: The Return)": {
+    "titles": [
+      "Batman and Robin Vol 1 13",
+      "Batman and Robin Vol 1 14",
+      "Batman and Robin Vol 1 15",
+      "Batman and Robin Vol 1 16",
+      "Batman: The Return Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Batman ’66 V.4 (Batman ’66 17-22)": {
+    "titles": [
+      "Batman '66 Vol 1 17",
+      "Batman '66 Vol 1 18",
+      "Batman '66 Vol 1 19",
+      "Batman '66 Vol 1 20",
+      "Batman '66 Vol 1 21",
+      "Batman '66 Vol 1 22"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Manhunter (Detective Comics V.1 #437-443, Manhunter Special Edition)": {
+    "titles": [
+      "Detective Comics Vol 1 437",
+      "Detective Comics Vol 1 438",
+      "Detective Comics Vol 1 439",
+      "Detective Comics Vol 1 440",
+      "Detective Comics Vol 1 441",
+      "Detective Comics Vol 1 442",
+      "Detective Comics Vol 1 443",
+      "Manhunter Special Edition Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Better Than Batman (Nightwing: Rebirth, Nightwing V.4 #1-4)": {
+    "titles": [
+      "Nightwing: Rebirth Vol 1 1",
+      "Nightwing Vol 4 1",
+      "Nightwing Vol 4 2",
+      "Nightwing Vol 4 3",
+      "Nightwing Vol 4 4"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "The Joker War (Batman V.3 #95-100, Batman: The Joker War Zone)": {
+    "titles": [
+      "Batman Vol 3 95",
+      "Batman Vol 3 96",
+      "Batman Vol 3 97",
+      "Batman Vol 3 98",
+      "Batman Vol 3 99",
+      "Batman Vol 3 100",
+      "Batman: The Joker War Zone Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Vice Versa (Batgirls Annual 2022, #13)": {
+    "titles": [
+      "Batgirls 2022 Annual Vol 1 1",
+      "Batgirls Vol 1 13"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Underworld Unleashed (Underworld Unleased #1-3, Underworld Unleashed: Batman- Devil’s Asylum, Underworld Unleashed: Patterns of Fear)": {
+    "titles": [
+      "Underworld Unleashed Vol 1 1",
+      "Underworld Unleashed Vol 1 2",
+      "Underworld Unleashed Vol 1 3",
+      "Underworld Unleashed: Batman - Devil's Asylum Vol 1 1",
+      "Underworld Unleashed: Patterns of Fear Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Batman/ Grendel (Batman/Grendel: Devil’s Riddle, Batman/Grendel: Devil’s Masque)": {
+    "titles": [
+      "Batman/Grendel: Devil's Riddle Vol 1 1",
+      "Batman/Grendel: Devil's Masque Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Batman: The Dark Prince Charming Vol. 1 & 2": {
+    "titles": [
+      "Batman: The Dark Prince Charming Vol 1 1",
+      "Batman: The Dark Prince Charming Vol 1 2"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Night of the Penguin Detective Comics V.1 #824)": {
+    "titles": [
+      "Detective Comics Vol 1 824"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Hour of the Serpent :The Brave and the Bold #137)": {
+    "titles": [
+      "The Brave and the Bold Vol 1 137"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "No More Teachers (Batman Annual 2022, Batman Incorporated V.3 #1-5)": {
+    "titles": [
+      "Batman 2022 Annual Vol 3 1",
+      "Batman Incorporated Vol 3 1",
+      "Batman Incorporated Vol 3 2",
+      "Batman Incorporated Vol 3 3",
+      "Batman Incorporated Vol 3 4",
+      "Batman Incorporated Vol 3 5"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "I Am Gotham (Batman: Rebirth, Batman V.3 #1-6)": {
+    "titles": [
+      "Batman: Rebirth Vol 1 1",
+      "Batman Vol 3 1",
+      "Batman Vol 3 2",
+      "Batman Vol 3 3",
+      "Batman Vol 3 4",
+      "Batman Vol 3 5",
+      "Batman Vol 3 6"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "…Land Where Our Fathers Dies… (Batman and the Outsiders V,1 Annual #1)": {
+    "titles": [
+      "Batman and the Outsiders Annual Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Knightquest: The Search (Justice League Task Force #5-6. Batman: Shadow of the Bat #21-23, Batman: Legends of the Dark Knight #59-61)": {
+    "titles": [
+      "Justice League Task Force Vol 1 5",
+      "Justice League Task Force Vol 1 6",
+      "Batman: Shadow of the Bat Vol 1 21",
+      "Batman: Shadow of the Bat Vol 1 22",
+      "Batman: Shadow of the Bat Vol 1 23",
+      "Batman: Legends of the Dark Knight Vol 1 59",
+      "Batman: Legends of the Dark Knight Vol 1 60",
+      "Batman: Legends of the Dark Knight Vol 1 61"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "The Fall and the Fallen (Batman V.3 #70-74, Secret Files #2)": {
+    "titles": [
+      "Batman Vol 3 70",
+      "Batman Vol 3 71",
+      "Batman Vol 3 72",
+      "Batman Vol 3 73",
+      "Batman Vol 3 74",
+      "Batman Secret Files Vol 1 2"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Injustice: Year Zero Chapters 1-14": {
+    "titles": [
+      "Injustice: Year Zero Vol 1 1 (Digital)",
+      "Injustice: Year Zero Vol 1 2 (Digital)",
+      "Injustice: Year Zero Vol 1 3 (Digital)",
+      "Injustice: Year Zero Vol 1 4 (Digital)",
+      "Injustice: Year Zero Vol 1 5 (Digital)",
+      "Injustice: Year Zero Vol 1 6 (Digital)",
+      "Injustice: Year Zero Vol 1 7 (Digital)",
+      "Injustice: Year Zero Vol 1 8 (Digital)",
+      "Injustice: Year Zero Vol 1 9 (Digital)",
+      "Injustice: Year Zero Vol 1 10 (Digital)",
+      "Injustice: Year Zero Vol 1 11 (Digital)",
+      "Injustice: Year Zero Vol 1 12 (Digital)",
+      "Injustice: Year Zero Vol 1 13 (Digital)",
+      "Injustice: Year Zero Vol 1 14 (Digital)"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Superman and Batman Vs. Vampires and Werewolves": {
+    "titles": [
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 1",
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 2",
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 3",
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 4",
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 5",
+      "Superman and Batman vs. Vampires and Werewolves Vol 1 6"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Batman: Prelude to the Wedding #1-5": {
+    "titles": [
+      "Batman: Prelude to the Wedding: Robin vs. Ra's al Ghul Vol 1 1",
+      "Batman: Prelude to the Wedding: Nightwing vs. Hush Vol 1 1",
+      "Batman: Prelude to the Wedding: Batgirl vs. The Riddler Vol 1 1",
+      "Batman: Prelude to the Wedding: Red Hood vs. Anarky Vol 1 1",
+      "Batman: Prelude to the Wedding: Harley Quinn vs. The Joker Vol 1 1"
+    ],
+    "complete": true,
+    "reason": "Expand an abbreviated or malformed source reference; exact wiki issue records are retained in issues.csv."
+  },
+  "Night of the Monster Men (Batman V.3 #7-8. Nightwing V.4 #5-6, Detective Comics V.3 #941-952)": {
+    "titles": [
+      "Batman Vol 3 7",
+      "Batman Vol 3 8",
+      "Nightwing Vol 4 5",
+      "Nightwing Vol 4 6",
+      "Detective Comics Vol 1 941",
+      "Detective Comics Vol 1 942"
+    ],
+    "complete": true,
+    "reason": "Source says Detective #941-952; publisher confirms #941-942: https://www.dcuniverseinfinite.com/comics/book/batman-night-of-the-monster-men/f0b81ba4-3cfd-4c2b-8f8a-3109aafa5203"
+  },
+  "Dark Planet (Batman #1,000,000, Catwoman #1,000,000, Robin #1,000,000)": {
+    "titles": [
+      "Batman Vol 1 1000000",
+      "Catwoman Vol 2 1000000",
+      "Robin Vol 2 1000000"
+    ],
+    "complete": true,
+    "reason": "The unqualified series names refer to the ongoing series in the DC One Million crossover."
+  },
+  "The Bat of the Future- Today! (Batman: Shadow of the Bat #1,000,000, Nightwing #1,000,000, Detective Comics #1,000,000)": {
+    "titles": [
+      "Batman: Shadow of the Bat Vol 1 1000000",
+      "Nightwing Vol 2 1000000",
+      "Detective Comics Vol 1 1000000"
+    ],
+    "complete": true,
+    "reason": "The unqualified Nightwing series is the 1996 ongoing series in the DC One Million crossover."
+  },
+  "A Debt of Significant Blood (Secret Six V.2 #9)": {
+    "titles": [
+      "Secret Six Vol 3 9"
+    ],
+    "complete": true,
+    "reason": "Source volume 2 has only six issues; issue 9 belongs to volume 3."
+  },
+  "Everyone Loves Ivy (Batman V.3 #41.43)": {
+    "titles": [
+      "Batman Vol 3 41",
+      "Batman Vol 3 42",
+      "Batman Vol 3 43"
+    ],
+    "complete": true,
+    "reason": "Source writes #41.43; this three-part arc is #41-43, not a decimal issue."
+  },
+  "Monsters of Men (Detective Comics V.3 #1,026)": {
+    "titles": [
+      "Detective Comics Vol 1 1026"
+    ],
+    "complete": true,
+    "reason": "Correct source V.3 and comma formatting to the wiki title for the resumed original numbering."
+  },
+  "Haunted (Legends of the Dark Knight V.2 #7-8)": {
+    "titles": [
+      "Legends of the Dark Knight Vol 1 7",
+      "Legends of the Dark Knight Vol 1 8"
+    ],
+    "complete": true,
+    "reason": "The 2012 series is Legends of the Dark Knight Vol 1, distinct from Batman: Legends of the Dark Knight Vol 1 (1989)."
+  },
+  "Court Fight (Batman: The Adventures Continue V.2 #1-2)": {
+    "titles": [
+      "Batman: The Adventures Continue Season Two Vol 1 1",
+      "Batman: The Adventures Continue Season Two Vol 1 2"
+    ],
+    "complete": true,
+    "reason": "Source calls Season Two volume 2."
+  },
+  "The OMAC Project/Sacrifice (The OMAC Project #1-6 et.al.)": {
+    "titles": [
+      "OMAC Project Vol 1 1",
+      "OMAC Project Vol 1 2",
+      "OMAC Project Vol 1 3",
+      "OMAC Project Vol 1 4",
+      "OMAC Project Vol 1 5",
+      "OMAC Project Vol 1 6"
+    ],
+    "complete": false,
+    "reason": "Source says et.al.; preserve the named miniseries and flag unspecified Sacrifice crossover issues as incomplete."
+  },
+  "Contagion (Crossover Event)": {
+    "titles": [
+      "Batman: Shadow of the Bat Vol 1 48",
+      "Detective Comics Vol 1 695",
+      "Robin Vol 2 27",
+      "Catwoman Vol 2 31",
+      "Azrael Vol 1 15",
+      "Batman Vol 1 529",
+      "Batman: Shadow of the Bat Vol 1 49",
+      "Detective Comics Vol 1 696",
+      "Batman Chronicles Vol 1 4",
+      "Catwoman Vol 2 32",
+      "Azrael Vol 1 16",
+      "Robin Vol 2 28"
+    ],
+    "complete": false,
+    "reason": "Core reading-list enrichment from https://dc.fandom.com/wiki/Batman:_Contagion ; exact podcast reading extent is unspecified, so list completeness remains false."
+  },
+  "Officer Down (Crossover Event)": {
+    "titles": [
+      "Batman Vol 1 587",
+      "Robin Vol 2 86",
+      "Birds of Prey Vol 1 27",
+      "Catwoman Vol 2 90",
+      "Nightwing Vol 2 53",
+      "Detective Comics Vol 1 754",
+      "Batman: Gotham Knights Vol 1 13"
+    ],
+    "complete": false,
+    "reason": "Core reading-list enrichment from https://dc.fandom.com/wiki/Batman:_Officer_Down ; exact podcast reading extent is unspecified, so list completeness remains false."
+  },
+  "The Resurrection of Ra’s al Ghul (Crossover Event)": {
+    "titles": [
+      "Batman Annual Vol 1 26",
+      "Robin Annual Vol 2 7",
+      "Batman Vol 1 670",
+      "Robin Vol 2 168",
+      "Nightwing Vol 2 138",
+      "Detective Comics Vol 1 838",
+      "Batman Vol 1 671",
+      "Robin Vol 2 169",
+      "Nightwing Vol 2 139",
+      "Detective Comics Vol 1 839",
+      "Detective Comics Vol 1 840"
+    ],
+    "complete": false,
+    "reason": "Core reading-list enrichment from https://dc.fandom.com/wiki/Batman:_The_Resurrection_of_Ra's_al_Ghul ; exact podcast reading extent is unspecified, so list completeness remains false."
+  },
+  "Robin War (Crossover Event)": {
+    "titles": [
+      "Robin War Vol 1 1",
+      "Grayson Vol 1 15",
+      "Detective Comics Vol 2 47",
+      "We Are Robin Vol 1 7",
+      "Robin: Son of Batman Vol 1 7",
+      "Robin War Vol 1 2"
+    ],
+    "complete": false,
+    "reason": "Core reading-list enrichment from https://dc.fandom.com/wiki/Robin_War ; exact podcast reading extent is unspecified, so list completeness remains false."
+  },
+  "Bruce Wayne: Murderer? (Crossover Event)": {
+    "titles": [
+      "Batman: The 10-Cent Adventure Vol 1 1",
+      "Detective Comics Vol 1 766",
+      "Batgirl Vol 1 24",
+      "Nightwing Vol 2 65",
+      "Batman: Gotham Knights Vol 1 25",
+      "Birds of Prey Vol 1 39",
+      "Robin Vol 2 98",
+      "Batman Vol 1 599",
+      "Detective Comics Vol 1 767",
+      "Nightwing Vol 2 66",
+      "Batman: Gotham Knights Vol 1 26",
+      "Robin Vol 2 99",
+      "Birds of Prey Vol 1 40"
+    ],
+    "complete": false,
+    "reason": "Core reading-list enrichment from https://dc.fandom.com/wiki/Bruce_Wayne:_Murderer? ; exact podcast reading extent is unspecified, so list completeness remains false."
+  },
+  "War Games (Crossover Event)": {
+    "titles": [
+      "Batman: The 12-Cent Adventure Vol 1 1",
+      "Detective Comics Vol 1 797",
+      "Batman: Legends of the Dark Knight Vol 1 182",
+      "Nightwing Vol 2 96",
+      "Batman: Gotham Knights Vol 1 56",
+      "Robin Vol 2 129",
+      "Batgirl Vol 1 55",
+      "Catwoman Vol 3 34",
+      "Batman Vol 1 631",
+      "Detective Comics Vol 1 798",
+      "Batman: Legends of the Dark Knight Vol 1 183",
+      "Nightwing Vol 2 97",
+      "Batman: Gotham Knights Vol 1 57",
+      "Robin Vol 2 130",
+      "Batgirl Vol 1 56",
+      "Catwoman Vol 3 35",
+      "Batman Vol 1 632",
+      "Detective Comics Vol 1 799",
+      "Batman: Legends of the Dark Knight Vol 1 184",
+      "Nightwing Vol 2 98",
+      "Robin Vol 2 131",
+      "Batman: Gotham Knights Vol 1 58",
+      "Batgirl Vol 1 57",
+      "Catwoman Vol 3 36",
+      "Batman Vol 1 633"
+    ],
+    "complete": false,
+    "reason": "Core three-act War Games issues plus its prelude from https://dc.fandom.com/wiki/Batman:_War_Games ; excludes War Drums and War Crimes; podcast extent is unspecified."
+  },
+  "Fear of Faith (No Man’s Land Arc #2)": {
+    "titles": [
+      "Batman: Legends of the Dark Knight Vol 1 116",
+      "Batman: Shadow of the Bat Vol 1 84",
+      "Batman Vol 1 564",
+      "Detective Comics Vol 1 731"
+    ],
+    "complete": true,
+    "reason": "Four explicitly numbered Fear of Faith chapters listed at https://dc.fandom.com/wiki/Batman:_No_Man%27s_Land"
+  },
+  "The Man Who Falls (Secret Origins of the Super-Heroes TPB)": {
+    "titles": [
+      "Secret Origins of the World's Greatest Super-Heroes"
+    ],
+    "complete": true,
+    "reason": "Correct the abbreviated trade title to the source book containing The Man Who Falls; credits retain whole-book scope."
+  },
+  "Batman & Robin & Howard: Summer Breakdown OGN": {
+    "titles": [
+      "Batman and Robin and Howard: Summer Breakdown Vol 1 1",
+      "Batman and Robin and Howard: Summer Breakdown Vol 1 2",
+      "Batman and Robin and Howard: Summer Breakdown Vol 1 3"
+    ],
+    "complete": true,
+    "reason": "Three-issue series confirmed by publisher: https://www.dc.com/blog/2023/07/23/sdcc-panel-recap-books-for-young-readers"
+  },
+  "Museum of Mixed-Up Men (Detective Comics V.1 #313)": {
+    "titles": [
+      "Detective Comics Vol 1 331"
+    ],
+    "complete": true,
+    "reason": "Source transposes #331 as #313. Indexed story title Museum of Mixed-Up Men belongs to Detective Comics #331, confirmed by DC Database and GCD https://www.comics.org/issue/18625/ ; original source label is preserved. Writer attribution differs between catalogues and is not silently reconciled."
+  },
+  "Injustice: Gods Among Us Vol. 1": {
+    "titles": [
+      "Injustice: Gods Among Us Vol 1 1",
+      "Injustice: Gods Among Us Vol 1 2",
+      "Injustice: Gods Among Us Vol 1 3",
+      "Injustice: Gods Among Us Vol 1 4",
+      "Injustice: Gods Among Us Vol 1 5",
+      "Injustice: Gods Among Us Vol 1 6"
+    ],
+    "complete": true,
+    "reason": "Official DC collected-edition record explicitly collects print issues #1–6, not digital chapters #1–6. https://www.dc.com/graphic-novels/injustice-gods-among-us-2013/injustice-gods-among-us-vol-1 . Source collection label retained; resolved reading-list expansion."
+  }
+}

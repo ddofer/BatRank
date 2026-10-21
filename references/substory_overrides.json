@@ -1,0 +1,1229 @@
+{
+  "f23610ee97c3": {
+    "Batman: Black and White Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_1_1"
+    },
+    "Batman: Black and White Vol 1 4": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_1_4"
+    }
+  },
+  "d15c99f02f8c": {
+    "Batman: Urban Legends Vol 1 1": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_1"
+    },
+    "Batman: Urban Legends Vol 1 2": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_2"
+    },
+    "Batman: Urban Legends Vol 1 3": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_3"
+    },
+    "Batman: Urban Legends Vol 1 4": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_4"
+    },
+    "Batman: Urban Legends Vol 1 5": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_5"
+    },
+    "Batman: Urban Legends Vol 1 6": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cheer arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_6"
+    }
+  },
+  "7b02c19ec0ee": {
+    "Solo Vol 1 5": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Solo_Vol_1_5"
+    }
+  },
+  "af75d1bbceb1": {
+    "Batman Adventures Holiday Special Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Adventures_Holiday_Special_Vol_1_1"
+    }
+  },
+  "5b1d7d4a8dcc": {
+    "Detective Comics Vol 1 854": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Elegy arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_854"
+    },
+    "Detective Comics Vol 1 855": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Elegy arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_855"
+    },
+    "Detective Comics Vol 1 856": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Elegy arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_856"
+    },
+    "Detective Comics Vol 1 857": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Elegy arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_857"
+    }
+  },
+  "435e0299004d": {
+    "Batman: Gotham Knights Vol 1 1": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_1"
+    },
+    "Batman: Gotham Knights Vol 1 2": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_2"
+    },
+    "Batman: Gotham Knights Vol 1 3": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_3"
+    },
+    "Batman: Gotham Knights Vol 1 4": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_4"
+    },
+    "Batman: Gotham Knights Vol 1 5": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_5"
+    },
+    "Batman: Gotham Knights Vol 1 6": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_6"
+    },
+    "Batman: Gotham Knights Vol 1 7": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_7"
+    },
+    "Batman: Gotham Knights Vol 1 8": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_8"
+    },
+    "Batman: Gotham Knights Vol 1 9": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_9"
+    },
+    "Batman: Gotham Knights Vol 1 10": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_10"
+    },
+    "Batman: Gotham Knights Vol 1 11": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_11"
+    },
+    "Batman: Gotham Knights Vol 1 12": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_12"
+    },
+    "Batman: Gotham Knights Vol 1 13": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_13"
+    },
+    "Batman: Gotham Knights Vol 1 14": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_14"
+    },
+    "Batman: Gotham Knights Vol 1 15": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_15"
+    },
+    "Batman: Gotham Knights Vol 1 16": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_16"
+    }
+  },
+  "945131849e08": {
+    "Detective Comics Vol 1 858": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked GO arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_858"
+    },
+    "Detective Comics Vol 1 859": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked GO arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_859"
+    },
+    "Detective Comics Vol 1 860": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked GO arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_860"
+    }
+  },
+  "d4f73985fcc3": {
+    "Solo Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Solo_Vol_1_1"
+    }
+  },
+  "31021b9d4547": {
+    "DC Pride 2022": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/DC_Pride_2022_Vol_1_1"
+    }
+  },
+  "4b44339ab46e": {
+    "Batman: Black and White Vol 2 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_1"
+    },
+    "Batman: Black and White Vol 2 2": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_2"
+    },
+    "Batman: Black and White Vol 2 3": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_3"
+    },
+    "Batman: Black and White Vol 2 4": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_4"
+    },
+    "Batman: Black and White Vol 2 5": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_5"
+    },
+    "Batman: Black and White Vol 2 6": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Black_and_White_Vol_2_6"
+    }
+  },
+  "6da48804df73": {
+    "Detective Comics Vol 1 759": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_759"
+    },
+    "Detective Comics Vol 1 760": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_760"
+    },
+    "Detective Comics Vol 1 761": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_761"
+    },
+    "Detective Comics Vol 1 762": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_762"
+    }
+  },
+  "6315a3c0e2a5": {
+    "Batman's Mystery Casebook": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman%27s_Mystery_Casebook"
+    }
+  },
+  "81edf9a129ae": {
+    "Batman: Gotham Knights Vol 1 17": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_17"
+    },
+    "Batman: Gotham Knights Vol 1 18": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_18"
+    },
+    "Batman: Gotham Knights Vol 1 19": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_19"
+    },
+    "Batman: Gotham Knights Vol 1 20": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_20"
+    },
+    "Batman: Gotham Knights Vol 1 21": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_21"
+    },
+    "Batman: Gotham Knights Vol 1 22": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_22"
+    },
+    "Batman: Gotham Knights Vol 1 23": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_23"
+    },
+    "Batman: Gotham Knights Vol 1 24": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_24"
+    },
+    "Batman: Gotham Knights Vol 1 25": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_25"
+    },
+    "Batman: Gotham Knights Vol 1 26": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_26"
+    },
+    "Batman: Gotham Knights Vol 1 27": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_27"
+    },
+    "Batman: Gotham Knights Vol 1 28": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_28"
+    },
+    "Batman: Gotham Knights Vol 1 29": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_29"
+    },
+    "Batman: Gotham Knights Vol 1 30": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_30"
+    },
+    "Batman: Gotham Knights Vol 1 31": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_31"
+    },
+    "Batman: Gotham Knights Vol 1 32": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_32"
+    },
+    "Batman: Gotham Knights Vol 1 33": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_33"
+    },
+    "Batman: Gotham Knights Vol 1 34": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_34"
+    },
+    "Batman: Gotham Knights Vol 1 35": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_35"
+    },
+    "Batman: Gotham Knights Vol 1 36": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_36"
+    },
+    "Batman: Gotham Knights Vol 1 37": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_37"
+    },
+    "Batman: Gotham Knights Vol 1 39": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_39"
+    },
+    "Batman: Gotham Knights Vol 1 40": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_40"
+    },
+    "Batman: Gotham Knights Vol 1 41": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_41"
+    },
+    "Batman: Gotham Knights Vol 1 42": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_42"
+    },
+    "Batman: Gotham Knights Vol 1 43": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_43"
+    },
+    "Batman: Gotham Knights Vol 1 44": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_44"
+    },
+    "Batman: Gotham Knights Vol 1 45": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_45"
+    },
+    "Batman: Gotham Knights Vol 1 46": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_46"
+    },
+    "Batman: Gotham Knights Vol 1 47": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_47"
+    },
+    "Batman: Gotham Knights Vol 1 48": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_48"
+    },
+    "Batman: Gotham Knights Vol 1 49": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked label explicitly selects the Black and White stories; cached indexed story 2 is the Black and White backup, not the unrelated main story.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Gotham_Knights_Vol_1_49"
+    }
+  },
+  "451e009e01df": {
+    "Batman '66 Vol 1 2": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_2"
+    },
+    "Batman '66 Vol 1 3": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_3"
+    },
+    "Batman '66 Vol 1 4": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_4"
+    },
+    "Batman '66 Vol 1 5": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_5"
+    }
+  },
+  "a8012ccf95bf": {
+    "Batman: Li'l Gotham Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_1"
+    },
+    "Batman: Li'l Gotham Vol 1 2": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_2"
+    },
+    "Batman: Li'l Gotham Vol 1 3": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_3"
+    },
+    "Batman: Li'l Gotham Vol 1 4": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_4"
+    },
+    "Batman: Li'l Gotham Vol 1 5": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_5"
+    },
+    "Batman: Li'l Gotham Vol 1 6": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_6"
+    },
+    "Batman: Li'l Gotham Vol 1 7": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_7"
+    },
+    "Batman: Li'l Gotham Vol 1 8": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_8"
+    },
+    "Batman: Li'l Gotham Vol 1 9": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_9"
+    },
+    "Batman: Li'l Gotham Vol 1 10": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_10"
+    },
+    "Batman: Li'l Gotham Vol 1 11": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_11"
+    },
+    "Batman: Li'l Gotham Vol 1 12": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_12"
+    }
+  },
+  "6d0dd0185d8f": {
+    "Detective Comics Vol 1 758": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Unknowing arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_758"
+    },
+    "Detective Comics Vol 1 759": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Unknowing arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_759"
+    },
+    "Detective Comics Vol 1 760": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Unknowing arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_760"
+    }
+  },
+  "f23ce9b772b2": {
+    "Detective Comics Vol 1 1027": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_1027"
+    }
+  },
+  "6f3cb731910b": {
+    "Catwoman 80th Anniversary 100-Page Giant": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Catwoman_80th_Anniversary_100-Page_Super_Spectacular_Vol_1_1"
+    }
+  },
+  "eba893738176": {
+    "Batman '66 Vol 1 18": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_18"
+    },
+    "Batman '66 Vol 1 22": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_22"
+    }
+  },
+  "8ee6ddae5022": {
+    "Batman '66 Vol 1 6": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_6"
+    },
+    "Batman '66 Vol 1 7": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_7"
+    },
+    "Batman '66 Vol 1 8": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_8"
+    },
+    "Batman '66 Vol 1 9": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_9"
+    },
+    "Batman '66 Vol 1 10": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_10"
+    }
+  },
+  "786b35615794": {
+    "DC Pride 2021": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/DC_Pride_Vol_1_1"
+    }
+  },
+  "0e64ccf4c577": {
+    "Detective Comics Vol 1 861": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cutter arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_861"
+    },
+    "Detective Comics Vol 1 862": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cutter arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_862"
+    },
+    "Detective Comics Vol 1 863": {
+      "indexes": [
+        1
+      ],
+      "reason": "The indexed title explicitly names the ranked Cutter arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_863"
+    }
+  },
+  "7a53aff2bf3d": {
+    "Batman Vol 1 47": {
+      "indexes": [
+        3
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Vol_1_47"
+    }
+  },
+  "790384ef1c2c": {
+    "Batman: Urban Legends Vol 1 11": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_11"
+    },
+    "Batman: Urban Legends Vol 1 12": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_12"
+    },
+    "Batman: Urban Legends Vol 1 13": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_13"
+    },
+    "Batman: Urban Legends Vol 1 14": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_14"
+    },
+    "Batman: Urban Legends Vol 1 15": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_15"
+    },
+    "Batman: Urban Legends Vol 1 16": {
+      "indexes": [
+        4
+      ],
+      "reason": "The indexed title explicitly names the ranked Hounded arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_16"
+    }
+  },
+  "b0ad288d001b": {
+    "Batman '66 Vol 1 12": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Vol_1_12"
+    }
+  },
+  "652e4d3e15cb": {
+    "The Joker: The Man Who Stopped Laughing Vol 1 1": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_1"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 2": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_2"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 3": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_3"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 4": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_4"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 5": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_5"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 7": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_7"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 8": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_8"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 9": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_9"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 10": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked source explicitly specifies Back-Ups; indexed story 2 is the Rosenberg/Robson humor backup.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_10"
+    },
+    "The Joker: The Man Who Stopped Laughing Vol 1 6": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranking explicitly specifies Back-Ups. Indexed story 2 is untitled in the wiki but has Ryan Cady/Matthew Rosenberg/Will Robson credits and separate appearances.",
+      "source_url": "https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_6"
+    }
+  },
+  "83547b46798a": {
+    "Detective Comics Vol 1 854": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_854"
+    },
+    "Detective Comics Vol 1 855": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_855"
+    },
+    "Detective Comics Vol 1 856": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_856"
+    },
+    "Detective Comics Vol 1 857": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_857"
+    },
+    "Detective Comics Vol 1 858": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_858"
+    },
+    "Detective Comics Vol 1 859": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_859"
+    },
+    "Detective Comics Vol 1 860": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_860"
+    },
+    "Detective Comics Vol 1 861": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_861"
+    },
+    "Detective Comics Vol 1 862": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_862"
+    },
+    "Detective Comics Vol 1 863": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_863"
+    },
+    "Detective Comics Vol 1 864": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_864"
+    },
+    "Detective Comics Vol 1 865": {
+      "indexes": [
+        2
+      ],
+      "reason": "The indexed title explicitly names the ranked Pipeline arc; select that narrative and exclude unrelated anthology stories.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_865"
+    }
+  },
+  "525af9dbee5f": {
+    "Superman Vol 1 76": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Superman_Vol_1_76"
+    }
+  },
+  "8274e8ec5a20": {
+    "Batman: The Audio Adventures Special Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_The_Audio_Adventures_Special_Vol_1_1"
+    }
+  },
+  "b0a5a425eb34": {
+    "DC Pride: Tim Drake Special": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/DC_Pride:_Tim_Drake_Special_Vol_1_1"
+    }
+  },
+  "8f1746251c76": {
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_1"
+    },
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 2": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_2"
+    },
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 3": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_3"
+    },
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 4": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_4"
+    },
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 5": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_5"
+    },
+    "Batman '66 Meets Steed and Mrs. Peel Vol 1 6": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_%2766_Meets_Steed_and_Mrs._Peel_Vol_1_6"
+    }
+  },
+  "77b27f1a57d8": {
+    "Batman Annual Vol 3 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Annual_Vol_3_1"
+    }
+  },
+  "0dc040ed2bad": {
+    "Batman Chronicles Vol 1 11": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Chronicles_Vol_1_11"
+    }
+  },
+  "e2205f35a580": {
+    "New Year's Evil Vol 2 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/New_Year%27s_Evil_Vol_2_1"
+    }
+  },
+  "fd9ab836e1e1": {
+    "Batman Tales: Once Upon a Crime": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Tales:_Once_Upon_a_Crime"
+    }
+  },
+  "11e6a9ef2d90": {
+    "Justice League: The New Frontier Special": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Justice_League:_The_New_Frontier_Special_Vol_1_1"
+    }
+  },
+  "500bce5991f1": {
+    "Detective Comics Vol 2 27": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_2_27"
+    }
+  },
+  "3529a7a1c6bc": {
+    "Gotham Villains 80th Anniversary Giant": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Gotham_City_Villains_Anniversary_Giant_Vol_1_1"
+    }
+  },
+  "7520d9fd86fb": {
+    "DC Rebirth Holiday Special Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/DC_Rebirth_Holiday_Special_Vol_1_1"
+    }
+  },
+  "7413b296ab04": {
+    "Batman: Two-Face Strikes Twice Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Two-Face_Strikes_Twice_Vol_1_1"
+    },
+    "Batman: Two-Face Strikes Twice Vol 1 2": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Two-Face_Strikes_Twice_Vol_1_2"
+    }
+  },
+  "5e8f49404c99": {
+    "Batman: Overdrive": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/Batman:_Overdrive"
+    }
+  },
+  "3df2c43f2e52": {
+    "World's Finest Comics Vol 1 256": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/World%27s_Finest_Vol_1_256"
+    }
+  },
+  "95926747396c": {
+    "Detective Comics Vol 1 387": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_387"
+    }
+  },
+  "f7ffb6c79a00": {
+    "DCU Infinite Holiday Special Vol 1 1": {
+      "indexes": "all",
+      "reason": "The ranked source names this entire anthology, issue or collected volume; retain indexed narrative contents and exclude explicitly labeled pinups, letters and production galleries.",
+      "source_url": "https://dc.fandom.com/wiki/DCU_Infinite_Holiday_Special_Vol_1_1"
+    }
+  },
+  "33cce35d6bdf": {
+    "Batman Vol 1 159": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Vol_1_159"
+    }
+  },
+  "37c8f74bce10": {
+    "Detective Comics V,1 Vol 1 818": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_818"
+    },
+    "Detective Comics V,1 Vol 1 819": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_819"
+    },
+    "Detective Comics V,1 Vol 1 820": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_820"
+    }
+  },
+  "504d435caa58": {
+    "Detective Comics Vol 1 31": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_31"
+    },
+    "Detective Comics Vol 1 32": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_32"
+    }
+  },
+  "e652e55142f1": {
+    "World's Finest Comics Vol 1 153": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked label is a variant of this indexed narrative title (word order, punctuation, or display typography); unrelated indexed stories excluded.",
+      "source_url": "https://dc.fandom.com/wiki/World%27s_Finest_Vol_1_153"
+    }
+  },
+  "806af1982441": {
+    "Batman Vol 1 219": {
+      "indexes": [
+        1,
+        2
+      ],
+      "reason": "The ranking explicitly combines Death Casts the Deciding Vote and The Silent Night of Batman; exclude indexed story 3, an unrelated Phantom Stranger reprint.",
+      "source_url": "https://dc.fandom.com/wiki/Batman_Vol_1_219"
+    }
+  },
+  "323fe32eddef": {
+    "Detective Comics Vol 1 437": {
+      "indexes": [
+        2
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_437"
+    },
+    "Detective Comics Vol 1 438": {
+      "indexes": [
+        6
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_438"
+    },
+    "Detective Comics Vol 1 439": {
+      "indexes": [
+        8
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_439"
+    },
+    "Detective Comics Vol 1 440": {
+      "indexes": [
+        7
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_440"
+    },
+    "Detective Comics Vol 1 441": {
+      "indexes": [
+        8
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_441"
+    },
+    "Detective Comics Vol 1 442": {
+      "indexes": [
+        8
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_442"
+    },
+    "Detective Comics Vol 1 443": {
+      "indexes": [
+        1
+      ],
+      "reason": "The ranked Goodwin/Simonson Manhunter narrative is this indexed sequence; exclude unrelated Batman stories and historical reprints (including the separate Kirby Manhunter reprint in #440).",
+      "source_url": "https://dc.fandom.com/wiki/Detective_Comics_Vol_1_443"
+    }
+  }
+}

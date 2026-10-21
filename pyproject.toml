@@ -1,0 +1,30 @@
+[project]
+name = "batchat-dataset"
+version = "0.1.0"
+description = "A reproducible snapshot of BatChat's Batman story rankings"
+requires-python = ">=3.10"
+dependencies = [
+  "beautifulsoup4>=4.14,<5",
+  "requests>=2.32,<3",
+  "mwparserfromhell>=0.7,<1",
+  "pandas>=2.2,<3",
+  "scikit-learn>=1.7,<2",
+  "matplotlib>=3.10,<4",
+  "nbformat>=5.10,<6",
+  "nbclient>=0.10,<1",
+  "ipykernel>=6,<8",
+  "wordcloud>=1.9,<2",
+]
+
+[dependency-groups]
+dev = [
+    "nbconvert>=7.16,<8",
+    "pytest>=8,<10",
+    "ruff>=0.12",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

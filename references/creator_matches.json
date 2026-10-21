@@ -1,0 +1,116 @@
+{
+  "reviewed_date": "2026-10-21",
+  "scope": "Identity crosswalk only. Does not establish complete or source-verified demographic coverage. No invented QIDs for unresolved candidates.",
+  "matches": [
+    {
+      "creator_name": "Grant Morrison",
+      "wikidata_id": "Q943047",
+      "enwiki_title": "Grant Morrison",
+      "source_url": "https://www.wikidata.org/wiki/Q943047",
+      "match_proof": "Scottish comics writer and playwright; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Frank Miller",
+      "wikidata_id": "Q207676",
+      "enwiki_title": "Frank Miller",
+      "source_url": "https://www.wikidata.org/wiki/Q207676",
+      "match_proof": "American comics writer, artist and director; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Darwyn Cooke",
+      "wikidata_id": "Q1166960",
+      "enwiki_title": "Darwyn Cooke",
+      "source_url": "https://www.wikidata.org/wiki/Q1166960",
+      "match_proof": "Canadian cartoonist; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Doug Moench",
+      "wikidata_id": "Q718507",
+      "enwiki_title": "Doug Moench",
+      "source_url": "https://www.wikidata.org/wiki/Q718507",
+      "match_proof": "American comic-book writer; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Richmond Lewis",
+      "wikidata_id": "Q7330907",
+      "enwiki_title": "Richmond Lewis",
+      "source_url": "https://www.wikidata.org/wiki/Q7330907",
+      "match_proof": "Illustrator and comics artist; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Lynn Varley",
+      "wikidata_id": "Q5361569",
+      "enwiki_title": "Lynn Varley",
+      "source_url": "https://www.wikidata.org/wiki/Q5361569",
+      "match_proof": "American comic-book colorist; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Rachel Pollack",
+      "wikidata_id": "Q434138",
+      "enwiki_title": "Rachel Pollack",
+      "source_url": "https://www.wikidata.org/wiki/Q434138",
+      "match_proof": "Science-fiction and comic-book writer; exact enwiki sitelink and entity description verified by live wbgetentities probe."
+    },
+    {
+      "creator_name": "Dennis O'Neil",
+      "wikidata_id": "Q1189414",
+      "enwiki_title": "Dennis O'Neil",
+      "source_url": "https://www.wikidata.org/wiki/Q1189414",
+      "match_proof": "American comics writer and editor; indexed first-party Wikidata record explicitly lists Batman/DC comics work."
+    },
+    {
+      "creator_name": "Jenette Kahn",
+      "wikidata_id": "Q535728",
+      "enwiki_title": "Jenette Kahn",
+      "source_url": "https://www.wikidata.org/wiki/Q535728",
+      "match_proof": "Comics publisher/editor; indexed first-party Wikidata record has exact English Wikipedia sitelink."
+    },
+    {
+      "creator_name": "Mark Waid",
+      "wikidata_id": "Q594438",
+      "enwiki_title": "Mark Waid",
+      "source_url": "https://www.wikidata.org/wiki/Q594438",
+      "match_proof": "Indexed first-party Wikidata record explicitly identifies an American comics writer; exact name matches the credit."
+    }
+  ],
+  "title_overrides": [
+    {
+      "creator_name": "Scott Peterson",
+      "enwiki_title": "Scott Peterson (comics)",
+      "source_url": "https://en.wikipedia.org/wiki/Scott_Peterson_(comics)",
+      "reject_wikidata_ids": [
+        "Q7437050"
+      ],
+      "reason": "Comics editor Scott James Peterson; Scott Peterson (writer) is journalist Scott Daniel Peterson."
+    },
+    {
+      "creator_name": "Bill Oakley",
+      "enwiki_title": "Bill Oakley (comics)",
+      "source_url": "https://en.wikipedia.org/wiki/Bill_Oakley_(comics)",
+      "reject_wikidata_ids": [
+        "Q862352"
+      ],
+      "reason": "Comic-book letterer, not the television writer."
+    },
+    {
+      "creator_name": "Dave Stewart",
+      "enwiki_title": "Dave Stewart (artist)",
+      "source_url": "https://en.wikipedia.org/wiki/Dave_Stewart_(comics)",
+      "reject_wikidata_ids": [
+        "Q384206",
+        "Q325389"
+      ],
+      "reason": "Comic-book colorist; the comics article redirects to artist. Both rejected IDs identify musicians."
+    },
+    {
+      "creator_name": "Alan Grant",
+      "enwiki_title": "Alan Grant (writer)",
+      "source_url": "https://en.wikipedia.org/wiki/Alan_Grant_(writer)",
+      "reject_wikidata_ids": [
+        "Q2543708",
+        "Q130602907"
+      ],
+      "reason": "Scottish Batman/Judge Dredd writer; Jurassic Park character and an unrelated writer are rejected."
+    }
+  ]
+}

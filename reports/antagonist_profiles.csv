@@ -1,0 +1,1488 @@
+entity,n,median_rank,q25,q75,best_rank,best_story,worst_rank,worst_story,display_name
+Branden,1,1.0,1.0,1.0,1,Year One,1,Year One,Branden
+Gillian B. Loeb,1,1.0,1.0,1.0,1,Year One,1,Year One,Gillian B. Loeb
+Johnny Viti,1,1.0,1.0,1.0,1,Year One,1,Year One,Johnny Viti
+Carla Falcone,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Carla Falcone
+Donald Sullivan,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Donald Sullivan
+Frankie Carbone,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Frankie Carbone
+Jimmy Murphy,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Jimmy Murphy
+Joe Bandano,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Joe Bandano
+Kevin Kelly,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Kevin Kelly
+Luca Mareli,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Luca Mareli
+Luigi Maroni,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Luigi Maroni
+Mickey Sullivan,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Mickey Sullivan
+Milos Grapa,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Milos Grapa
+Sullivan Crime Family,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,Sullivan Crime Family
+William O'Neil,1,4.0,4.0,4.0,4,The Long Halloween,4,The Long Halloween,William O'Neil
+Abner,1,8.0,8.0,8.0,8,The Dark Knight Returns,8,The Dark Knight Returns,Abner
+Bruno,1,8.0,8.0,8.0,8,The Dark Knight Returns,8,The Dark Knight Returns,Bruno
+Don,1,8.0,8.0,8.0,8,The Dark Knight Returns,8,The Dark Knight Returns,Don
+Mutant Leader,1,8.0,8.0,8.0,8,The Dark Knight Returns,8,The Dark Knight Returns,Mutant Leader
+Rob,1,8.0,8.0,8.0,8,The Dark Knight Returns,8,The Dark Knight Returns,Rob
+Sofia Falcone,2,10.0,7.0,13.0,4,The Long Halloween,16,Dark Victory,Sofia Falcone
+666,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,666
+Alloy,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Alloy
+Americommando,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Americommando
+Black Mongul,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Black Mongul
+Blackhawk Squadron,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Blackhawk Squadron
+Blue Devil II,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Blue Devil II
+Brain Trust,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Brain Trust
+Buddha,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Buddha
+Cathedral,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Cathedral
+Catwoman II,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Catwoman II
+Christopher Smith,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Christopher Smith
+Harlequin,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Harlequin
+Ibn al Xu'ffasch,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Ibn al Xu'ffasch
+Judomaster,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Judomaster
+Justice Battalion,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Justice Battalion
+Kabuki Kommando,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Kabuki Kommando
+Lightning,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Lightning
+Lord Naga,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Lord Naga
+Magog,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Magog
+Mankind Liberation Front,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Mankind Liberation Front
+Manotaur,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Manotaur
+Mar'i Grayson,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Mar'i Grayson
+Matrix,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Matrix
+Minutemen,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Minutemen
+Mister Mind,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Mister Mind
+Mister Terrific,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Mister Terrific
+NIL-8,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,NIL-8
+Nuculoid,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Nuculoid
+Parasite,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Parasite
+Peter Cannon,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Peter Cannon
+Phoebus,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Phoebus
+"Red, White and Blue",1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,"Red, White and Blue"
+Samurai,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Samurai
+Shade III,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Shade III
+Shining Knight,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Shining Knight
+Shiva,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Shiva
+Stars,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Stars
+Stealth,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Stealth
+Stripes,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Stripes
+Swastika,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Swastika
+Thunder,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Thunder
+Tokyo Rose,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Tokyo Rose
+Tusk,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Tusk
+United Nations,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,United Nations
+Victor Sage,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Victor Sage
+Vigilante,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Vigilante
+Von Bach,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Von Bach
+Wyrmwood,1,13.0,13.0,13.0,13,Kingdom Come #1-4,13,Kingdom Come #1-4,Wyrmwood
+Carlo Calzone,1,15.0,15.0,15.0,15,Batman: R.I.P.,15,Batman: R.I.P.,Carlo Calzone
+Jezebel Jet,1,15.0,15.0,15.0,15,Batman: R.I.P.,15,Batman: R.I.P.,Jezebel Jet
+King Kraken,1,15.0,15.0,15.0,15,Batman: R.I.P.,15,Batman: R.I.P.,King Kraken
+Pierrot Lunaire,1,15.0,15.0,15.0,15,Batman: R.I.P.,15,Batman: R.I.P.,Pierrot Lunaire
+Swagman,1,15.0,15.0,15.0,15,Batman: R.I.P.,15,Batman: R.I.P.,Swagman
+Alberto Falcone,3,16.0,10.0,240.0,4,The Long Halloween,464,Batman: Overdrive OGN,Alberto Falcone
+Angelo Mirti,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Angelo Mirti
+Bobby Gazzo,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Bobby Gazzo
+Edward Skeevers,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Edward Skeevers
+Lucia Viti,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Lucia Viti
+Pino Maroni,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Pino Maroni
+Umberto Maroni,1,16.0,16.0,16.0,16,Dark Victory,16,Dark Victory,Umberto Maroni
+Brainiac,1,19.0,19.0,19.0,19,The New Frontier,19,The New Frontier,Brainiac
+Centre,1,19.0,19.0,19.0,19,The New Frontier,19,The New Frontier,Centre
+Mxyzptlk,1,19.0,19.0,19.0,19,The New Frontier,19,The New Frontier,Mxyzptlk
+Priscilla Rich,1,19.0,19.0,19.0,19,The New Frontier,19,The New Frontier,Priscilla Rich
+Thaddeus Sivana,1,19.0,19.0,19.0,19,The New Frontier,19,The New Frontier,Thaddeus Sivana
+Club of Villains,2,20.0,17.5,22.5,15,Batman: R.I.P.,25,Leviathan Strikes,Club of Villains
+El Sombrero,2,20.0,17.5,22.5,15,Batman: R.I.P.,25,Leviathan Strikes,El Sombrero
+Tristessa Delicias,2,20.0,17.5,22.5,15,Batman: R.I.P.,25,Leviathan Strikes,Tristessa Delicias
+Defense Department Intelligence,1,20.0,20.0,20.0,20,The Garden of Earthly Delights,20,The Garden of Earthly Delights,Defense Department Intelligence
+Dwight Wicker,1,20.0,20.0,20.0,20,The Garden of Earthly Delights,20,The Garden of Earthly Delights,Dwight Wicker
+Doctor Poison II,2,20.5,17.75,23.25,15,Batman: R.I.P.,26,Final Crisis,Doctor Poison II
+Genocide,2,20.5,17.75,23.25,15,Batman: R.I.P.,26,Final Crisis,Genocide
+Larfleeze,2,20.5,17.75,23.25,15,Batman: R.I.P.,26,Final Crisis,Larfleeze
+Red Volcano,2,20.5,17.75,23.25,15,Batman: R.I.P.,26,Final Crisis,Red Volcano
+Bixby Rhodes,1,21.0,21.0,21.0,21,The Black Mirror,21,The Black Mirror,Bixby Rhodes
+Etienne Guiborg,1,21.0,21.0,21.0,21,The Black Mirror,21,The Black Mirror,Etienne Guiborg
+Burt Weston,1,22.0,22.0,22.0,22,Knightfall Part 1: The Broken Bat,22,Knightfall Part 1: The Broken Bat,Burt Weston
+Martin Lipari,1,24.0,24.0,24.0,24,Half a Life,24,Half a Life,Martin Lipari
+Average Joes,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Average Joes
+Electrician,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Electrician
+Janosz Valentin,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Janosz Valentin
+Joe Average,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Joe Average
+Katherine Webb,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Katherine Webb
+Mechanic II,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Mechanic II
+Otto Netz,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Otto Netz
+Sam Black Elk,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Sam Black Elk
+Spyral,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Spyral
+Stephen Lime,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Stephen Lime
+Una Clairemont,1,25.0,25.0,25.0,25,Leviathan Strikes,25,Leviathan Strikes,Una Clairemont
+Justin Ballantine,3,26.0,20.5,129.0,15,Batman: R.I.P.,232,Final Crisis: Revelations #1-5,Justin Ballantine
+Minotaur,3,26.0,20.5,153.0,15,Batman: R.I.P.,280,Batman/Dylan Dog #1-3,Minotaur
+Mongul II,3,26.0,20.5,260.5,15,Batman: R.I.P.,495,Public Enemies,Mongul II
+William Hand,3,26.0,20.5,184.5,15,Batman: R.I.P.,343,Underworld Unleashed,William Hand
+Darkseid's Elite,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Darkseid's Elite
+David Drake,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,David Drake
+Donna Troy,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Donna Troy
+Evil Factory,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Evil Factory
+Hunter Zolomon,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Hunter Zolomon
+Iluthin,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Iluthin
+Justifiers,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Justifiers
+Lump,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Lump
+Mary Batson,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Mary Batson
+Michael Miller,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Michael Miller
+Mokkari,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Mokkari
+Monitor Dax Novu,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Monitor Dax Novu
+Monitor Rox Ogama,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Monitor Rox Ogama
+Oliver Queen,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Oliver Queen
+Simyan,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Simyan
+"Thaddeus Sivana, Sr.",1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,"Thaddeus Sivana, Sr."
+Ultraman II,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,Ultraman II
+William Walker,1,26.0,26.0,26.0,26,Final Crisis,26,Final Crisis,William Walker
+Todd Russell,1,27.0,27.0,27.0,27,Anodyne,27,Anodyne,Todd Russell
+Erik Hanson,1,31.0,31.0,31.0,31,Beautiful People,31,Beautiful People,Erik Hanson
+Alecto,1,32.0,32.0,32.0,32,Wonder Woman: The Hiketeia,32,Wonder Woman: The Hiketeia,Alecto
+Erinyes,1,32.0,32.0,32.0,32,Wonder Woman: The Hiketeia,32,Wonder Woman: The Hiketeia,Erinyes
+Megaera,1,32.0,32.0,32.0,32,Wonder Woman: The Hiketeia,32,Wonder Woman: The Hiketeia,Megaera
+Tisiphone,1,32.0,32.0,32.0,32,Wonder Woman: The Hiketeia,32,Wonder Woman: The Hiketeia,Tisiphone
+Mortimer Drake,2,34.0,28.0,40.0,22,Knightfall Part 1: The Broken Bat,46,The Last Arkham,Mortimer Drake
+Silvanio Romero,1,35.0,35.0,35.0,35,Cheer,35,Cheer,Silvanio Romero
+Al-Qaeda,1,37.0,37.0,37.0,37,Solo #5,37,Solo #5,Al-Qaeda
+Vernon Wells,2,38.5,21.25,55.75,4,The Long Halloween,73,The Eye of the Beholder,Vernon Wells
+Peter Harris,1,40.0,40.0,40.0,40,Father’s Day,40,Father’s Day,Peter Harris
+Elizabeth Kane,1,41.0,41.0,41.0,41,Elegy,41,Elegy,Elizabeth Kane
+Sister Shard,1,41.0,41.0,41.0,41,Elegy,41,Elegy,Sister Shard
+Falcone Crime Family,6,44.0,7.0,384.0,1,Year One,692,An Unimportant Man,Falcone Crime Family
+Richard Carmichael,1,44.0,44.0,44.0,44,Blink,44,Blink,Richard Carmichael
+LoBoys,1,45.0,45.0,45.0,45,No Law and New Order,45,No Law and New Order,LoBoys
+Colony,1,49.0,49.0,49.0,49,Rise of the Batmen,49,Rise of the Batmen,Colony
+Jacob Kane,1,49.0,49.0,49.0,49,Rise of the Batmen,49,Rise of the Batmen,Jacob Kane
+Ulysses Hadrian Armstrong,1,49.0,49.0,49.0,49,Rise of the Batmen,49,Rise of the Batmen,Ulysses Hadrian Armstrong
+Ravager II,1,51.0,51.0,51.0,51,A Lonely Place of Dying,51,A Lonely Place of Dying,Ravager II
+Black Glove,3,53.0,34.0,287.5,15,Batman: R.I.P.,522,The Club of Heroes,Black Glove
+Birdy Colossimo,2,53.0,37.5,68.5,22,Knightfall Part 1: The Broken Bat,84,Batman: The Vengeance of Bane #1,Birdy Colossimo
+Talon the Falcon,2,53.0,37.5,68.5,22,Knightfall Part 1: The Broken Bat,84,Batman: The Vengeance of Bane #1,Talon the Falcon
+Zombie,2,53.0,37.5,68.5,22,Knightfall Part 1: The Broken Bat,84,Batman: The Vengeance of Bane #1,Zombie
+Blood Tribe,1,53.0,53.0,53.0,53,Batman: The Return of Bruce Wayne #1-6,53,Batman: The Return of Bruce Wayne #1-6,Blood Tribe
+Jonah Hex,1,53.0,53.0,53.0,53,Batman: The Return of Bruce Wayne #1-6,53,Batman: The Return of Bruce Wayne #1-6,Jonah Hex
+Nathaniel Wayne,1,53.0,53.0,53.0,53,Batman: The Return of Bruce Wayne #1-6,53,Batman: The Return of Bruce Wayne #1-6,Nathaniel Wayne
+Bob Hawkins,1,56.0,56.0,56.0,56,Batman: The Official Comic Adaptation,56,Batman: The Official Comic Adaptation,Bob Hawkins
+Carl Grissom,1,56.0,56.0,56.0,56,Batman: The Official Comic Adaptation,56,Batman: The Official Comic Adaptation,Carl Grissom
+Max Eckhardt,1,56.0,56.0,56.0,56,Batman: The Official Comic Adaptation,56,Batman: The Official Comic Adaptation,Max Eckhardt
+Mutants,2,56.5,32.25,80.75,8,The Dark Knight Returns,105,Demon Star,Mutants
+Harlan Combs,1,57.0,57.0,57.0,57,Motive,57,Motive,Harlan Combs
+Joseph Rigger,1,57.0,57.0,57.0,57,Motive,57,Motive,Joseph Rigger
+Mister Whisper,1,59.0,59.0,59.0,59,Gothic: A Romance,59,Gothic: A Romance,Mister Whisper
+Roscoe Chiara,1,60.0,60.0,60.0,60,Batman: Black & White- The Gotham Knights Stories V.1,60,Batman: Black & White- The Gotham Knights Stories V.1,Roscoe Chiara
+Rico Marcuse,1,61.0,61.0,61.0,61,Identity Crisis,61,Identity Crisis,Rico Marcuse
+Kyle Abbot,1,64.0,64.0,64.0,64,Go,64,Go,Kyle Abbot
+Heretic,2,65.0,45.0,85.0,25,Leviathan Strikes,105,Demon Star,Heretic
+Leviathan Organization,2,65.0,45.0,85.0,25,Leviathan Strikes,105,Demon Star,Leviathan Organization
+Brielle Arnier,1,65.0,65.0,65.0,65,Sword of Azrael (2022) #1-6,65,Sword of Azrael (2022) #1-6,Brielle Arnier
+Brother Ebner,1,65.0,65.0,65.0,65,Sword of Azrael (2022) #1-6,65,Sword of Azrael (2022) #1-6,Brother Ebner
+Karl Wasieman,1,65.0,65.0,65.0,65,Sword of Azrael (2022) #1-6,65,Sword of Azrael (2022) #1-6,Karl Wasieman
+Knights Templar,1,65.0,65.0,65.0,65,Sword of Azrael (2022) #1-6,65,Sword of Azrael (2022) #1-6,Knights Templar
+Poor Fellow,1,65.0,65.0,65.0,65,Sword of Azrael (2022) #1-6,65,Sword of Azrael (2022) #1-6,Poor Fellow
+Audre,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Audre
+Bludhaven Police Department,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Bludhaven Police Department
+Gil Maclean,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Gil Maclean
+Maroni Crime Family,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Maroni Crime Family
+Melinda Grayson-Lin,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Melinda Grayson-Lin
+Shelton Lyle,1,66.0,66.0,66.0,66,Leaping Into the Light,66,Leaping Into the Light,Shelton Lyle
+Dragons,1,69.0,69.0,69.0,69,Everyday.,69,Everyday.,Dragons
+Henry Feder,1,69.0,69.0,69.0,69,Everyday.,69,Everyday.,Henry Feder
+Mummies,1,69.0,69.0,69.0,69,Everyday.,69,Everyday.,Mummies
+The Cavalry Charge,1,69.0,69.0,69.0,69,Everyday.,69,Everyday.,The Cavalry Charge
+Madame X,2,70.0,53.5,86.5,37,Solo #5,103,Batman: Black & White- The Gotham Knights Stories V.2,Madame X
+Holly Robinson,3,71.0,48.5,387.0,26,Final Crisis,703,The Wedding,Holly Robinson
+Frank Falcone,1,72.0,72.0,72.0,72,Catwoman: Selina’s Big Score OGN,72,Catwoman: Selina’s Big Score OGN,Frank Falcone
+Henri LaPerier,1,72.0,72.0,72.0,72,Catwoman: Selina’s Big Score OGN,72,Catwoman: Selina’s Big Score OGN,Henri LaPerier
+Salvatore Maroni,5,73.0,66.0,88.0,4,The Long Halloween,91,Batman and the Monster Men #1-6,Salvatore Maroni
+Guy Dax,2,73.0,44.0,102.0,15,Batman: R.I.P.,131,Batman Reborn,Guy Dax
+Akkarians,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Akkarians
+Barbed Alpha Wolf,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Barbed Alpha Wolf
+Blakksun Twins,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Blakksun Twins
+Syyn,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Syyn
+Thanagarian,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Thanagarian
+Whisper Blakksun,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Whisper Blakksun
+Wrath Blakksun,1,76.0,76.0,76.0,76,Batman: Off-World #1-6,76,Batman: Off-World #1-6,Wrath Blakksun
+Michael Lane,3,78.0,46.5,185.0,15,Batman: R.I.P.,292,Batman in Bethlehem,Michael Lane
+Dracula,2,79.5,42.75,116.25,6,Batman/Dracula: Red Rain OGN,153,"Detective Comics #1,027",Dracula
+Bud and Lou the Hyenas,2,81.0,57.5,104.5,34,Batman Adventures: Mad Love,128,Li’l Gotham,Bud and Lou the Hyenas
+Faux-Azrael,1,83.0,83.0,83.0,83,Fallen Angel,83,Fallen Angel,Faux-Azrael
+Gray Abbott,1,83.0,83.0,83.0,83,Fallen Angel,83,Fallen Angel,Gray Abbott
+Lilhy,1,83.0,83.0,83.0,83,Fallen Angel,83,Fallen Angel,Lilhy
+Nomoz,1,83.0,83.0,83.0,83,Fallen Angel,83,Fallen Angel,Nomoz
+Rollo,1,83.0,83.0,83.0,83,Fallen Angel,83,Fallen Angel,Rollo
+Trogg,3,84.0,53.0,296.5,22,Knightfall Part 1: The Broken Bat,509,Batman & Wildcat #1-3,Trogg
+Aviva Metula,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Aviva Metula
+Darius Chapel,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Darius Chapel
+Gizmo,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Gizmo
+Macro,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Macro
+Mammoth,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Mammoth
+Micro,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Micro
+Psiren,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Psiren
+Sebastian Flinders,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Sebastian Flinders
+Dala Vadim,1,88.0,88.0,88.0,88,Batman and the Mad Monk #1-6,88,Batman and the Mad Monk #1-6,Dala Vadim
+John Dee,2,89.0,53.0,125.0,17,Arkham Asylum: A Serious House on Serious Earth OGN,161,Catwoman 80th Anniversary 100-Page Giant,John Dee
+Monster Men,3,91.0,52.5,247.0,14,Strange Apparitions,403,Night of the Monster Men,Monster Men
+Rajan,1,91.0,91.0,91.0,91,Batman and the Monster Men #1-6,91,Batman and the Monster Men #1-6,Rajan
+Sanjay,1,91.0,91.0,91.0,91,Batman and the Monster Men #1-6,91,Batman and the Monster Men #1-6,Sanjay
+Angelo Beretti,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Angelo Beretti
+Five Families,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Five Families
+Mandragora Crime Family,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Mandragora Crime Family
+Mario Cassamento,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Mario Cassamento
+Michael Beretti,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Michael Beretti
+"Pasquale Galante, Jr.",1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,"Pasquale Galante, Jr."
+Santo Cassamento,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Santo Cassamento
+Vincenzo Galante,1,95.0,95.0,95.0,95,Cry for Blood,95,Cry for Blood,Vincenzo Galante
+Randolph Porter,1,100.0,100.0,100.0,100,Venom,100,Venom,Randolph Porter
+Timothy Slaycroft Sr.,1,100.0,100.0,100.0,100,Venom,100,Venom,Timothy Slaycroft Sr.
+Aaron Helzinger,6,104.5,28.75,298.0,22,Knightfall Part 1: The Broken Bat,713,Chasing Clay,Aaron Helzinger
+Death Man,2,104.5,64.75,144.25,25,Leviathan Strikes,184,Batman: Eternal V.3,Death Man
+Karmak,3,105.0,65.0,361.0,25,Leviathan Strikes,617,Batman Battles the Living Beast-Bomb!,Karmak
+Alpha II,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Alpha II
+Aron Abromowitz,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Aron Abromowitz
+Bully,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Bully
+Detonator,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Detonator
+Doubleface,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Doubleface
+Goatboy,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Goatboy
+Grimm Brothers Syndicate,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Grimm Brothers Syndicate
+Hook,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Hook
+Jack Ketch,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Jack Ketch
+Maduvu,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Maduvu
+Malcolm Merlyn,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Malcolm Merlyn
+Professor Ojo,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Professor Ojo
+Razorburn,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Razorburn
+Seven Men of Death,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Seven Men of Death
+Shellcase,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Shellcase
+Sin Tzu,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Sin Tzu
+Small Fry,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Small Fry
+Turnip Twins,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Turnip Twins
+Tzin-Tzin,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Tzin-Tzin
+Veiniac,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Veiniac
+Whip,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Whip
+Female Furies,2,105.5,65.75,145.25,26,Final Crisis,185,Home Wreckers/Life on Mars,Female Furies
+Hyper-Adapter,2,105.5,79.25,131.75,53,Batman: The Return of Bruce Wayne #1-6,158,"Dark Knight, Dark City",Hyper-Adapter
+Daniel Monroe,1,107.0,107.0,107.0,107,Loyalties,107,Loyalties,Daniel Monroe
+Religion of Crime,4,108.0,58.25,172.0,41,Elegy,232,Final Crisis: Revelations #1-5,Religion of Crime
+Andrea Beaumont,1,110.0,110.0,110.0,110,Batman: Mask of the Phantasm- The Animated Movie,110,Batman: Mask of the Phantasm- The Animated Movie,Andrea Beaumont
+Buzz Bronski,1,110.0,110.0,110.0,110,Batman: Mask of the Phantasm- The Animated Movie,110,Batman: Mask of the Phantasm- The Animated Movie,Buzz Bronski
+Charles Sol,1,110.0,110.0,110.0,110,Batman: Mask of the Phantasm- The Animated Movie,110,Batman: Mask of the Phantasm- The Animated Movie,Charles Sol
+Salvatore Valestra,1,110.0,110.0,110.0,110,Batman: Mask of the Phantasm- The Animated Movie,110,Batman: Mask of the Phantasm- The Animated Movie,Salvatore Valestra
+Vampires,5,111.0,69.0,715.0,6,Batman/Dracula: Red Rain OGN,732,Superman and Batman Vs. Vampires and Werewolves,Vampires
+A-Mortal,1,112.0,112.0,112.0,112,New World Order,112,New World Order,A-Mortal
+Armek,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Armek
+Fluxus,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Fluxus
+Hyperclan,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Hyperclan
+Primaid,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Primaid
+Protex,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Protex
+Tronix,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Tronix
+Zenturion,1,112.0,112.0,112.0,112,New World Order,112,New World Order,Zenturion
+ZüM,1,112.0,112.0,112.0,112,New World Order,112,New World Order,ZüM
+Buddy Standler,2,113.0,105.5,120.5,98,Wayne Family Adventures V.1,128,Li’l Gotham,Buddy Standler
+Ashley Powell,1,117.0,117.0,117.0,117,Oracle: Year One- Born of Hope,117,Oracle: Year One- Born of Hope,Ashley Powell
+Odessa Mob,1,118.0,118.0,118.0,118,Batman: Turning Points #1-5,118,Batman: Turning Points #1-5,Odessa Mob
+Jeremiah Hatch,1,119.0,119.0,119.0,119,"The Bad News, or The Butterfly",119,"The Bad News, or The Butterfly",Jeremiah Hatch
+Frederick Rhino,5,120.0,99.0,281.0,45,No Law and New Order,367,Fever,Frederick Rhino
+Street Demonz,3,120.0,82.5,193.0,45,No Law and New Order,266,Bread and Circuses,Street Demonz
+Lawrence Crock,2,122.0,113.5,130.5,105,Demon Star,139,Made of Wood,Lawrence Crock
+Anders Overbeck,1,126.0,126.0,126.0,126,Batman ’66 V.1,126,Batman ’66 V.1,Anders Overbeck
+Grand Order of Occidental Nighthawks,1,126.0,126.0,126.0,126,Batman ’66 V.1,126,Batman ’66 V.1,Grand Order of Occidental Nighthawks
+Millie Second,1,126.0,126.0,126.0,126,Batman ’66 V.1,126,Batman ’66 V.1,Millie Second
+Minerva,1,126.0,126.0,126.0,126,Batman ’66 V.1,126,Batman ’66 V.1,Minerva
+Jonathan Williams,1,127.0,127.0,127.0,127,Hush,127,Hush,Jonathan Williams
+Clayface,3,128.0,111.0,324.0,94,Batman’s Mystery Casebook OGN,520,Dark Night: A True Batman Story OGN,Clayface
+Order of St. Dumas,3,128.0,105.5,304.0,83,Fallen Angel,480,Batman & Robin Eternal #1-26,Order of St. Dumas
+Ultra-Humanite,3,128.0,73.5,386.5,19,The New Frontier,645,President Batman,Ultra-Humanite
+Awesome Threesome,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Awesome Threesome
+Bizarro Batman,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Bizarro Batman
+Captain Greenbeard,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Captain Greenbeard
+Caterpillar,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Caterpillar
+Claw,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Claw
+Food Fighters,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Food Fighters
+Grodd,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Grodd
+Grumbler,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Grumbler
+Helena Queenie,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Helena Queenie
+Kobra King,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Kobra King
+Magneto,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Magneto
+Potato Chaps,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Potato Chaps
+Sandy Witch,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Sandy Witch
+Skitch Benson,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Skitch Benson
+Society of Super Villains,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Society of Super Villains
+Temple Fugate,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Temple Fugate
+Zookeeper,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Zookeeper
+Arthur Light,4,129.0,24.25,350.75,19,The New Frontier,707,Identity Crisis,Arthur Light
+Katherine Kane,2,129.0,77.5,180.5,26,Final Crisis,232,Final Crisis: Revelations #1-5,Katherine Kane
+Martyn Van Wyck,2,129.0,77.5,180.5,26,Final Crisis,232,Final Crisis: Revelations #1-5,Martyn Van Wyck
+Clyde Harris,1,129.0,129.0,129.0,129,Dark Genesis,129,Dark Genesis,Clyde Harris
+Bianca Steeplechase,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Bianca Steeplechase
+Croc,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Croc
+Detective Duell,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Detective Duell
+Hayley Fitzpatrick,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Hayley Fitzpatrick
+Otto Saunders,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Otto Saunders
+Vengeance,2,131.0,98.0,164.0,65,Sword of Azrael (2022) #1-6,197,Welcome to Dinosaur Island,Vengeance
+Big Top,1,131.0,131.0,131.0,131,Batman Reborn,131,Batman Reborn,Big Top
+Circus of Strange,1,131.0,131.0,131.0,131,Batman Reborn,131,Batman Reborn,Circus of Strange
+Mister Toad,1,131.0,131.0,131.0,131,Batman Reborn,131,Batman Reborn,Mister Toad
+Phosphorus Rex,1,131.0,131.0,131.0,131,Batman Reborn,131,Batman Reborn,Phosphorus Rex
+Siam,1,131.0,131.0,131.0,131,Batman Reborn,131,Batman Reborn,Siam
+Alleytown Kids,1,132.0,132.0,132.0,132,Relentless,132,Relentless,Alleytown Kids
+Sylvia Sinclair,1,132.0,132.0,132.0,132,Relentless,132,Relentless,Sylvia Sinclair
+Xavier Dylan,1,132.0,132.0,132.0,132,Relentless,132,Relentless,Xavier Dylan
+Joseph Blackfire,2,136.0,82.5,189.5,29,Batman: The Cult #1-4,243,Batman: Eternal V.2,Joseph Blackfire
+Jor-El,3,140.0,94.5,147.5,49,Rise of the Batmen,155,A Lonely Place of Living,Jor-El
+Abigail O'Shay,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,Abigail O'Shay
+First Victim,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,First Victim
+Glory Griffin,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,Glory Griffin
+Guy Mandrake,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,Guy Mandrake
+Victim Syndicate,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,Victim Syndicate
+Virgil Myers,1,140.0,140.0,140.0,140,The Victim Syndicate,140,The Victim Syndicate,Virgil Myers
+Starro,2,145.0,82.0,208.0,19,The New Frontier,271,Hammer of Justice,Starro
+Gorilla Gang,1,145.0,145.0,145.0,145,Robin Dies at Dawn,145,Robin Dies at Dawn,Gorilla Gang
+Val Kaliban,3,147.0,96.5,302.5,46,The Last Arkham,458,Batman and Son,Val Kaliban
+Sarah Essen,1,151.0,151.0,151.0,151,Batman: The Vengeance of Bane II,151,Batman: The Vengeance of Bane II,Sarah Essen
+Victor Zehrhard,1,151.0,151.0,151.0,151,Batman: The Vengeance of Bane II,151,Batman: The Vengeance of Bane II,Victor Zehrhard
+Scarface Puppet,6,151.5,63.75,303.0,22,Knightfall Part 1: The Broken Bat,367,Fever,Scarface Puppet
+Bruce Wayne clone,1,152.0,152.0,152.0,152,Blackest Knight,152,Blackest Knight,Bruce Wayne clone
+Charles English,1,152.0,152.0,152.0,152,Blackest Knight,152,Blackest Knight,Charles English
+Edward English,1,152.0,152.0,152.0,152,Blackest Knight,152,Blackest Knight,Edward English
+King Coal,1,152.0,152.0,152.0,152,Blackest Knight,152,Blackest Knight,King Coal
+Frankenstein,1,153.0,153.0,153.0,153,"Detective Comics #1,027",153,"Detective Comics #1,027",Frankenstein
+Mummy,1,153.0,153.0,153.0,153,"Detective Comics #1,027",153,"Detective Comics #1,027",Mummy
+Wolf-Man,1,153.0,153.0,153.0,153,"Detective Comics #1,027",153,"Detective Comics #1,027",Wolf-Man
+Lewis Moxon,2,153.5,90.75,216.25,28,To Kill a Legend,279,The First Batman,Lewis Moxon
+Simon Hurt,6,155.0,66.0,213.25,15,Batman: R.I.P.,522,The Club of Heroes,Simon Hurt
+Doomsday,1,155.0,155.0,155.0,155,A Lonely Place of Living,155,A Lonely Place of Living,Doomsday
+Chicago Police Department,1,160.0,160.0,160.0,160,Batman: Gordon of Gotham #1-4,160,Batman: Gordon of Gotham #1-4,Chicago Police Department
+Garrett Riley,1,161.0,161.0,161.0,161,Catwoman 80th Anniversary 100-Page Giant,161,Catwoman 80th Anniversary 100-Page Giant,Garrett Riley
+Lord Death Man,1,162.0,162.0,162.0,162,Batman ’66 V.4,162,Batman ’66 V.4,Lord Death Man
+Penelope Peasoup,1,162.0,162.0,162.0,162,Batman ’66 V.4,162,Batman ’66 V.4,Penelope Peasoup
+Prudence Ffogg,1,162.0,162.0,162.0,162,Batman ’66 V.4,162,Batman ’66 V.4,Prudence Ffogg
+James Craddock,3,163.0,91.0,241.5,19,The New Frontier,320,Villains United #1-6,James Craddock
+Wonderland Gang,3,163.0,145.5,298.0,128,Li’l Gotham,433,Heart of Hush,Wonderland Gang
+Ace of Spades III,1,163.0,163.0,163.0,163,My Own Worst Enemy,163,My Own Worst Enemy,Ace of Spades III
+Copperhead II,1,163.0,163.0,163.0,163,My Own Worst Enemy,163,My Own Worst Enemy,Copperhead II
+Jack of Spades II,1,163.0,163.0,163.0,163,My Own Worst Enemy,163,My Own Worst Enemy,Jack of Spades II
+King of Spades III,1,163.0,163.0,163.0,163,My Own Worst Enemy,163,My Own Worst Enemy,King of Spades III
+Ten of Spades II,1,163.0,163.0,163.0,163,My Own Worst Enemy,163,My Own Worst Enemy,Ten of Spades II
+Phillip Cobb,4,165.5,116.75,198.75,26,Final Crisis,243,Batman: Eternal V.2,Phillip Cobb
+Kit Nozawa,1,167.0,167.0,167.0,167,Shadow of the Phantasm,167,Shadow of the Phantasm,Kit Nozawa
+J. Edward Nygma,1,168.0,168.0,168.0,168,Batman: Nine Lives OGN,168,Batman: Nine Lives OGN,J. Edward Nygma
+Black Manta,4,169.5,17.5,330.75,13,Kingdom Come #1-4,363,Injustice: Year Zero Chapters 1-14,Black Manta
+Bookworm,3,170.0,166.0,217.5,162,Batman ’66 V.4,265,Archie Meets Batman ’66 #1-6),Bookworm
+William McElroy,3,170.0,166.0,223.0,162,Batman ’66 V.4,276,Batman ’66 Meets the Legion of Super-Heroes #1,William McElroy
+Egbert Pennyworth,1,170.0,170.0,170.0,170,Batman ’66 V.2,170,Batman ’66 V.2,Egbert Pennyworth
+Lisa Carson,1,170.0,170.0,170.0,170,Batman ’66 V.2,170,Batman ’66 V.2,Lisa Carson
+Sekhmet,1,170.0,170.0,170.0,170,Batman ’66 V.2,170,Batman ’66 V.2,Sekhmet
+Shame,1,170.0,170.0,170.0,170,Batman ’66 V.2,170,Batman ’66 V.2,Shame
+Zelda the Great,1,170.0,170.0,170.0,170,Batman ’66 V.2,170,Batman ’66 V.2,Zelda the Great
+White Martians,2,171.0,141.5,200.5,112,New World Order,230,Justice League: Last Ride #1-7,White Martians
+Maximillian Zeus,7,172.0,34.0,412.0,17,Arkham Asylum: A Serious House on Serious Earth OGN,725,Batman: Cacophony #1-3,Maximillian Zeus
+Lex Luthor,5,172.0,128.0,664.0,19,The New Frontier,728,Superman: Year One #3,Lex Luthor
+Vincent Starkey,1,177.0,177.0,177.0,177,A Bullet for Bullock,177,A Bullet for Bullock,Vincent Starkey
+Craydl,1,181.0,181.0,181.0,181,First Fool’s,181,First Fool’s,Craydl
+Inertia,1,181.0,181.0,181.0,181,First Fool’s,181,First Fool’s,Inertia
+Simon Ecks,2,182.5,118.25,246.75,54,Super Friends: Date Night,311,Dark Detective,Simon Ecks
+Edward Nashton,21,183.0,46.0,490.0,4,The Long Halloween,735,Odyssey,Riddler (Edward Nashton)
+Jervis Tetch,34,183.5,97.75,471.75,4,The Long Halloween,735,Odyssey,Mad Hatter
+Ebeneezer Darrk,1,184.0,184.0,184.0,184,Batman: Eternal V.3,184,Batman: Eternal V.3,Ebeneezer Darrk
+Martin Ware,1,184.0,184.0,184.0,184,Batman: Eternal V.3,184,Batman: Eternal V.3,Martin Ware
+Philip Reardon,1,184.0,184.0,184.0,184,Batman: Eternal V.3,184,Batman: Eternal V.3,Philip Reardon
+Artemiz,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Artemiz
+Gilotina,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Gilotina
+Lashina,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Lashina
+Ma'alefa'ak,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Ma'alefa'ak
+Mad Harriet,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Mad Harriet
+Stompa,1,185.0,185.0,185.0,185,Home Wreckers/Life on Mars,185,Home Wreckers/Life on Mars,Stompa
+Sandman,2,185.5,155.75,215.25,126,Batman ’66 V.1,245,Batman ’66 Meets the Man From U.N.C.L.E. #1-6,Sandman
+Edgar Moriarty,1,186.0,186.0,186.0,186,The Doomsday Book,186,The Doomsday Book,Edgar Moriarty
+James Moriarty,1,186.0,186.0,186.0,186,The Doomsday Book,186,The Doomsday Book,James Moriarty
+Jade Nguyen,2,186.5,174.75,198.25,163,My Own Worst Enemy,210,Sensei and Student,Jade Nguyen
+Wrath,1,187.0,187.0,187.0,187,The Player on the Other Side…,187,The Player on the Other Side…,Wrath
+Brother Eye,2,190.5,172.75,208.25,155,A Lonely Place of Living,226,The OMAC Project/Sacrifice,Brother Eye
+Black Swan,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Black Swan
+Blue Shrike,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Blue Shrike
+Connor Hawke,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Connor Hawke
+Drenched,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Drenched
+Flatline,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Flatline
+League of Lazarus,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,League of Lazarus
+Master Dusk,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Master Dusk
+Respawn,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Respawn
+Rúh al Ghul,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Rúh al Ghul
+Tengu,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,Tengu
+XXL,1,192.0,192.0,192.0,192,The Lazarus Tournament,192,The Lazarus Tournament,XXL
+Archer,2,192.5,177.25,207.75,162,Batman ’66 V.4,223,Batman ’66 V.3,Archer
+Count Berlin,1,193.0,193.0,193.0,193,DC Pride 2021,193,DC Pride 2021,Count Berlin
+Reflek,1,193.0,193.0,193.0,193,DC Pride 2021,193,DC Pride 2021,Reflek
+Roger DeCarlo,1,194.0,194.0,194.0,194,Nature,194,Nature,Roger DeCarlo
+Timothy Munroe,1,194.0,194.0,194.0,194,Nature,194,Nature,Timothy Munroe
+Cornelius Stirk,4,194.5,40.0,437.75,22,Knightfall Part 1: The Broken Bat,722,The Widening Gyre,Cornelius Stirk
+Carmine Falcone,8,195.0,46.0,470.0,1,Year One,692,An Unimportant Man,Carmine Falcone
+Dice-God,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Dice-God
+Electrocutioner,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Electrocutioner
+Laugher,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Laugher
+Meta-Clay,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Meta-Clay
+Riddle City,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Riddle City
+Ventriloquist,1,195.0,195.0,195.0,195,Dark Planet,195,Dark Planet,Ventriloquist
+Bane,17,197.0,128.0,632.0,22,Knightfall Part 1: The Broken Bat,735,Odyssey,Bane
+Austin Phelps,1,200.0,200.0,200.0,200,Cutter,200,Cutter,Austin Phelps
+Vanessa Hansen-Grey,1,200.0,200.0,200.0,200,Cutter,200,Cutter,Vanessa Hansen-Grey
+Billy Tockman,2,200.5,135.75,265.25,71,Rooftops,330,The Time of Your Life,Billy Tockman
+Fearsome Five,2,203.0,144.5,261.5,86,DC Pride 2022,320,Villains United #1-6,Fearsome Five
+Jinx,2,203.0,144.5,261.5,86,DC Pride 2022,320,Villains United #1-6,Jinx
+Jeffrey Franklin Burr,1,203.0,203.0,203.0,203,JLA: Foreign Bodies,203,JLA: Foreign Bodies,Jeffrey Franklin Burr
+Psykosis,1,203.0,203.0,203.0,203,JLA: Foreign Bodies,203,JLA: Foreign Bodies,Psykosis
+Sun-Eaters,1,204.0,204.0,204.0,204,Final Night,204,Final Night,Sun-Eaters
+Aitch-Eyes,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Aitch-Eyes
+Gabriel Santo,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Gabriel Santo
+Lightning Bug,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Lightning Bug
+Merriwether,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Merriwether
+Neon Dragon Triad,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Neon Dragon Triad
+Penitente Cartel,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Penitente Cartel
+Rodney Fidget,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Rodney Fidget
+Romeo Romero,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Romeo Romero
+Sasha,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Sasha
+Tony Li,1,205.0,205.0,205.0,205,Revenge of the Red Hood,205,Revenge of the Red Hood,Tony Li
+Roxanne Sutton,5,206.0,128.0,251.0,92,Going Straight/Laughter After Midnight,734,Batman: White Knight #1-8,Roxanne Sutton
+Diesel,1,206.0,206.0,206.0,206,Batgirl Rising- Core Requirements,206,Batgirl Rising- Core Requirements,Diesel
+Frederick von Frankenstein,1,206.0,206.0,206.0,206,Batgirl Rising- Core Requirements,206,Batgirl Rising- Core Requirements,Frederick von Frankenstein
+Leslie Willis,1,206.0,206.0,206.0,206,Batgirl Rising- Core Requirements,206,Batgirl Rising- Core Requirements,Leslie Willis
+Victoria Sinclair,1,206.0,206.0,206.0,206,Batgirl Rising- Core Requirements,206,Batgirl Rising- Core Requirements,Victoria Sinclair
+Ghost Dragons,3,207.0,195.5,361.5,184,Batman: Eternal V.3,516,Shadow Box,Ghost Dragons
+William Hue,1,207.0,207.0,207.0,207,Going Solo,207,Going Solo,William Hue
+Olga,2,207.5,188.75,226.25,170,Batman ’66 V.2,245,Batman ’66 Meets the Man From U.N.C.L.E. #1-6,Olga
+Bruce Wayne,19,208.0,104.0,533.0,2,Ego,728,Superman: Year One #3,Bruce Wayne / Batman
+"James Gordon, Jr.",3,208.0,114.5,347.5,21,The Black Mirror,487,Knightfall Rising,"James Gordon, Jr."
+Robins,1,208.0,208.0,208.0,208,The Batman Who Laughs V.2 #1-7,208,The Batman Who Laughs V.2 #1-7,Robins
+Slyfox,1,209.0,209.0,209.0,209,The Bat of the Future- Today!,209,The Bat of the Future- Today!,Slyfox
+Wayne Enterprises,1,209.0,209.0,209.0,209,The Bat of the Future- Today!,209,The Bat of the Future- Today!,Wayne Enterprises
+Xauron,1,209.0,209.0,209.0,209,The Bat of the Future- Today!,209,The Bat of the Future- Today!,Xauron
+Kraken,2,210.0,118.0,302.0,26,Final Crisis,394,Injustice: Gods Among Us Vol. 1,Kraken
+Copperhead,3,211.0,160.0,277.0,109,Wayne Family Adventures V. 3,343,Underworld Unleashed,Copperhead
+Dollotrons,2,211.5,171.25,251.75,131,Batman Reborn,292,Batman in Bethlehem,Dollotrons
+Talia al Ghul,18,213.5,88.5,507.5,25,Leviathan Strikes,709,Tales from the Dark Multiverse: Batman- Hush,Talia al Ghul
+Jason Bard,2,213.5,198.75,228.25,184,Batman: Eternal V.3,243,Batman: Eternal V.2,Jason Bard
+Saul Erdel,1,214.0,214.0,214.0,214,Batman: Holy Terror,214,Batman: Holy Terror,Saul Erdel
+Chodak,1,215.0,215.0,215.0,215,Mother,215,Mother,Chodak
+Kalden,1,215.0,215.0,215.0,215,Mother,215,Mother,Kalden
+Nergüi,1,215.0,215.0,215.0,215,Mother,215,Mother,Nergüi
+The Unburied,1,215.0,215.0,215.0,215,Mother,215,Mother,The Unburied
+Man-Bat Commandos,7,216.0,127.0,396.5,87,Batman: Black and White V.4,526,The Three Ghosts of Batman,Man-Bat Commandos
+Gotham Organized Crime,27,217.0,86.0,450.0,4,The Long Halloween,739,War Crimes,Gotham Organized Crime
+Doctor Schivel,6,217.0,180.25,239.5,126,Batman ’66 V.1,338,Batman ’66 Meets Steed and Mrs. Peel #1-6,Doctor Schivel
+Henry Henshaw,2,217.0,210.5,223.5,204,Final Night,230,Justice League: Last Ride #1-7,Henry Henshaw
+Andrei Tarkov,1,217.0,217.0,217.0,217,Hounded,217,Hounded,Andrei Tarkov
+Herbert Schwann,1,217.0,217.0,217.0,217,Hounded,217,Hounded,Herbert Schwann
+Katarina Tarkov,1,217.0,217.0,217.0,217,Hounded,217,Hounded,Katarina Tarkov
+Licks Luthor,1,217.0,217.0,217.0,217,Hounded,217,Hounded,Licks Luthor
+Vandal Savage,9,218.0,53.0,252.0,13,Kingdom Come #1-4,518,Zero Hour,Vandal Savage
+Hourman Virus,1,218.0,218.0,218.0,218,DC One Million,218,DC One Million,Hourman Virus
+KGB,1,218.0,218.0,218.0,218,DC One Million,218,DC One Million,KGB
+Solaris,1,218.0,218.0,218.0,218,DC One Million,218,DC One Million,Solaris
+Bizarro,3,220.0,174.0,308.5,128,Li’l Gotham,397,Emperor Joker,Bizarro
+Artemis of Bana-Mighdall,1,220.0,220.0,220.0,220,Batman/Superman/Wonder Woman: Trinity #1-3,220,Batman/Superman/Wonder Woman: Trinity #1-3,Artemis of Bana-Mighdall
+Chemo,2,221.0,129.0,313.0,37,Solo #5,405,Under the Red Hood,Chemo
+Morgan Ducard,1,221.0,221.0,221.0,221,Born to Kill,221,Born to Kill,Morgan Ducard
+Smush,1,221.0,221.0,221.0,221,Born to Kill,221,Born to Kill,Smush
+Aleksandr Creote,2,222.5,216.25,228.75,210,Sensei and Student,235,Of Like Minds,Aleksandr Creote
+Brian Durlin,2,222.5,216.25,228.75,210,Sensei and Student,235,Of Like Minds,Brian Durlin
+Edward Nigma,13,223.0,147.0,394.0,13,Kingdom Come #1-4,734,Batman: White Knight #1-8,Edward Nigma
+Egghead,5,223.0,162.0,245.0,126,Batman ’66 V.1,276,Batman ’66 Meets the Legion of Super-Heroes #1,Egghead
+Morris Tetch,3,223.0,174.5,249.5,126,Batman ’66 V.1,276,Batman ’66 Meets the Legion of Super-Heroes #1,Morris Tetch
+Black Widow,1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,Black Widow
+Eggna,1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,Eggna
+Hilda Lundegaard,1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,Hilda Lundegaard
+Louie the Lilac,1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,Louie the Lilac
+"Marsha, Queen of Diamonds",1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,"Marsha, Queen of Diamonds"
+Minstrel,1,223.0,223.0,223.0,223,Batman ’66 V.3,223,Batman ’66 V.3,Minstrel
+Barbara Minerva,7,224.0,169.5,331.5,26,Final Crisis,348,Catwoman: When In Rome #1-6,Barbara Minerva
+Torpedoman,2,224.0,176.0,272.0,128,Li’l Gotham,320,Villains United #1-6,Torpedoman
+Anthony Woodward,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Anthony Woodward
+Frances Kane,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Frances Kane
+Iron Heights,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Iron Heights
+Joseph Monteleone,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Joseph Monteleone
+Legion of Doom,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Legion of Doom
+Mercy Graves,1,224.0,224.0,224.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,224,Justice League Vs. Godzilla Vs. Kong #1-7,Mercy Graves
+Zatanna Zatara,2,225.5,219.75,231.25,214,Batman: Holy Terror,237,The Joker Vs. Fox News,Zatanna Zatara
+Lincoln March,2,226.0,205.0,247.0,184,Batman: Eternal V.3,268,Better Than Batman,Lincoln March
+Arnold Beck,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Arnold Beck
+Demolition Team,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Demolition Team
+Hardhat,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Hardhat
+Jackhammer,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Jackhammer
+John Malone,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,John Malone
+Rosie,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Rosie
+Scoopshovel,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Scoopshovel
+Steamroller,1,226.0,226.0,226.0,226,The OMAC Project/Sacrifice,226,The OMAC Project/Sacrifice,Steamroller
+Mongul,2,227.0,225.5,228.5,224,Justice League Vs. Godzilla Vs. Kong #1-7,230,Justice League: Last Ride #1-7,Mongul
+Robots,4,228.0,84.25,449.25,76,Batman: Off-World #1-6,690,Batman: Master of the Future,Robots
+Lobo,1,230.0,230.0,230.0,230,Justice League: Last Ride #1-7,230,Justice League: Last Ride #1-7,Lobo
+Manhunters,1,230.0,230.0,230.0,230,Justice League: Last Ride #1-7,230,Justice League: Last Ride #1-7,Manhunters
+United Planets,1,230.0,230.0,230.0,230,Justice League: Last Ride #1-7,230,Justice League: Last Ride #1-7,United Planets
+Vril Dox,1,230.0,230.0,230.0,230,Justice League: Last Ride #1-7,230,Justice League: Last Ride #1-7,Vril Dox
+Vril Dox II,1,230.0,230.0,230.0,230,Justice League: Last Ride #1-7,230,Justice League: Last Ride #1-7,Vril Dox II
+Doris Zuel,4,230.5,174.5,257.75,26,Final Crisis,320,Villains United #1-6,Doris Zuel
+Breathtaker II,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Breathtaker II
+Hangmen,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Hangmen
+Killshot,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Killshot
+Provoke,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Provoke
+Shock Trauma,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Shock Trauma
+Sister Wrack,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Sister Wrack
+Stranglehold,1,232.0,232.0,232.0,232,Final Crisis: Revelations #1-5,232,Final Crisis: Revelations #1-5,Stranglehold
+Colonel Gumm,1,233.0,233.0,233.0,233,Batman ’66 Meets the Green Hornet #1-6,233,Batman ’66 Meets the Green Hornet #1-6,Colonel Gumm
+Basil Karlo,16,233.5,188.5,392.25,87,Batman: Black and White V.4,529,Arkham War,Basil Karlo
+Mario Falcone,2,236.0,126.0,346.0,16,Dark Victory,456,Life After Death,Mario Falcone
+Big Barda,1,237.0,237.0,237.0,237,The Joker Vs. Fox News,237,The Joker Vs. Fox News,Big Barda
+John Keyser,1,237.0,237.0,237.0,237,The Joker Vs. Fox News,237,The Joker Vs. Fox News,John Keyser
+Daniel Weaver,1,238.0,238.0,238.0,238,Batman: The Killing Joke,238,Batman: The Killing Joke,Daniel Weaver
+Kalibak,4,239.0,58.25,473.25,26,Final Crisis,666,Justice League: The Nail #1-3,Kalibak
+Curtis Base,1,239.0,239.0,239.0,239,Wildcard!,239,Wildcard!,Curtis Base
+Queen of Spades III,2,241.5,202.25,280.75,163,My Own Worst Enemy,320,Villains United #1-6,Queen of Spades III
+Alphonse Capone,1,242.0,242.0,242.0,242,Batman: Scar of the Bat,242,Batman: Scar of the Bat,Alphonse Capone
+Achilles Milo,5,243.0,184.0,364.0,17,Arkham Asylum: A Serious House on Serious Earth OGN,448,Moon of the Wolf,Achilles Milo
+Otis Flannegan,3,243.0,213.5,435.5,184,Batman: Eternal V.3,628,The Secret of the Universe,Otis Flannegan
+Tiger Shark,3,243.0,132.0,286.0,21,The Black Mirror,329,Ghost in the Machine,Tiger Shark
+Dragos Ibanescu,1,243.0,243.0,243.0,243,Batman: Eternal V.2,243,Batman: Eternal V.2,Dragos Ibanescu
+Louis Ferryman,1,243.0,243.0,243.0,243,Batman: Eternal V.2,243,Batman: Eternal V.2,Louis Ferryman
+Rex Calabrese,1,243.0,243.0,243.0,243,Batman: Eternal V.2,243,Batman: Eternal V.2,Rex Calabrese
+Arnold Flass,2,244.5,122.75,366.25,1,Year One,488,Batman Begins: The Official Movie Adaptation,Arnold Flass
+Lorelei Circe,3,245.0,185.5,255.0,126,Batman ’66 V.1,265,Archie Meets Batman ’66 #1-6),Lorelei Circe
+Red Devils,2,245.5,235.25,255.75,225,The Calm Before,266,Bread and Circuses,Red Devils
+Cyrus Gold,10,246.5,102.5,381.25,4,The Long Halloween,499,I Am Gotham,Cyrus Gold
+Dumfrey Tweed,2,248.0,147.0,349.0,46,The Last Arkham,450,World’s Finest V.2 #1-3,Dumfrey Tweed
+Trigon,1,248.0,248.0,248.0,248,Injustice Gods Among Us- Year 3 V.1,248,Injustice Gods Among Us- Year 3 V.1,Trigon
+Faye Gunn,1,249.0,249.0,249.0,249,The Post-Crisis Origin of Jason Todd,249,The Post-Crisis Origin of Jason Todd,Faye Gunn
+Marmaduke Ffogg,2,250.0,206.0,294.0,162,Batman ’66 V.4,338,Batman ’66 Meets Steed and Mrs. Peel #1-6,Marmaduke Ffogg
+Anita Jean,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Anita Jean
+Chick,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Chick
+Cormac Dodge,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Cormac Dodge
+Devotees of Anarky,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Devotees of Anarky
+Drang,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Drang
+Giggles,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Giggles
+Guffaw,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Guffaw
+Honeysuckle,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Honeysuckle
+José Garzonas,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,José Garzonas
+Junior Supercriminals,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Junior Supercriminals
+Kitten,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Kitten
+Lydia Arbuckle,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Lydia Arbuckle
+Maat Shadid,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Maat Shadid
+Makenson Innocente,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Makenson Innocente
+Mr. Neg,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Mr. Neg
+Storm II,1,250.0,250.0,250.0,250,Being Robin,250,Being Robin,Storm II
+Dinosaurs,5,254.0,197.0,408.0,19,The New Frontier,518,Zero Hour,Dinosaurs
+Eve Eden,2,254.0,133.5,374.5,13,Kingdom Come #1-4,495,Public Enemies,Eve Eden
+Nathaniel Adam,2,254.0,133.5,374.5,13,Kingdom Come #1-4,495,Public Enemies,Nathaniel Adam
+Onimar Synn,1,254.0,254.0,254.0,254,Batman: Universe,254,Batman: Universe,Onimar Synn
+Lonnie Machin,3,255.0,252.5,454.5,250,Being Robin,654,Batman: Prelude to the Wedding #1-5,Lonnie Machin
+Fleet Delmar,1,257.0,257.0,257.0,257,On the Outside,257,On the Outside,Fleet Delmar
+Martina Dementieva,1,257.0,257.0,257.0,257,On the Outside,257,On the Outside,Martina Dementieva
+Black and Whites,2,259.0,211.0,307.0,163,My Own Worst Enemy,355,Superheavy,Black and Whites
+Jefferson Skeevers,2,260.0,130.5,389.5,1,Year One,519,Her Sister’s Keeper,Jefferson Skeevers
+Stan the Pimp,2,260.0,130.5,389.5,1,Year One,519,Her Sister’s Keeper,Stan the Pimp
+Jefferson Pierce,2,260.5,143.25,377.75,26,Final Crisis,495,Public Enemies,Jefferson Pierce
+Mister Camera,1,263.0,263.0,263.0,263,Crisis of Infinite Scoobys,263,Crisis of Infinite Scoobys,Mister Camera
+Scooby-Mite,1,263.0,263.0,263.0,263,Crisis of Infinite Scoobys,263,Crisis of Infinite Scoobys,Scooby-Mite
+James Nice,1,264.0,264.0,264.0,264,The Threatening Three!,264,The Threatening Three!,James Nice
+Mastermind,1,264.0,264.0,264.0,264,The Threatening Three!,264,The Threatening Three!,Mastermind
+Perfesser,1,264.0,264.0,264.0,264,The Threatening Three!,264,The Threatening Three!,Perfesser
+Selina Kyle,37,265.0,147.0,564.0,1,Year One,703,The Wedding,Catwoman
+Footnote,1,265.0,265.0,265.0,265,Archie Meets Batman ’66 #1-6),265,Archie Meets Batman ’66 #1-6),Footnote
+Printer's Devil,1,265.0,265.0,265.0,265,Archie Meets Batman ’66 #1-6),265,Archie Meets Batman ’66 #1-6),Printer's Devil
+Benjamin Gruener,2,265.5,170.25,360.75,75,Night of the Reaper,456,Life After Death,Benjamin Gruener
+Wreckers,1,266.0,266.0,266.0,266,Bread and Circuses,266,Bread and Circuses,Wreckers
+Xhosa,1,266.0,266.0,266.0,266,Bread and Circuses,266,Bread and Circuses,Xhosa
+Batman Villains,8,266.5,192.0,548.25,17,Arkham Asylum: A Serious House on Serious Earth OGN,740,Batman: Three Jokers #1-3,Batman Villains
+Hudson Pyle,1,267.0,267.0,267.0,267,Blades,267,Blades,Hudson Pyle
+Kobra Cult,7,268.0,200.0,512.5,128,Li’l Gotham,671,Deface the Face,Kobra Cult
+Lady Eve,1,268.0,268.0,268.0,268,Better Than Batman,268,Better Than Batman,Lady Eve
+Orator,1,268.0,268.0,268.0,268,Better Than Batman,268,Better Than Batman,Orator
+Raptor,1,268.0,268.0,268.0,268,Better Than Batman,268,Better Than Batman,Raptor
+Zachary Gate,2,269.0,256.0,282.0,243,Batman: Eternal V.2,295,Batman: The Gates of Gotham #1-5,Zachary Gate
+Harriet Pratt,2,271.0,199.5,342.5,128,Li’l Gotham,414,Mayor Mayhem,Harriet Pratt
+Aztar,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,Aztar
+Bizarro-Superman,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,Bizarro-Superman
+Bizarros,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,Bizarros
+Control Stars,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,Control Stars
+James Corrigan,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,James Corrigan
+Star Conquerors,1,271.0,271.0,271.0,271,Hammer of Justice,271,Hammer of Justice,Star Conquerors
+Baran Flinders,2,272.0,248.0,296.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,320,Villains United #1-6,Baran Flinders
+David Hersch,2,272.0,248.0,296.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,320,Villains United #1-6,David Hersch
+League of Shadows,4,273.0,206.25,373.25,192,The Lazarus Tournament,488,Batman Begins: The Official Movie Adaptation,League of Shadows
+Andrew Haskell,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Andrew Haskell
+Daniel Anselm,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Daniel Anselm
+Genevieve Pitt,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Genevieve Pitt
+George Lawton,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,George Lawton
+Pantha,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Pantha
+Philip Schale,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Philip Schale
+Wes Anselm,1,273.0,273.0,273.0,273,Deadshot V.1 #1-4,273,Deadshot V.1 #1-4,Wes Anselm
+Philo Zeiss,2,274.0,263.0,285.0,252,Pipeline,296,Fearless,Philo Zeiss
+Lucky Hand Triad,1,274.0,274.0,274.0,274,Air Time,274,Air Time,Lucky Hand Triad
+Colton Rivera,1,275.0,275.0,275.0,275,Welcome to Gotham Academy,275,Welcome to Gotham Academy,Colton Rivera
+Pomeline Fritch,1,275.0,275.0,275.0,275,Welcome to Gotham Academy,275,Welcome to Gotham Academy,Pomeline Fritch
+Vidar,1,276.0,276.0,276.0,276,Batman ’66 Meets the Legion of Super-Heroes #1,276,Batman ’66 Meets the Legion of Super-Heroes #1,Vidar
+Carleton LeHah,1,278.0,278.0,278.0,278,Batman: Sword of Azrael #1-4,278,Batman: Sword of Azrael #1-4,Carleton LeHah
+Joker Venom,1,280.0,280.0,280.0,280,Batman/Dylan Dog #1-3,280,Batman/Dylan Dog #1-3,Joker Venom
+Moe Blum,2,280.5,204.25,356.75,128,Li’l Gotham,433,Heart of Hush,Moe Blum
+Isabelle Cheranova,1,281.0,281.0,281.0,281,Claim Jumping,281,Claim Jumping,Isabelle Cheranova
+Victor Fries,36,281.5,149.75,430.75,3,Cold Days,735,Odyssey,Mr. Freeze
+Anthony Zucco,6,281.5,111.75,563.75,16,Dark Victory,659,Robin the Boy Wonder,Anthony Zucco
+Leonard Snart,6,283.5,75.5,381.25,19,The New Frontier,416,DC Rebirth Holiday Special #1,Leonard Snart
+Hartley Rathaway,2,283.5,253.75,313.25,224,Justice League Vs. Godzilla Vs. Kong #1-7,343,Underworld Unleashed,Hartley Rathaway
+Lisa Snart,2,283.5,253.75,313.25,224,Justice League Vs. Godzilla Vs. Kong #1-7,343,Underworld Unleashed,Lisa Snart
+Roy G. Bivolo,2,283.5,253.75,313.25,224,Justice League Vs. Godzilla Vs. Kong #1-7,343,Underworld Unleashed,Roy G. Bivolo
+Rudolph Jones,2,283.5,253.75,313.25,224,Justice League Vs. Godzilla Vs. Kong #1-7,343,Underworld Unleashed,Rudolph Jones
+Ghosts,3,284.0,234.0,319.5,184,Batman: Eternal V.3,355,Superheavy,Ghosts
+Stella Starling,1,284.0,284.0,284.0,284,Down the Road,284,Down the Road,Stella Starling
+Unfallen,1,284.0,284.0,284.0,284,Down the Road,284,Down the Road,Unfallen
+Katarina Armstrong,1,285.0,285.0,285.0,285,Whitewater,285,Whitewater,Katarina Armstrong
+Rocket Red Brigade,1,285.0,285.0,285.0,285,Whitewater,285,Whitewater,Rocket Red Brigade
+Scandal Savage,1,285.0,285.0,285.0,285,Whitewater,285,Whitewater,Scandal Savage
+Secret Six III,1,285.0,285.0,285.0,285,Whitewater,285,Whitewater,Secret Six III
+Jonathan Mayhew,2,287.5,170.25,404.75,53,Batman: The Return of Bruce Wayne #1-6,522,The Club of Heroes,Jonathan Mayhew
+Daniel Ortega,1,290.0,290.0,290.0,290,GCPD: The Blue Wall #1-6,290,GCPD: The Blue Wall #1-6,Daniel Ortega
+Andre Sinclair,1,291.0,291.0,291.0,291,Destroyer,291,Destroyer,Andre Sinclair
+Eduardo Flamingo,5,292.0,243.0,322.0,205,Revenge of the Red Hood,529,Arkham War,Eduardo Flamingo
+Jackanapes,1,292.0,292.0,292.0,292,Batman in Bethlehem,292,Batman in Bethlehem,Jackanapes
+Max Roboto,1,292.0,292.0,292.0,292,Batman in Bethlehem,292,Batman in Bethlehem,Max Roboto
+Nikolai,1,292.0,292.0,292.0,292,Batman in Bethlehem,292,Batman in Bethlehem,Nikolai
+Weasel,1,292.0,292.0,292.0,292,Batman in Bethlehem,292,Batman in Bethlehem,Weasel
+Oswald Loomis,2,293.0,268.0,318.0,243,Batman: Eternal V.2,343,Underworld Unleashed,Oswald Loomis
+Nazi Party,7,294.0,105.0,401.0,60,Batman: Black & White- The Gotham Knights Stories V.1,730,Batman: Dark Allegiances,Nazi Party
+Mark Desmond,2,296.0,260.0,332.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,368,Batgirl: Year One #1-9,Mark Desmond
+Joker,112,296.5,127.75,520.75,4,The Long Halloween,740,Batman: Three Jokers #1-3,Joker
+Thaal Sinestro,5,298.0,248.0,320.0,128,Li’l Gotham,674,Injustice: Gods Among Us Year 4 Vol. 2,Thaal Sinestro
+Shiera Hall,3,298.0,273.0,486.0,248,Injustice Gods Among Us- Year 3 V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Shiera Hall
+Amon Sur,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Amon Sur
+Arkillo,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Arkillo
+Bedovian,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Bedovian
+Flayt,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Flayt
+Gleen,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Gleen
+Haasp,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Haasp
+Karu-Sil,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Karu-Sil
+Lyssa Drak,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Lyssa Drak
+Sinestro Corps,1,298.0,298.0,298.0,298,Injustice: Gods Among Us Year 2 Vol.1,298,Injustice: Gods Among Us Year 2 Vol.1,Sinestro Corps
+Oswald Cobblepot,63,299.0,183.5,490.5,4,The Long Halloween,735,Odyssey,Penguin
+Beekeeper,1,300.0,300.0,300.0,300,Batman: The Audio Adventures Special #1,300,Batman: The Audio Adventures Special #1,Beekeeper
+Blind Mice Gang,1,300.0,300.0,300.0,300,Batman: The Audio Adventures Special #1,300,Batman: The Audio Adventures Special #1,Blind Mice Gang
+David Hyde,2,300.5,262.25,338.75,224,Justice League Vs. Godzilla Vs. Kong #1-7,377,DCeased: Hope At World’s End #1-15,David Hyde
+Pamela Isley,43,301.0,115.0,523.0,4,The Long Halloween,735,Odyssey,Poison Ivy
+Harvey Dent,57,302.0,127.0,527.0,4,The Long Halloween,740,Batman: Three Jokers #1-3,Two-Face
+Harvey Bullock,3,302.0,226.5,337.0,151,Batman: The Vengeance of Bane II,372,Batman Tales: Once Upon a Crime OGN,Harvey Bullock
+Drake Winston,1,302.0,302.0,302.0,302,Shadows,302,Shadows,Drake Winston
+Joker Gang,1,302.0,302.0,302.0,302,Shadows,302,Shadows,Joker Gang
+Sons of Batman,1,302.0,302.0,302.0,302,Shadows,302,Shadows,Sons of Batman
+Knockout,2,302.5,293.75,311.25,285,Whitewater,320,Villains United #1-6,Knockout
+Council of Spiders,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Council of Spiders
+Funnel,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Funnel
+Owens,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Owens
+Prudence Wood,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Prudence Wood
+Recluse,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Recluse
+Widower,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Widower
+Zeddmore Washington,1,306.0,306.0,306.0,306,The Grail,306,The Grail,Zeddmore Washington
+Aero-troopers,1,310.0,310.0,310.0,310,Cosmic Odyssey #1-4,310,Cosmic Odyssey #1-4,Aero-troopers
+Techno-Chiefs,1,310.0,310.0,310.0,310,Cosmic Odyssey #1-4,310,Cosmic Odyssey #1-4,Techno-Chiefs
+Rupert Thorne,4,314.5,80.0,542.25,14,Strange Apparitions,588,Little Red Book,Rupert Thorne
+Actuary,1,315.0,315.0,315.0,315,Odds Against,315,Odds Against,Actuary
+Jonathan Crane,54,315.5,146.25,479.25,4,The Long Halloween,735,Odyssey,Scarecrow
+Alexi Luthorovich Dymtryshyn,1,316.0,316.0,316.0,316,Elseworld’s Finest #1-2,316,Elseworld’s Finest #1-2,Alexi Luthorovich Dymtryshyn
+Drury Walker,11,319.0,95.5,364.0,26,Final Crisis,462,Lock-Up,Drury Walker
+Secret Society of Super-Villains,5,320.0,232.0,405.0,26,Final Crisis,668,Job Termination,Secret Society of Super-Villains
+Albrecht Krieger,3,320.0,166.5,362.5,13,Kingdom Come #1-4,405,Under the Red Hood,Albrecht Krieger
+Louise Lincoln,3,320.0,173.0,331.5,26,Final Crisis,343,Underworld Unleashed,Louise Lincoln
+Madmen,3,320.0,294.0,368.0,268,Better Than Batman,416,DC Rebirth Holiday Special #1,Madmen
+Nanaue,3,320.0,241.5,513.0,163,My Own Worst Enemy,706,Robin & Batman #1-3,Nanaue
+Axel Walker,2,320.0,272.0,368.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,416,DC Rebirth Holiday Special #1,Axel Walker
+Marco Mardon,2,320.0,272.0,368.0,224,Justice League Vs. Godzilla Vs. Kong #1-7,416,DC Rebirth Holiday Special #1,Marco Mardon
+Ace of Spades V,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Ace of Spades V
+"Alexander Luthor, Jr.",1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,"Alexander Luthor, Jr."
+Aliki Marceau,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Aliki Marceau
+Angela Hawkins III,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Angela Hawkins III
+Anton Lamont,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Anton Lamont
+Bernard Bonner,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Bernard Bonner
+Blythe Bonner,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Blythe Bonner
+Body Doubles,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Body Doubles
+Bonny Hoffman,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Bonny Hoffman
+Bradford Thorne,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Bradford Thorne
+Carmen Leno,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Carmen Leno
+Crazy Quilt II,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Crazy Quilt II
+Danton Black,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Danton Black
+Dennis Ellis,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Dennis Ellis
+Deuce Canyard,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Deuce Canyard
+Double Dare,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Double Dare
+Edgar Cizko,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Edgar Cizko
+Felix Faust,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Felix Faust
+Guillermo Barrera,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Guillermo Barrera
+H.I.V.E.,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,H.I.V.E.
+Hindenberg,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Hindenberg
+Ishmael Gregor,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Ishmael Gregor
+Jack Chifford,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Jack Chifford
+Jongleur,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Jongleur
+King of Spades V,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,King of Spades V
+Lagomorph,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Lagomorph
+Mallah,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Mallah
+Margot Marceau,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Margot Marceau
+Mister Terrible,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Mister Terrible
+Nurse Rench,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Nurse Rench
+Otto von Furth,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Otto von Furth
+Peter Merkel,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Peter Merkel
+Ronald Sweet,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Ronald Sweet
+Selinda Flinders,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Selinda Flinders
+Simon Jones,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Simon Jones
+Splitshot,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Splitshot
+Stanley Printwhistle,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Stanley Printwhistle
+Superior Five,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Superior Five
+Ten of Spades V,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Ten of Spades V
+Tremor,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Tremor
+Virtuoso,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Virtuoso
+Yrra Cynril,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Yrra Cynril
+Zazzala,1,320.0,320.0,320.0,320,Villains United #1-6,320,Villains United #1-6,Zazzala
+Garfield Lynns,10,321.0,213.25,449.75,22,Knightfall Part 1: The Broken Bat,635,Mr. Wayne Goes to Washington,Garfield Lynns
+Fergus Slith,1,321.0,321.0,321.0,321,Batman: The Scottish Connection,321,Batman: The Scottish Connection,Fergus Slith
+Court of Owls,5,322.0,268.0,504.0,163,My Own Worst Enemy,632,Scourge of Owls,Court of Owls
+Arthur Arkham,1,322.0,322.0,322.0,322,Batman: City of Madness #1-3,322,Batman: City of Madness #1-3,Arthur Arkham
+Beast,1,322.0,322.0,322.0,322,Batman: City of Madness #1-3,322,Batman: City of Madness #1-3,Beast
+Jevoney,1,322.0,322.0,322.0,322,Batman: City of Madness #1-3,322,Batman: City of Madness #1-3,Jevoney
+Lord Strigidae,1,322.0,322.0,322.0,322,Batman: City of Madness #1-3,322,Batman: City of Madness #1-3,Lord Strigidae
+Ra's al Ghul,20,325.5,180.75,550.75,43,Tower of Babel,735,Odyssey,Ra's al Ghul
+Victor Zsasz,18,325.5,111.25,481.0,22,Knightfall Part 1: The Broken Bat,725,Batman: Cacophony #1-3,Victor Zsasz
+Kaala,2,326.0,259.5,392.5,193,DC Pride 2021,459,Justice League Vs. Suicide Squad #1-6,Kaala
+Draugr,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Draugr
+Frost Giants,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Frost Giants
+Gandr,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Gandr
+Gunnar Wolves,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Gunnar Wolves
+Harpies,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Harpies
+Krampus,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Krampus
+Leviathan,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Leviathan
+Monsterkind,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Monsterkind
+Ogres,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Ogres
+Phantom Zoners,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Phantom Zoners
+Trolls,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Trolls
+Yetis,1,326.0,326.0,326.0,326,Batman/Santa Claus: Silent Knight #1-4,326,Batman/Santa Claus: Silent Knight #1-4,Yetis
+Harleen Quinzel,22,326.5,127.25,459.0,39,Batman Adventures Holiday Special #1,682,The Hunt for Harley Quinn,Harley Quinn
+League of Assassins,27,327.0,160.0,549.5,43,Tower of Babel,735,Odyssey,League of Assassins
+Dee Dee,2,327.0,314.5,339.5,302,Shadows,352,Batman Beyond: Return of the Joker,Dee Dee
+Hill's Angels,1,327.0,327.0,327.0,327,Vice Versa,327,Vice Versa,Hill's Angels
+Madame Zodiac,1,327.0,327.0,327.0,327,Vice Versa,327,Vice Versa,Madame Zodiac
+Bruce,1,328.0,328.0,328.0,328,"Batman: I, Joker",328,"Batman: I, Joker",Bruce
+Gordon,1,328.0,328.0,328.0,328,"Batman: I, Joker",328,"Batman: I, Joker",Gordon
+Klibon,1,328.0,328.0,328.0,328,"Batman: I, Joker",328,"Batman: I, Joker",Klibon
+Gorilla Grodd,6,331.5,248.0,381.25,26,Final Crisis,495,Public Enemies,Gorilla Grodd
+Carl Sands,4,331.5,246.5,434.0,26,Final Crisis,707,Identity Crisis,Carl Sands
+Lawrence Bolatinsky,4,331.5,246.5,434.0,26,Final Crisis,707,Identity Crisis,Lawrence Bolatinsky
+Joseph Martin,2,331.5,325.75,337.25,320,Villains United #1-6,343,Underworld Unleashed,Joseph Martin
+Mark Scheffer,2,331.5,325.75,337.25,320,Villains United #1-6,343,Underworld Unleashed,Mark Scheffer
+Sledge,2,331.5,325.75,337.25,320,Villains United #1-6,343,Underworld Unleashed,Sledge
+Summer Day,2,331.5,325.75,337.25,320,Villains United #1-6,343,Underworld Unleashed,Summer Day
+Arnold Wesker,18,332.5,122.0,425.5,22,Knightfall Part 1: The Broken Bat,734,Batman: White Knight #1-8,Arnold Wesker
+Ernest Kelleher,1,333.0,333.0,333.0,333,The Joker: Devil’s Advocate OGN,333,The Joker: Devil’s Advocate OGN,Ernest Kelleher
+The Poison Stamp Extortionist,1,333.0,333.0,333.0,333,The Joker: Devil’s Advocate OGN,333,The Joker: Devil’s Advocate OGN,The Poison Stamp Extortionist
+Thomas Manchester,1,333.0,333.0,333.0,333,The Joker: Devil’s Advocate OGN,333,The Joker: Devil’s Advocate OGN,Thomas Manchester
+Tally Man I,2,333.5,284.75,382.25,236,Mark of Cain,431,Tally Man,Tally Man I
+Gotham City Police Department,14,337.0,197.25,441.0,1,Year One,720,Harley Lives,Gotham City Police Department
+Michaela Gough,1,338.0,338.0,338.0,338,Batman ’66 Meets Steed and Mrs. Peel #1-6,338,Batman ’66 Meets Steed and Mrs. Peel #1-6,Michaela Gough
+Zombies,6,338.5,191.5,533.5,128,Li’l Gotham,616,Destruction’s Daughter,Zombies
+Kirk Langstrom,9,339.0,224.0,490.0,26,Final Crisis,579,Legends of the World’s Finest #1-3,Kirk Langstrom
+Delia Pflaum,1,341.0,341.0,341.0,341,Batman V.3 Annual #1,341,Batman V.3 Annual #1,Delia Pflaum
+Minister Blizzard,1,341.0,341.0,341.0,341,Batman V.3 Annual #1,341,Batman V.3 Annual #1,Minister Blizzard
+Stag,1,341.0,341.0,341.0,341,Batman V.3 Annual #1,341,Batman V.3 Annual #1,Stag
+Maxwell Lord IV,2,342.5,284.25,400.75,226,The OMAC Project/Sacrifice,459,Justice League Vs. Suicide Squad #1-6,Maxwell Lord IV
+Floyd Lawton,7,343.0,206.5,566.5,14,Strange Apparitions,722,The Widening Gyre,Floyd Lawton
+Margaret Pye,7,343.0,213.5,570.0,128,Li’l Gotham,712,One Night in Gotham City,Margaret Pye
+Eric Needham,5,343.0,320.0,707.0,163,My Own Worst Enemy,722,The Widening Gyre,Eric Needham
+Mark Mardon,5,343.0,320.0,394.0,26,Final Crisis,601,The Weather Wizard’s Triple Treasure Thefts!,Mark Mardon
+Merlyn,3,343.0,210.5,525.0,78,Batman Dies at Dawn!,707,Identity Crisis,Merlyn
+Mick Rory,3,343.0,283.5,379.5,224,Justice League Vs. Godzilla Vs. Kong #1-7,416,DC Rebirth Holiday Special #1,Mick Rory
+Neal Emerson,3,343.0,331.5,401.0,320,Villains United #1-6,459,Justice League Vs. Suicide Squad #1-6,Neal Emerson
+Orm Marius,3,343.0,184.5,504.5,26,Final Crisis,666,Justice League: The Nail #1-3,Orm Marius
+Paul Dekker,3,343.0,194.5,532.5,46,The Last Arkham,722,The Widening Gyre,Paul Dekker
+Roland Desmond,3,343.0,204.5,410.0,66,Leaping Into the Light,477,Escape to Blackgate,Roland Desmond
+Mad Hatter II,2,343.0,245.0,441.0,147,Where Were You the Night Batman Was Killed?,539,The Mad Hatter of Gotham City,Mad Hatter II
+Albert Desmond,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Albert Desmond
+Alec Rois,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Alec Rois
+Black-Cloud-In-Morning,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Black-Cloud-In-Morning
+Blockhouse II,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Blockhouse II
+Circe,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Circe
+Clyde Phillips,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Clyde Phillips
+Daniel William Ducannon,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Daniel William Ducannon
+Deadline,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Deadline
+Dummy,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Dummy
+Harlequin IV,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Harlequin IV
+Herbert Hynde,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Herbert Hynde
+Hi-Tech,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Hi-Tech
+Isaac Bowin,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Isaac Bowin
+James Craddock II,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,James Craddock II
+Jewelee,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Jewelee
+Jolt II,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Jolt II
+Julie Caesar,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Julie Caesar
+Karshon,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Karshon
+Mark Shaw,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Mark Shaw
+Mongul I,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Mongul I
+Neron,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Neron
+Richard Hertz,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Richard Hertz
+Roderick Rose,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Roderick Rose
+Satanus,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Satanus
+Thomas Emery,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Thomas Emery
+Tobias Manning,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Tobias Manning
+Valerie Beaudry,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,Valerie Beaudry
+William Kavanagh,1,343.0,343.0,343.0,343,Underworld Unleashed,343,Underworld Unleashed,William Kavanagh
+Arthur Brown,8,343.5,306.0,389.75,184,Batman: Eternal V.3,739,War Crimes,Arthur Brown
+Lester Buchinsky,3,344.0,215.5,383.0,87,Batman: Black and White V.4,422,Money Train,Lester Buchinsky
+Titus Czonka,3,344.0,221.0,383.0,98,Wayne Family Adventures V.1,422,Money Train,Titus Czonka
+Billy Batson,6,346.0,260.5,469.75,13,Kingdom Come #1-4,677,The Amazo Virus,Billy Batson
+Glorious Godfrey,2,346.0,186.0,506.0,26,Final Crisis,666,Justice League: The Nail #1-3,Glorious Godfrey
+Christopher Castillo,1,348.0,348.0,348.0,348,Catwoman: When In Rome #1-6,348,Catwoman: When In Rome #1-6,Christopher Castillo
+Guillermo Verinni,1,348.0,348.0,348.0,348,Catwoman: When In Rome #1-6,348,Catwoman: When In Rome #1-6,Guillermo Verinni
+Louisa Falcone,1,348.0,348.0,348.0,348,Catwoman: When In Rome #1-6,348,Catwoman: When In Rome #1-6,Louisa Falcone
+False Face Society,9,349.0,253.0,373.0,23,Batman: Crimson Mist OGN,462,Lock-Up,False Face Society
+Anatoli Knyazev,7,349.0,222.0,493.0,128,Li’l Gotham,611,Face the Face,Anatoli Knyazev
+Joseph Chill,2,351.0,282.5,419.5,214,Batman: Holy Terror,488,Batman Begins: The Official Movie Adaptation,Joseph Chill
+Sinestro,2,351.5,185.25,517.75,19,The New Frontier,684,Batman: In Darkest Knight,Sinestro
+Ben Knox,1,352.0,352.0,352.0,352,Batman Beyond: Return of the Joker,352,Batman Beyond: Return of the Joker,Ben Knox
+Charles Buntz,1,352.0,352.0,352.0,352,Batman Beyond: Return of the Joker,352,Batman Beyond: Return of the Joker,Charles Buntz
+Jokerz,1,352.0,352.0,352.0,352,Batman Beyond: Return of the Joker,352,Batman Beyond: Return of the Joker,Jokerz
+Stewart Carter Winthrop III,1,352.0,352.0,352.0,352,Batman Beyond: Return of the Joker,352,Batman Beyond: Return of the Joker,Stewart Carter Winthrop III
+Woof,1,352.0,352.0,352.0,352,Batman Beyond: Return of the Joker,352,Batman Beyond: Return of the Joker,Woof
+Goliath,3,353.0,329.5,451.5,306,The Grail,550,A Vow From the Grave,Goliath
+Sandra Wu-San,14,354.0,237.0,487.25,119,"The Bad News, or The Butterfly",646,Perpetual Motion,Sandra Wu-San
+Magistrate,3,354.0,323.5,378.0,293,The Great Train Robbery,402,I Am Batman Begins/Fear State,Magistrate
+Captain Stanz,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Captain Stanz
+Christopher Nakano,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Christopher Nakano
+Cybers,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Cybers
+Lucas Fox,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Lucas Fox
+Lucius Fox,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Lucius Fox
+Peacekeepers,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Peacekeepers
+Sean Mahoney,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Sean Mahoney
+Tanya Fox,1,354.0,354.0,354.0,354,The Next Batman,354,The Next Batman,Tanya Fox
+Roman Sionis,19,355.0,147.5,444.5,17,Arkham Asylum: A Serious House on Serious Earth OGN,739,War Crimes,Roman Sionis
+Devil Pigs,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Devil Pigs
+Gee Gee Heung,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Gee Gee Heung
+Mister Bloom,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Mister Bloom
+Precious Precious,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Precious Precious
+Qi Tsu,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Qi Tsu
+Whisper Gang,1,355.0,355.0,355.0,355,Superheavy,355,Superheavy,Whisper Gang
+Ted Carson,4,356.5,178.75,564.5,163,My Own Worst Enemy,671,Deface the Face,Ted Carson
+Bamboo Monkey,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Bamboo Monkey
+Benjamin Turner,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Benjamin Turner
+Brotherhood of the Monkey Fist,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Brotherhood of the Monkey Fist
+Edward Fyers,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Edward Fyers
+Sensei of the Brotherhood of the Monkey Fist,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Sensei of the Brotherhood of the Monkey Fist
+Silver Monkey,1,357.0,357.0,357.0,357,Brotherhood of the Fist,357,Brotherhood of the Fist,Silver Monkey
+Edmund Dorrance,4,358.0,203.25,510.75,192,The Lazarus Tournament,516,Shadow Box,Edmund Dorrance
+Quiz and Query,1,358.0,358.0,358.0,358,A Christmas Riddle,358,A Christmas Riddle,Quiz and Query
+Joseph Carny,2,359.5,186.25,532.75,13,Kingdom Come #1-4,706,Robin & Batman #1-3,Joseph Carny
+Julian Day,9,360.0,153.0,498.0,16,Dark Victory,722,The Widening Gyre,Julian Day
+Teth-Adam,4,360.0,337.25,385.0,320,Villains United #1-6,409,Injustice: Gods Among Us Vol.2,Teth-Adam
+Chancer,1,360.0,360.0,360.0,360,The Misfits,360,The Misfits,Chancer
+Misfits,1,360.0,360.0,360.0,360,The Misfits,360,The Misfits,Misfits
+Boone,2,360.5,232.75,488.25,105,Demon Star,616,Destruction’s Daughter,Boone
+Kitty Kumbata,2,360.5,232.75,488.25,105,Demon Star,616,Destruction’s Daughter,Kitty Kumbata
+Mad Dog III,2,360.5,232.75,488.25,105,Demon Star,616,Destruction’s Daughter,Mad Dog III
+Frederick DeLamb,1,361.0,361.0,361.0,361,Enter the Outsiders,361,Enter the Outsiders,Frederick DeLamb
+Lynx,2,361.5,284.25,438.75,207,Going Solo,516,Shadow Box,Lynx
+Basil Nurblin,1,362.0,362.0,362.0,362,Corvalho,362,Corvalho,Basil Nurblin
+Alexander Luthor,18,363.0,224.5,483.75,13,Kingdom Come #1-4,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,Alexander Luthor
+Chiller,2,363.0,353.0,373.0,343,Underworld Unleashed,383,Dark Knight Over Metropolis,Chiller
+Andre Chavard,1,363.0,363.0,363.0,363,Injustice: Year Zero Chapters 1-14,363,Injustice: Year Zero Chapters 1-14,Andre Chavard
+Dinah Drake,1,363.0,363.0,363.0,363,Injustice: Year Zero Chapters 1-14,363,Injustice: Year Zero Chapters 1-14,Dinah Drake
+Jason Garrick,1,363.0,363.0,363.0,363,Injustice: Year Zero Chapters 1-14,363,Injustice: Year Zero Chapters 1-14,Jason Garrick
+Amity Arkham,1,364.0,364.0,364.0,364,Calamity,364,Calamity,Amity Arkham
+Coach Humphreys,1,364.0,364.0,364.0,364,Calamity,364,Calamity,Coach Humphreys
+Katherine Karlo,1,364.0,364.0,364.0,364,Calamity,364,Calamity,Katherine Karlo
+Sybil Silverlock,1,364.0,364.0,364.0,364,Calamity,364,Calamity,Sybil Silverlock
+Komissar Garten,1,365.0,365.0,365.0,365,Batman Chronicles #11,365,Batman Chronicles #11,Komissar Garten
+United States Government,4,366.5,311.25,463.75,228,Don’t Blink,673,The Fall and Rise of Oswald Cobblepot,United States Government
+William Cherry,1,367.0,367.0,367.0,367,Fever,367,Fever,William Cherry
+Mitchell Mayo,1,368.0,368.0,368.0,368,Batgirl: Year One #1-9,368,Batgirl: Year One #1-9,Mitchell Mayo
+Tony Bressi,1,368.0,368.0,368.0,368,Batgirl: Year One #1-9,368,Batgirl: Year One #1-9,Tony Bressi
+Evan McCulloch,4,368.5,263.75,472.25,26,Final Crisis,707,Identity Crisis,Evan McCulloch
+Winslow Schott,3,369.0,344.5,537.5,320,Villains United #1-6,706,Robin & Batman #1-3,Winslow Schott
+Batman,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Batman
+Elves,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Elves
+Jake Jordan,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Jake Jordan
+Kyle Rayner,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Kyle Rayner
+Santa Claus,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Santa Claus
+Superman Blue,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,Superman Blue
+robot,1,369.0,369.0,369.0,369,New Year’s Evil V.2 #1,369,New Year’s Evil V.2 #1,robot
+Renee Montoya,3,372.0,261.5,387.0,151,Batman: The Vengeance of Bane II,402,I Am Batman Begins/Fear State,Renee Montoya
+Tatsu Yamashiro,1,372.0,372.0,372.0,372,Batman Tales: Once Upon a Crime OGN,372,Batman Tales: Once Upon a Crime OGN,Tatsu Yamashiro
+Tattoo I,1,373.0,373.0,373.0,373,Warpaint,373,Warpaint,Tattoo I
+Ku Klux Klan,2,374.5,196.75,552.25,19,The New Frontier,730,Batman: Dark Allegiances,Ku Klux Klan
+Niccolai Tepes,2,374.5,231.25,517.75,88,Batman and the Mad Monk #1-6,661,Batman Vs. the Vampire,Niccolai Tepes
+Tweedledum and Tweedledee,8,376.5,119.5,469.75,46,The Last Arkham,733,Mad,Tweedledum and Tweedledee
+Dumson Tweed,2,376.5,348.25,404.75,320,Villains United #1-6,433,Heart of Hush,Dumson Tweed
+Albert Rothstein,1,377.0,377.0,377.0,377,DCeased: Hope At World’s End #1-15,377,DCeased: Hope At World’s End #1-15,Albert Rothstein
+Anti-Living,1,377.0,377.0,377.0,377,DCeased: Hope At World’s End #1-15,377,DCeased: Hope At World’s End #1-15,Anti-Living
+Waylon Jones,48,379.0,162.5,541.5,3,Cold Days,735,Odyssey,Killer Croc
+Corporal Punishment,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Corporal Punishment
+Dagger Type,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Dagger Type
+Jawbreakers,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Jawbreakers
+Lani Gilbert,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Lani Gilbert
+Vinton Burwell,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Vinton Burwell
+Yuki Katsura,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Yuki Katsura
+Yuri Katsura,1,380.0,380.0,380.0,380,Mindfields,380,Mindfields,Yuri Katsura
+Slade Wilson,16,381.0,233.75,563.0,26,Final Crisis,726,Stop Me If You’ve Heard This One…,Slade Wilson
+Preston Payne,5,381.0,174.0,666.0,17,Arkham Asylum: A Serious House on Serious Earth OGN,713,Chasing Clay,Preston Payne
+Mud Pack,1,381.0,381.0,381.0,381,Mud Pack,381,Mud Pack,Mud Pack
+Sondra Fuller,1,381.0,381.0,381.0,381,Mud Pack,381,Mud Pack,Sondra Fuller
+Doctor Moon,3,383.0,346.0,414.5,309,Catch As Catscan,446,Batman: Two-Face Strikes Twice #1-2,Doctor Moon
+Arnold Pruett,1,383.0,383.0,383.0,383,Dark Knight Over Metropolis,383,Dark Knight Over Metropolis,Arnold Pruett
+Blindspot,1,383.0,383.0,383.0,383,Dark Knight Over Metropolis,383,Dark Knight Over Metropolis,Blindspot
+Gillespie,1,383.0,383.0,383.0,383,Dark Knight Over Metropolis,383,Dark Knight Over Metropolis,Gillespie
+Morgan Edge,1,383.0,383.0,383.0,383,Dark Knight Over Metropolis,383,Dark Knight Over Metropolis,Morgan Edge
+Team Luthor,1,383.0,383.0,383.0,383,Dark Knight Over Metropolis,383,Dark Knight Over Metropolis,Team Luthor
+Edward Nygma,14,386.0,201.5,492.25,94,Batman’s Mystery Casebook OGN,738,Dreadful Reins,Edward Nygma
+Duela Dent,4,386.0,228.25,580.75,184,Batman: Eternal V.3,736,Down Under,Duela Dent
+Caesar Lopez,1,386.0,386.0,386.0,386,The Idiot Root,386,The Idiot Root,Caesar Lopez
+Queen of Hearts I,1,386.0,386.0,386.0,386,The Idiot Root,386,The Idiot Root,Queen of Hearts I
+Cassius Payne,3,388.0,207.0,550.5,26,Final Crisis,713,Chasing Clay,Cassius Payne
+April Clarkson,1,388.0,388.0,388.0,388,Batman: Gotham After Midnight #1-12,388,Batman: Gotham After Midnight #1-12,April Clarkson
+Wilkinson,1,388.0,388.0,388.0,388,Batman: Gotham After Midnight #1-12,388,Batman: Gotham After Midnight #1-12,Wilkinson
+Jack Napier,6,389.0,92.25,640.0,56,Batman: The Official Comic Adaptation,709,Tales from the Dark Multiverse: Batman- Hush,Jack Napier
+FutureGas,1,392.0,392.0,392.0,392,Gotham Villains 80th Anniversary Giant,392,Gotham Villains 80th Anniversary Giant,FutureGas
+Jackson Laubster,1,392.0,392.0,392.0,392,Gotham Villains 80th Anniversary Giant,392,Gotham Villains 80th Anniversary Giant,Jackson Laubster
+Red Hood Gang,1,392.0,392.0,392.0,392,Gotham Villains 80th Anniversary Giant,392,Gotham Villains 80th Anniversary Giant,Red Hood Gang
+Henri Ducard,1,393.0,393.0,393.0,393,Blind Justice,393,Blind Justice,Henri Ducard
+Kenneth Harbinger,1,393.0,393.0,393.0,393,Blind Justice,393,Blind Justice,Kenneth Harbinger
+Damian Wayne,5,394.0,353.0,430.0,78,Batman Dies at Dawn!,458,Batman and Son,Damian Wayne
+Regime,5,394.0,298.0,430.0,248,Injustice Gods Among Us- Year 3 V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Regime
+Alexander Sartorius,4,394.0,308.75,517.75,206,Batgirl Rising- Core Requirements,736,Down Under,Alexander Sartorius
+George Harkness,3,394.0,368.5,550.5,343,Underworld Unleashed,707,Identity Crisis,George Harkness
+Raven,3,394.0,321.0,401.5,248,Injustice Gods Among Us- Year 3 V.1,409,Injustice: Gods Among Us Vol.2,Raven
+Rogues,3,394.0,368.5,405.0,343,Underworld Unleashed,416,DC Rebirth Holiday Special #1,Rogues
+President Boon,1,394.0,394.0,394.0,394,Injustice: Gods Among Us Vol. 1,394,Injustice: Gods Among Us Vol. 1,President Boon
+Darkseid,11,397.0,179.0,537.5,19,The New Frontier,689,Cross World,Darkseid
+James Olsen,3,397.0,383.0,531.5,369,New Year’s Evil V.2 #1,666,Justice League: The Nail #1-3,James Olsen
+Aubrey Sparks,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Aubrey Sparks
+Bounty II,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Bounty II
+Gorgeous Gilly,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Gorgeous Gilly
+Ignition,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Ignition
+Joker League of Anarchy,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Joker League of Anarchy
+Skizm,1,397.0,397.0,397.0,397,Emperor Joker,397,Emperor Joker,Skizm
+Lark,2,398.0,369.0,427.0,340,The Penguin Affair,456,Life After Death,Lark
+Narcosis,1,400.0,400.0,400.0,400,Nightmare In Gotham,400,Nightmare In Gotham,Narcosis
+Adriana Chubb,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Adriana Chubb
+Ezekiel King,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Ezekiel King
+Kira Kosov,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Kira Kosov
+Moral Authority,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Moral Authority
+Morris Caulfield,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Morris Caulfield
+Simon Saint,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Simon Saint
+Victor Noonan,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Victor Noonan
+Whitaker,1,402.0,402.0,402.0,402,I Am Batman Begins/Fear State,402,I Am Batman Begins/Fear State,Whitaker
+Darcy Purnelli,1,403.0,403.0,403.0,403,Night of the Monster Men,403,Night of the Monster Men,Darcy Purnelli
+Oleg Balinoff,1,403.0,403.0,403.0,403,Night of the Monster Men,403,Night of the Monster Men,Oleg Balinoff
+Daryl Gutierrez,2,404.5,379.75,429.25,355,Superheavy,454,The Cursed Wheel,Daryl Gutierrez
+Mister Freeze II,2,404.5,275.75,533.25,147,Where Were You the Night Batman Was Killed?,662,The Ice Crimes of Mr. Zero,Mister Freeze II
+Amazo,3,405.0,362.5,535.5,320,Villains United #1-6,666,Justice League: The Nail #1-3,Amazo
+Werner Vertigo,3,405.0,362.5,535.5,320,Villains United #1-6,666,Justice League: The Nail #1-3,Werner Vertigo
+David Li,1,405.0,405.0,405.0,405,Under the Red Hood,405,Under the Red Hood,David Li
+Jivan Shi,1,405.0,405.0,405.0,405,Under the Red Hood,405,Under the Red Hood,Jivan Shi
+Lyle Bolton,6,405.5,255.25,473.25,184,Batman: Eternal V.3,509,Batman & Wildcat #1-3,Lyle Bolton
+Peyton Riley,4,405.5,322.25,440.5,128,Li’l Gotham,490,Gotham Underground #1-9,Peyton Riley
+"Peter Merkel, Jr.",2,407.0,346.0,468.0,285,Whitewater,529,Arkham War,"Peter Merkel, Jr."
+Katar Hol,1,407.0,407.0,407.0,407,Birds of Rage,407,Birds of Rage,Katar Hol
+Shayera Thal,1,407.0,407.0,407.0,407,Birds of Rage,407,Birds of Rage,Shayera Thal
+Humphry Dumpler,2,408.0,364.0,452.0,320,Villains United #1-6,496,Battle for the Cowl,Humphry Dumpler
+D'Kay D'Razz,1,408.0,408.0,408.0,408,Red Hood: Outlaws V.1,408,Red Hood: Outlaws V.1,D'Kay D'Razz
+Green Martians,1,408.0,408.0,408.0,408,Red Hood: Outlaws V.1,408,Red Hood: Outlaws V.1,Green Martians
+Joseph Chilton,4,408.5,201.25,594.25,28,To Kill a Legend,703,The Wedding,Joseph Chilton
+Kal-El,11,409.0,273.0,460.0,8,The Dark Knight Returns,674,Injustice: Gods Among Us Year 4 Vol. 2,Superman
+Parademons,3,409.0,319.5,541.5,230,Justice League: Last Ride #1-7,674,Injustice: Gods Among Us Year 4 Vol. 2,Parademons
+Lazlo Valentin,4,410.5,251.75,565.75,131,Batman Reborn,676,Manslaughter,Lazlo Valentin
+Ares,4,412.0,387.75,491.0,369,New Year’s Evil V.2 #1,674,Injustice: Gods Among Us Year 4 Vol. 2,Ares
+Robert Overdog,1,412.0,412.0,412.0,412,Legends of the Dark Mite,412,Legends of the Dark Mite,Robert Overdog
+Talon,2,413.0,367.5,458.5,322,Batman: City of Madness #1-3,504,Court Fight,Talon
+Matthew Hagen,9,414.0,214.0,600.0,39,Batman Adventures Holiday Special #1,735,Odyssey,Matthew Hagen
+Emerson Mayfield,1,414.0,414.0,414.0,414,Mayor Mayhem,414,Mayor Mayhem,Emerson Mayfield
+Mister Wing,1,414.0,414.0,414.0,414,Mayor Mayhem,414,Mayor Mayhem,Mister Wing
+Caitlin Snow,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Caitlin Snow
+Chang Ming-Zu,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Chang Ming-Zu
+Diablo,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Diablo
+Ding-Dong Daddy,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Ding-Dong Daddy
+Honeybun,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Honeybun
+Jack Frost,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Jack Frost
+Rainbow Creature,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Rainbow Creature
+Samuel Scudder,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Samuel Scudder
+Winter Wasp,1,416.0,416.0,416.0,416,DC Rebirth Holiday Special #1,416,DC Rebirth Holiday Special #1,Winter Wasp
+Bat-Mite,2,417.0,340.0,494.0,263,Crisis of Infinite Scoobys,571,Bat-Mite Meets Mr. Mxyzptlk,Bat-Mite
+John Corben,2,419.0,381.0,457.0,343,Underworld Unleashed,495,Public Enemies,John Corben
+Hal Jordan,6,419.5,397.75,496.0,248,Injustice Gods Among Us- Year 3 V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Hal Jordan
+Hector Ortiz,1,420.0,420.0,420.0,420,We Are Robin,420,We Are Robin,Hector Ortiz
+Omni Mind and Community,2,421.0,323.5,518.5,226,The OMAC Project/Sacrifice,616,Destruction’s Daughter,Omni Mind and Community
+Avery Twombey,1,422.0,422.0,422.0,422,Money Train,422,Money Train,Avery Twombey
+Kurt Stack,1,422.0,422.0,422.0,422,Money Train,422,Money Train,Kurt Stack
+Speedboyz,1,422.0,422.0,422.0,422,Money Train,422,Money Train,Speedboyz
+Anthony Marchetti,3,424.0,276.0,444.5,128,Li’l Gotham,465,Night of the Penguin Detective Comics V.1 #824),Anthony Marchetti
+Mister ZZZ,3,424.0,276.0,444.5,128,Li’l Gotham,465,Night of the Penguin Detective Comics V.1 #824),Mister ZZZ
+Warren White,6,425.5,211.0,520.75,128,Li’l Gotham,611,Face the Face,Warren White
+Angelo Bend,1,427.0,427.0,427.0,427,Backward Masking,427,Backward Masking,Angelo Bend
+Hydra,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Hydra
+Maria Salvaje,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Maria Salvaje
+Maro Ito,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Maro Ito
+Mary Worth,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Mary Worth
+Medusa,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Medusa
+"Nyx, Goddess of the Night",1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,"Nyx, Goddess of the Night"
+Rush II,1,428.0,428.0,428.0,428,Batwoman/Wonder Woman: World’s Finest,428,Batwoman/Wonder Woman: World’s Finest,Rush II
+Alice Travers,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Alice Travers
+Dorothy Travers,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Dorothy Travers
+Dreamland Gang,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Dreamland Gang
+Mister Bear,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Mister Bear
+Mister Sweep,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Mister Sweep
+Mister Wylie,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Mister Wylie
+Wily Wendi,1,429.0,429.0,429.0,429,Grimm,429,Grimm,Wily Wendi
+Barry Allen,9,430.0,394.0,461.0,248,Injustice Gods Among Us- Year 3 V.1,677,The Amazo Virus,Barry Allen
+Diana of Themyscira,7,430.0,401.5,460.0,26,Final Crisis,674,Injustice: Gods Among Us Year 4 Vol. 2,Wonder Woman
+Hercules,1,430.0,430.0,430.0,430,Injustice: Gods Among Us- Year Four V.1,430,Injustice: Gods Among Us- Year Four V.1,Hercules
+Citizen Abra,2,430.5,386.75,474.25,343,Underworld Unleashed,518,Zero Hour,Citizen Abra
+Scarface,2,431.0,279.5,582.5,128,Li’l Gotham,734,Batman: White Knight #1-8,Scarface
+Diedre Vance,2,431.5,320.25,542.75,209,The Bat of the Future- Today!,654,Batman: Prelude to the Wedding #1-5,Diedre Vance
+Nina Damfino,2,431.5,320.25,542.75,209,The Bat of the Future- Today!,654,Batman: Prelude to the Wedding #1-5,Nina Damfino
+Query and Echo,2,431.5,320.25,542.75,209,The Bat of the Future- Today!,654,Batman: Prelude to the Wedding #1-5,Query and Echo
+Thomas Elliot,11,433.0,213.5,605.5,127,Hush,698,Pushback,Thomas Elliot
+Doctor Aesop,1,433.0,433.0,433.0,433,Heart of Hush,433,Heart of Hush,Doctor Aesop
+Jenna Duffy,1,433.0,433.0,433.0,433,Heart of Hush,433,Heart of Hush,Jenna Duffy
+Justice League,4,434.0,405.25,459.5,394,Injustice: Gods Among Us Vol. 1,461,Everyone Loves Ivy,Justice League
+Liam Hawkleigh,2,435.5,389.25,481.75,343,Underworld Unleashed,528,The Death Lottery,Liam Hawkleigh
+Carter Hall,2,436.0,406.5,465.5,377,DCeased: Hope At World’s End #1-15,495,Public Enemies,Carter Hall
+Bruno Mannheim,2,436.5,409.75,463.25,383,Dark Knight Over Metropolis,490,Gotham Underground #1-9,Bruno Mannheim
+Anton Arkayn,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Anton Arkayn
+Communist Party,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Communist Party
+Edel Nacht,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Edel Nacht
+Faora Hu-Ul,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Faora Hu-Ul
+Joker's Daughter,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Joker's Daughter
+Selina Digatti,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Selina Digatti
+Tenebrus,1,437.0,437.0,437.0,437,Enlisted,437,Enlisted,Tenebrus
+Victor Stone,7,439.0,401.5,567.5,298,Injustice: Gods Among Us Year 2 Vol.1,677,The Amazo Virus,Victor Stone
+Reaper,2,439.5,394.75,484.25,350,Nowhere Man,529,Arkham War,Reaper
+Charles Brown,5,441.0,377.0,499.0,98,Wayne Family Adventures V.1,703,The Wedding,Charles Brown
+Headhunter,1,441.0,441.0,441.0,441,The Brave and the Mold,441,The Brave and the Mold,Headhunter
+Gorillas,2,442.5,333.25,551.75,224,Justice League Vs. Godzilla Vs. Kong #1-7,661,Batman Vs. the Vampire,Gorillas
+Cthugha,1,443.0,443.0,443.0,443,Living Hell,443,Living Hell,Cthugha
+Daedalus Boch,1,443.0,443.0,443.0,443,Living Hell,443,Living Hell,Daedalus Boch
+Skarva,1,443.0,443.0,443.0,443,Living Hell,443,Living Hell,Skarva
+Alyce Sinner,1,445.0,445.0,445.0,445,Batman: Arkham Reborn #1-3,445,Batman: Arkham Reborn #1-3,Alyce Sinner
+Benjamin  Wiley,1,445.0,445.0,445.0,445,Batman: Arkham Reborn #1-3,445,Batman: Arkham Reborn #1-3,Benjamin  Wiley
+Jester II,1,445.0,445.0,445.0,445,Batman: Arkham Reborn #1-3,445,Batman: Arkham Reborn #1-3,Jester II
+Joe Chill,2,448.0,330.0,566.0,212,The Origin of Batman,684,Batman: In Darkest Knight,Joe Chill
+David Cain,5,449.0,351.0,457.0,236,Mark of Cain,480,Batman & Robin Eternal #1-26,David Cain
+Marque,1,449.0,449.0,449.0,449,Redemption Road,449,Redemption Road,Marque
+Thaddeus Trigger,2,449.5,435.75,463.25,422,Money Train,477,Escape to Blackgate,Thaddeus Trigger
+Thomas Trigger,2,449.5,435.75,463.25,422,Money Train,477,Escape to Blackgate,Thomas Trigger
+Trigger Twins II,2,449.5,435.75,463.25,422,Money Train,477,Escape to Blackgate,Trigger Twins II
+Deever Tweed,9,450.0,320.0,671.0,46,The Last Arkham,733,Mad,Deever Tweed
+Joseph Stucci,2,451.0,427.0,475.0,403,Night of the Monster Men,499,I Am Gotham,Joseph Stucci
+Robert Castro,2,451.0,427.0,475.0,403,Night of the Monster Men,499,I Am Gotham,Robert Castro
+Professor Powder,1,451.0,451.0,451.0,451,Control Freak,451,Control Freak,Professor Powder
+Bromwell Stikk,1,452.0,452.0,452.0,452,Survival,452,Survival,Bromwell Stikk
+Royal Flush Gang,4,455.5,280.75,619.75,163,My Own Worst Enemy,706,Robin & Batman #1-3,Royal Flush Gang
+Amos Fortune,2,455.5,387.75,523.25,320,Villains United #1-6,591,Imp-Possible,Amos Fortune
+Jeremiah Arkham,3,456.0,450.5,476.0,445,Batman: Arkham Reborn #1-3,496,Battle for the Cowl,Jeremiah Arkham
+Kitrina Falcone,1,456.0,456.0,456.0,456,Life After Death,456,Life After Death,Kitrina Falcone
+Linda Friitawa,1,456.0,456.0,456.0,456,Life After Death,456,Life After Death,Linda Friitawa
+Three Ghosts of Batman,3,458.0,268.0,492.0,78,Batman Dies at Dawn!,526,The Three Ghosts of Batman,Three Ghosts of Batman
+Arthur Curry,3,459.0,426.5,568.0,394,Injustice: Gods Among Us Vol. 1,677,The Amazo Virus,Arthur Curry
+Brimstone Brotherhood,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Brimstone Brotherhood
+Jonathan Sorrow,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Jonathan Sorrow
+Lobo II,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Lobo II
+Raza Kattuah,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Raza Kattuah
+Sarya,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Sarya
+Simon Baz,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Simon Baz
+Suicide Squad,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justice League Vs. Suicide Squad #1-6,Suicide Squad
+Constantine Drakon,1,460.0,460.0,460.0,460,Seeing Red,460,Seeing Red,Constantine Drakon
+Daniel Brickwell,1,460.0,460.0,460.0,460,Seeing Red,460,Seeing Red,Daniel Brickwell
+Natas,1,460.0,460.0,460.0,460,Seeing Red,460,Seeing Red,Natas
+Blaze,4,461.0,299.75,603.0,170,Batman ’66 V.2,675,Golden Dawn,Blaze
+Jessica Cruz,3,461.0,460.0,569.0,459,Justice League Vs. Suicide Squad #1-6,677,The Amazo Virus,Jessica Cruz
+Kara Zor-El,3,461.0,415.0,540.0,369,New Year’s Evil V.2 #1,619,Enemies Among Us,Kara Zor-El
+Kong Kenan,1,461.0,461.0,461.0,461,Everyone Loves Ivy,461,Everyone Loves Ivy,Kong Kenan
+Wallace Daniel West,1,461.0,461.0,461.0,461,Everyone Loves Ivy,461,Everyone Loves Ivy,Wallace Daniel West
+Wally West,1,461.0,461.0,461.0,461,Everyone Loves Ivy,461,Everyone Loves Ivy,Wally West
+Eldon Adams,1,462.0,462.0,462.0,462,Lock-Up,462,Lock-Up,Eldon Adams
+Maxwell Veezey,1,462.0,462.0,462.0,462,Lock-Up,462,Lock-Up,Maxwell Veezey
+James Gordon,4,464.5,338.25,575.25,237,The Joker Vs. Fox News,630,A Grim Knight in Gotham,James Gordon
+Cassidy,2,465.5,443.75,487.25,422,Money Train,509,Batman & Wildcat #1-3,Cassidy
+Jane Doe,2,469.5,456.25,482.75,443,Living Hell,496,Battle for the Cowl,Jane Doe
+Joker Virus,1,470.0,470.0,470.0,470,Batman: Digital Justice OGN,470,Batman: Digital Justice OGN,Joker Virus
+Maria Romero,1,470.0,470.0,470.0,470,Batman: Digital Justice OGN,470,Batman: Digital Justice OGN,Maria Romero
+Bloodhawks,1,471.0,471.0,471.0,471,Batman: Outlaws #1-3,471,Batman: Outlaws #1-3,Bloodhawks
+David Atlee Redmun,1,471.0,471.0,471.0,471,Batman: Outlaws #1-3,471,Batman: Outlaws #1-3,David Atlee Redmun
+Hugo Strange,18,473.0,274.75,554.25,14,Strange Apparitions,703,The Wedding,Hugo Strange
+Barbara Gordon,2,473.0,355.0,591.0,237,The Joker Vs. Fox News,709,Tales from the Dark Multiverse: Batman- Hush,Barbara Gordon
+Maxwell Cort,2,473.5,432.25,514.75,391,Prey,556,The Return of Batman,Maxwell Cort
+Avery Oblonsky,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Avery Oblonsky
+Black Mist,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Black Mist
+Fallen,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Fallen
+Fissure,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Fissure
+Hollow,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Hollow
+Oryx,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Oryx
+Phantom-One,1,474.0,474.0,474.0,474,No More Teachers,474,No More Teachers,Phantom-One
+Bossworth,2,476.0,466.0,486.0,456,Life After Death,496,Battle for the Cowl,Bossworth
+Steel Fang,1,476.0,476.0,476.0,476,Perchance…,476,Perchance…,Steel Fang
+Joseph Coyne,2,477.0,446.5,507.5,416,DC Rebirth Holiday Special #1,538,The Penny Plunderers,Joseph Coyne
+Dale Biggler,1,477.0,477.0,477.0,477,Escape to Blackgate,477,Escape to Blackgate,Dale Biggler
+Delmore Redhorn,1,477.0,477.0,477.0,477,Escape to Blackgate,477,Escape to Blackgate,Delmore Redhorn
+Elmo Galvan,1,477.0,477.0,477.0,477,Escape to Blackgate,477,Escape to Blackgate,Elmo Galvan
+Thaddeus Ryerstad,1,477.0,477.0,477.0,477,Escape to Blackgate,477,Escape to Blackgate,Thaddeus Ryerstad
+Tumult,1,477.0,477.0,477.0,477,Escape to Blackgate,477,Escape to Blackgate,Tumult
+Jason Todd,8,478.0,355.0,691.0,127,Hush,714,Brothers in Blood,Jason Todd
+Harper Row,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Harper Row
+Mother,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Mother
+Orphans,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Orphans
+Poppy Ashemore,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Poppy Ashemore
+Prague,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Prague
+Saint Dumas,1,480.0,480.0,480.0,480,Batman & Robin Eternal #1-26,480,Batman & Robin Eternal #1-26,Saint Dumas
+The Case of the Chemical Syndicate,4,483.5,327.0,612.0,153,"Detective Comics #1,027",702,The Case of the Chemical Syndicate,The Case of the Chemical Syndicate
+A.S. Scarlet,1,484.0,484.0,484.0,484,Curse of the Inishtree Quill,484,Curse of the Inishtree Quill,A.S. Scarlet
+Robot,2,487.0,428.0,546.0,369,New Year’s Evil V.2 #1,605,Batman: The Superman of Planet X,Robot
+Charise Carnes,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Charise Carnes
+Jonathan Mills,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Jonathan Mills
+Kulap Vilaysack,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Kulap Vilaysack
+Lisly Bonner,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Lisly Bonner
+Michael Drucker,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Michael Drucker
+Phillipe Rianne,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Phillipe Rianne
+Sally Sarasota,1,487.0,487.0,487.0,487,Knightfall Rising,487,Knightfall Rising,Sally Sarasota
+Decoy Ra's al Ghul,1,488.0,488.0,488.0,488,Batman Begins: The Official Movie Adaptation,488,Batman Begins: The Official Movie Adaptation,Decoy Ra's al Ghul
+Faden,1,488.0,488.0,488.0,488,Batman Begins: The Official Movie Adaptation,488,Batman Begins: The Official Movie Adaptation,Faden
+Arkham Asylum,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Arkham,Arkham Asylum
+William Cobb,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Arkham,William Cobb
+Intergang,3,490.0,436.5,547.0,383,Dark Knight Over Metropolis,604,Bouncing Baby Boy,Intergang
+Richard Grayson,3,490.0,441.0,596.5,392,Gotham Villains 80th Anniversary Giant,703,The Wedding,Dick Grayson
+Bat Killers,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Bat Killers
+Chill,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Chill
+Dead End Boys,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Dead End Boys
+Dorian Chase,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Dorian Chase
+Femmes Fatales,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Femmes Fatales
+Five Points Gang,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Five Points Gang
+John Denetto,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,John Denetto
+L.O.D.,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,L.O.D.
+Mirror-Man,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Mirror-Man
+Miss HGH,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Miss HGH
+Mister Magic,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Mister Magic
+New Rogues,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,New Rogues
+Stephanie Brown,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Stephanie Brown
+Tobias Whale,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Tobias Whale
+Weather Witch,1,490.0,490.0,490.0,490,Gotham Underground #1-9,490,Gotham Underground #1-9,Weather Witch
+Josef Muller,2,492.0,475.0,509.0,458,Batman and Son,526,The Three Ghosts of Batman,Josef Muller
+Elliot Caldwell,1,492.0,492.0,492.0,492,Wrath Child,492,Wrath Child,Elliot Caldwell
+Ferris Boyle,2,492.5,417.25,567.75,342,Snow,643,Batman: Mr. Freeze,Ferris Boyle
+Monsoon,2,493.0,485.0,501.0,477,Escape to Blackgate,509,Batman & Wildcat #1-3,Monsoon
+Steeljacket,2,493.0,485.0,501.0,477,Escape to Blackgate,509,Batman & Wildcat #1-3,Steeljacket
+William Zard,2,493.5,406.75,580.25,320,Villains United #1-6,667,America Vs. The Justice Society #1-4,William Zard
+Clifford Zmeck,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Clifford Zmeck
+Department of Extranormal Operations,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Department of Extranormal Operations
+John Stewart,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,John Stewart
+Justice Society of America,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Justice Society of America
+Knightwatch,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Knightwatch
+Koriand'r,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Koriand'r
+Michael Holt,1,495.0,495.0,495.0,495,Public Enemies,495,Public Enemies,Michael Holt
+Adam Bomb,1,496.0,496.0,496.0,496,Battle for the Cowl,496,Battle for the Cowl,Adam Bomb
+Lotus,2,497.0,454.0,540.0,411,The Senator Has Been Shot!,583,You Can’t Hide From a Deadman,Lotus
+American Security Agency,1,497.0,497.0,497.0,497,…Land Where Our Fathers Dies…,497,…Land Where Our Fathers Dies…,American Security Agency
+B. Eric Blairman,1,497.0,497.0,497.0,497,…Land Where Our Fathers Dies…,497,…Land Where Our Fathers Dies…,B. Eric Blairman
+Psions,1,498.0,498.0,498.0,498,Final Christmas,498,Final Christmas,Psions
+Shadow Demons,1,498.0,498.0,498.0,498,Final Christmas,498,Final Christmas,Shadow Demons
+Colonel Blimp,1,499.0,499.0,499.0,499,I Am Gotham,499,I Am Gotham,Colonel Blimp
+"Henry Clover, Jr.",1,499.0,499.0,499.0,499,I Am Gotham,499,I Am Gotham,"Henry Clover, Jr."
+Karl Courtney,1,499.0,499.0,499.0,499,I Am Gotham,499,I Am Gotham,Karl Courtney
+Samuel Lane,1,499.0,499.0,499.0,499,I Am Gotham,499,I Am Gotham,Samuel Lane
+Mister Mxyzptlk,7,501.0,334.0,543.0,248,Injustice Gods Among Us- Year 3 V.1,726,Stop Me If You’ve Heard This One…,Mister Mxyzptlk
+Nazeer Naga,1,501.0,501.0,501.0,501,Superman: The Wedding Album,501,Superman: The Wedding Album,Nazeer Naga
+Leigh Carson,1,503.0,503.0,503.0,503,A New Dawn,503,A New Dawn,Leigh Carson
+Victor Goodman,1,503.0,503.0,503.0,503,A New Dawn,503,A New Dawn,Victor Goodman
+Paul Booker,2,504.5,423.75,585.25,343,Underworld Unleashed,666,Justice League: The Nail #1-3,Paul Booker
+Thomas Blake,7,508.0,351.5,561.5,285,Whitewater,628,The Secret of the Universe,Thomas Blake
+Chad Graham,2,509.0,414.5,603.5,320,Villains United #1-6,698,Pushback,Chad Graham
+Ernie Chubb,1,509.0,509.0,509.0,509,Batman & Wildcat #1-3,509,Batman & Wildcat #1-3,Ernie Chubb
+Leona Dorsey,1,509.0,509.0,509.0,509,Batman & Wildcat #1-3,509,Batman & Wildcat #1-3,Leona Dorsey
+Willis Danko,1,509.0,509.0,509.0,509,Batman & Wildcat #1-3,509,Batman & Wildcat #1-3,Willis Danko
+Laughing Man,2,510.0,465.5,554.5,421,Leatherwing,599,Batman: Nosferatu,Laughing Man
+Jordan Reynolds,1,511.0,511.0,511.0,511,Officer Down,511,Officer Down,Jordan Reynolds
+Noah Kuttler,4,513.0,246.5,706.25,26,Final Crisis,707,Identity Crisis,Noah Kuttler
+J'onn J'onzz,2,513.5,460.75,566.25,408,Red Hood: Outlaws V.1,619,Enemies Among Us,Martian Manhunter
+Nina Dowd,1,515.0,515.0,515.0,515,Young Justice: Origins,515,Young Justice: Origins,Nina Dowd
+Rip Roar,1,515.0,515.0,515.0,515,Young Justice: Origins,515,Young Justice: Origins,Rip Roar
+Tora,1,515.0,515.0,515.0,515,Young Justice: Origins,515,Young Justice: Origins,Tora
+William Hayes,1,515.0,515.0,515.0,515,Young Justice: Origins,515,Young Justice: Origins,William Hayes
+Hamilton Hill,2,515.5,509.75,521.25,504,Court Fight,527,Half a Hero is Better Than None,Hamilton Hill
+Superman Robot,2,516.5,442.75,590.25,369,New Year’s Evil V.2 #1,664,The Clash of the Cape & Cowl,Superman Robot
+Alexander Lyons,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Alexander Lyons
+Axe,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Axe
+Backbeat,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Backbeat
+Bongo,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Bongo
+Brass,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Brass
+Carrie Levine,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Carrie Levine
+Charles Watkins,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Charles Watkins
+Dagon,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Dagon
+Fusion,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Fusion
+Hawkgod,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Hawkgod
+Henry Hall,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Henry Hall
+Metallik,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Metallik
+Parallax,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Parallax
+Team Titans,1,518.0,518.0,518.0,518,Zero Hour,518,Zero Hour,Team Titans
+Killer Croc,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Killer Croc
+Mister Freeze,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Mister Freeze
+Penguin,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Penguin
+Riddler,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Riddler
+Scarecrow,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Scarecrow
+Two-Face,1,520.0,520.0,520.0,520,Dark Night: A True Batman Story OGN,520,Dark Night: A True Batman Story OGN,Two-Face
+Felix Harmon,2,521.0,465.5,576.5,410,Exquisite Dread,632,Scourge of Owls,Felix Harmon
+Quinlan,1,521.0,521.0,521.0,521,Batman: Son of the Demon OGN,521,Batman: Son of the Demon OGN,Quinlan
+Poison Ivy,2,522.0,521.0,523.0,520,Dark Night: A True Batman Story OGN,524,Batman: The Doom That Came to Gotham #1-3),Poison Ivy
+Benedict Rundstrom,1,522.0,522.0,522.0,522,The Club of Heroes,522,The Club of Heroes,Benedict Rundstrom
+Grendon,1,524.0,524.0,524.0,524,Batman: The Doom That Came to Gotham #1-3),524,Batman: The Doom That Came to Gotham #1-3),Grendon
+Iog-Sotha,1,524.0,524.0,524.0,524,Batman: The Doom That Came to Gotham #1-3),524,Batman: The Doom That Came to Gotham #1-3),Iog-Sotha
+Ludwig Prinn,1,524.0,524.0,524.0,524,Batman: The Doom That Came to Gotham #1-3),524,Batman: The Doom That Came to Gotham #1-3),Ludwig Prinn
+Force of July,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,Force of July
+Lady Liberty,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,Lady Liberty
+Mayflower,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,Mayflower
+Silent Majority,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,Silent Majority
+Sparkler,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,Sparkler
+William Vickers,2,524.5,510.75,538.25,497,…Land Where Our Fathers Dies…,552,From Here to Infinity,William Vickers
+Alexis Luthor,3,525.0,336.0,595.0,147,Where Were You the Night Batman Was Killed?,665,The Origin of the Superman- Batman Team,Alexis Luthor
+David Clinton,2,525.0,434.0,616.0,343,Underworld Unleashed,707,Identity Crisis,David Clinton
+Anthony Lupus,2,525.5,486.75,564.25,448,Moon of the Wolf,603,Werewolf Moon,Anthony Lupus
+Branca,1,526.0,526.0,526.0,526,The Three Ghosts of Batman,526,The Three Ghosts of Batman,Branca
+Peter Pauling,1,527.0,527.0,527.0,527,Half a Hero is Better Than None,527,Half a Hero is Better Than None,Peter Pauling
+Gunbunny,1,528.0,528.0,528.0,528,The Death Lottery,528,The Death Lottery,Gunbunny
+Talons,3,529.0,474.5,580.5,420,We Are Robin,632,Scourge of Owls,Talons
+Nyssa Raatko,2,529.0,485.5,572.5,442,Death and the Maidens,616,Destruction’s Daughter,Nyssa Raatko
+Agatha Zorbatos,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Agatha Zorbatos
+Alexander Staunton,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Alexander Staunton
+Alton Carver,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Alton Carver
+Arkham Asylum inmates,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Arkham Asylum inmates
+Brute,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Brute
+Ephraim Newhouse,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Ephraim Newhouse
+Henry Ballard,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Henry Ballard
+Hypnotic,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Hypnotic
+Ignatius Ogilvy,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Ignatius Ogilvy
+Jaina Hudson,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Jaina Hudson
+Mister Combustible,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Mister Combustible
+Mister Mosaic,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Mister Mosaic
+Porter Vito,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Porter Vito
+Shauna Belzer,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Shauna Belzer
+Sumo,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Sumo
+Vortex,1,529.0,529.0,529.0,529,Arkham War,529,Arkham War,Vortex
+Ubu,8,537.0,415.25,639.75,220,Batman/Superman/Wonder Woman: Trinity #1-3,735,Odyssey,Ubu
+Siobhan McDougal,2,537.0,516.0,558.0,495,Public Enemies,579,Legends of the World’s Finest #1-3,Siobhan McDougal
+Jack Ryder,1,543.0,543.0,543.0,543,The Last Ha-Ha,543,The Last Ha-Ha,Jack Ryder
+Emile Jarrett,1,544.0,544.0,544.0,544,City of Assassins,544,City of Assassins,Emile Jarrett
+Jeremy Barker,1,544.0,544.0,544.0,544,City of Assassins,544,City of Assassins,Jeremy Barker
+Lorna Gaines,1,544.0,544.0,544.0,544,City of Assassins,544,City of Assassins,Lorna Gaines
+Lar-On,1,548.0,548.0,548.0,548,The Werewolf From Krypton,548,The Werewolf From Krypton,Lar-On
+Natalia Knight,2,548.5,538.75,558.25,529,Arkham War,568,The Unknowns,Natalia Knight
+Roger Hayden,5,552.0,499.0,576.0,343,Underworld Unleashed,703,The Wedding,Roger Hayden
+Amazons of Paradise Island,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Amazons of Paradise Island
+Apollo,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Apollo
+Artemis,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Artemis
+Athena,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Athena
+Atlas,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Atlas
+Eros,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Eros
+Gods of Olympus,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Gods of Olympus
+Hera,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Hera
+Hermes,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Hermes
+Zeus,2,552.0,491.0,613.0,430,Injustice: Gods Among Us- Year Four V.1,674,Injustice: Gods Among Us Year 4 Vol. 2,Zeus
+Abraham Lincoln Carlyle,1,552.0,552.0,552.0,552,From Here to Infinity,552,From Here to Infinity,Abraham Lincoln Carlyle
+Wilhelm Vittings,1,552.0,552.0,552.0,552,From Here to Infinity,552,From Here to Infinity,Wilhelm Vittings
+Cheryl,1,557.0,557.0,557.0,557,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour #1-6",557,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour #1-6",Cheryl
+Mephitic,1,557.0,557.0,557.0,557,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour #1-6",557,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour #1-6",Mephitic
+Judson Caspian,1,558.0,558.0,558.0,558,Year Two,558,Year Two,Judson Caspian
+Karl Hellfern,2,559.5,507.75,611.25,456,Life After Death,663,Doctor Death,Karl Hellfern
+Atlanteans,2,561.0,477.5,644.5,394,Injustice: Gods Among Us Vol. 1,728,Superman: Year One #3,Atlanteans
+Lois Lane,2,561.5,479.25,643.75,397,Emperor Joker,726,Stop Me If You’ve Heard This One…,Lois Lane
+Shahn-Zi,1,562.0,562.0,562.0,562,Hour of the Serpent :The Brave and the Bold #137),562,Hour of the Serpent :The Brave and the Bold #137),Shahn-Zi
+Despero,2,567.0,541.0,593.0,515,Young Justice: Origins,619,Enemies Among Us,Despero
+Batman (Impostor),1,567.0,567.0,567.0,567,Batman’s Baffling Turnabout,567,Batman’s Baffling Turnabout,Batman (Impostor)
+Green Fairy,1,568.0,568.0,568.0,568,The Unknowns,568,The Unknowns,Green Fairy
+Man o' War,1,568.0,568.0,568.0,568,The Unknowns,568,The Unknowns,Man o' War
+Morgaine le Fey,1,568.0,568.0,568.0,568,The Unknowns,568,The Unknowns,Morgaine le Fey
+Mr. Mortis,1,568.0,568.0,568.0,568,The Unknowns,568,The Unknowns,Mr. Mortis
+Scatter,1,568.0,568.0,568.0,568,The Unknowns,568,The Unknowns,Scatter
+Jack Smart,1,570.0,570.0,570.0,570,Batman: The Golden Streets of Gotham,570,Batman: The Golden Streets of Gotham,Jack Smart
+Joseph Chillingham,1,570.0,570.0,570.0,570,Batman: The Golden Streets of Gotham,570,Batman: The Golden Streets of Gotham,Joseph Chillingham
+Crime Robot,1,571.0,571.0,571.0,571,Bat-Mite Meets Mr. Mxyzptlk,571,Bat-Mite Meets Mr. Mxyzptlk,Crime Robot
+Mxyzptlk Creature,1,571.0,571.0,571.0,571,Bat-Mite Meets Mr. Mxyzptlk,571,Bat-Mite Meets Mr. Mxyzptlk,Mxyzptlk Creature
+One-Thousand,2,571.5,530.75,612.25,490,Gotham Underground #1-9,653,Hit or Miss!,One-Thousand
+Burn,2,572.5,531.25,613.75,490,Gotham Underground #1-9,655,Batman: Harley & Ivy #1-3,Burn
+Demons,6,573.5,474.25,600.75,355,Superheavy,675,Golden Dawn,Demons
+Tullus,1,579.0,579.0,579.0,579,Legends of the World’s Finest #1-3,579,Legends of the World’s Finest #1-3,Tullus
+Granny Goodness,3,580.0,303.0,623.0,26,Final Crisis,666,Justice League: The Nail #1-3,Granny Goodness
+Sensei,3,583.0,497.0,659.0,411,The Senator Has Been Shot!,735,Odyssey,Sensei
+Edward Wells,1,584.0,584.0,584.0,584,The Last Batgirl Story,584,The Last Batgirl Story,Edward Wells
+Alfred Pennyworth,2,585.0,523.0,647.0,461,Everyone Loves Ivy,709,Tales from the Dark Multiverse: Batman- Hush,Alfred Pennyworth
+Amanda Waller,2,586.0,542.5,629.5,499,I Am Gotham,673,The Fall and Rise of Oswald Cobblepot,Amanda Waller
+Council of Merlin,1,589.0,589.0,589.0,589,DCU Infinite Holiday Special #1,589,DCU Infinite Holiday Special #1,Council of Merlin
+Hector Hammond,1,589.0,589.0,589.0,589,DCU Infinite Holiday Special #1,589,DCU Infinite Holiday Special #1,Hector Hammond
+Malcolm Terrom,1,589.0,589.0,589.0,589,DCU Infinite Holiday Special #1,589,DCU Infinite Holiday Special #1,Malcolm Terrom
+Michael Amar,1,589.0,589.0,589.0,589,DCU Infinite Holiday Special #1,589,DCU Infinite Holiday Special #1,Michael Amar
+Sabina De La Croix,1,589.0,589.0,589.0,589,DCU Infinite Holiday Special #1,589,DCU Infinite Holiday Special #1,Sabina De La Croix
+Balor,1,590.0,590.0,590.0,590,The Princess and the Knight,590,The Princess and the Knight,Balor
+Elatha,1,590.0,590.0,590.0,590,The Princess and the Knight,590,The Princess and the Knight,Elatha
+Fairies,1,590.0,590.0,590.0,590,The Princess and the Knight,590,The Princess and the Knight,Fairies
+Fir Bolg,1,590.0,590.0,590.0,590,The Princess and the Knight,590,The Princess and the Knight,Fir Bolg
+Fomorians,1,590.0,590.0,590.0,590,The Princess and the Knight,590,The Princess and the Knight,Fomorians
+King of Spades,1,591.0,591.0,591.0,591,Imp-Possible,591,Imp-Possible,King of Spades
+Queen of Spades,1,591.0,591.0,591.0,591,Imp-Possible,591,Imp-Possible,Queen of Spades
+Ten of Spades,1,591.0,591.0,591.0,591,Imp-Possible,591,Imp-Possible,Ten of Spades
+Eva Green,1,592.0,592.0,592.0,592,Leaves of Grass,592,Leaves of Grass,Eva Green
+Holly Green,1,592.0,592.0,592.0,592,Leaves of Grass,592,Leaves of Grass,Holly Green
+Jason Woodrue,1,592.0,592.0,592.0,592,Leaves of Grass,592,Leaves of Grass,Jason Woodrue
+Allura,1,594.0,594.0,594.0,594,Z- As In Zatanna- and Zero Hour!,594,Z- As In Zatanna- and Zero Hour!,Allura
+Amen-Hotep,1,594.0,594.0,594.0,594,Z- As In Zatanna- and Zero Hour!,594,Z- As In Zatanna- and Zero Hour!,Amen-Hotep
+Timothy Drake,4,594.5,398.75,713.25,155,A Lonely Place of Living,726,Stop Me If You’ve Heard This One…,Tim Drake
+Ira Billings,1,597.0,597.0,597.0,597,Grounded,597,Grounded,Ira Billings
+Arkham,1,599.0,599.0,599.0,599,Batman: Nosferatu,599,Batman: Nosferatu,Arkham
+Hender-son,1,599.0,599.0,599.0,599,Batman: Nosferatu,599,Batman: Nosferatu,Hender-son
+Etrigan,4,603.5,450.0,686.75,204,Final Night,722,The Widening Gyre,Etrigan
+Enchantress,1,607.0,607.0,607.0,607,Batman: Damned #1-3,607,Batman: Damned #1-3,Enchantress
+Jean-Paul Valley,2,608.5,544.25,672.75,480,Batman & Robin Eternal #1-26,737,Batman: Curse of the White Knight #1-8,Jean-Paul Valley
+Killer Moth III,1,611.0,611.0,611.0,611,Face the Face,611,Face the Face,Killer Moth III
+Tally Man II,1,611.0,611.0,611.0,611,Face the Face,611,Face the Face,Tally Man II
+Alpha,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Alpha
+Circle of Six,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Circle of Six
+Joseph N'Bobo,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Joseph N'Bobo
+Krunk,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Krunk
+Los Gemelos,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Los Gemelos
+Momotado,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Momotado
+Nora Fries,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Nora Fries
+Ox,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Ox
+Tigris,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Tigris
+Wam Wam,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,Wam Wam
+White Willow,1,616.0,616.0,616.0,616,Destruction’s Daughter,616,Destruction’s Daughter,White Willow
+Ace Arn,1,619.0,619.0,619.0,619,Enemies Among Us,619,Enemies Among Us,Ace Arn
+Kilowog,1,619.0,619.0,619.0,619,Enemies Among Us,619,Enemies Among Us,Kilowog
+Patrick O'Brian,1,619.0,619.0,619.0,619,Enemies Among Us,619,Enemies Among Us,Patrick O'Brian
+Zook,1,619.0,619.0,619.0,619,Enemies Among Us,619,Enemies Among Us,Zook
+Slash,2,619.5,601.75,637.25,584,The Last Batgirl Story,655,Batman: Harley & Ivy #1-3,Slash
+Splicers,1,621.0,621.0,621.0,621,Terry’s Mom Dates a Splicer,621,Terry’s Mom Dates a Splicer,Splicers
+Gray Man I,1,622.0,622.0,622.0,622,Massacre in Gray,622,Massacre in Gray,Gray Man I
+Benjamin Orchard,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,Benjamin Orchard
+Brandon O'Malley,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,Brandon O'Malley
+James O'Malley,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,James O'Malley
+John Wycliffe,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,John Wycliffe
+Mei Ling,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,Mei Ling
+Nathaniel O'Malley,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,Nathaniel O'Malley
+Sebastian Clark,1,632.0,632.0,632.0,632,Scourge of Owls,632,Scourge of Owls,Sebastian Clark
+Banner,1,634.0,634.0,634.0,634,O’er the Land of the Free,634,O’er the Land of the Free,Banner
+Nicholas Scratch,1,635.0,635.0,635.0,635,Mr. Wayne Goes to Washington,635,Mr. Wayne Goes to Washington,Nicholas Scratch
+Dark Angel,1,640.0,640.0,640.0,640,Gods of Gotham,640,Gods of Gotham,Dark Angel
+"Deimos, God of Terror",1,640.0,640.0,640.0,640,Gods of Gotham,640,Gods of Gotham,"Deimos, God of Terror"
+Eris,1,640.0,640.0,640.0,640,Gods of Gotham,640,Gods of Gotham,Eris
+Phobos,1,640.0,640.0,640.0,640,Gods of Gotham,640,Gods of Gotham,Phobos
+Stheno,1,640.0,640.0,640.0,640,Gods of Gotham,640,Gods of Gotham,Stheno
+Werewolves,3,644.0,584.0,688.0,524,Batman: The Doom That Came to Gotham #1-3),732,Superman and Batman Vs. Vampires and Werewolves,Werewolves
+Christian Talbot,1,644.0,644.0,644.0,644,Batman: Full Moon #1-4,644,Batman: Full Moon #1-4,Christian Talbot
+Doctor Psycho,1,645.0,645.0,645.0,645,President Batman,645,President Batman,Doctor Psycho
+Topango,1,645.0,645.0,645.0,645,President Batman,645,President Batman,Topango
+William Tockman,1,645.0,645.0,645.0,645,President Batman,645,President Batman,William Tockman
+John Ackers,1,647.0,647.0,647.0,647,Faith,647,Faith,John Ackers
+Doctor Seltsam,1,648.0,648.0,648.0,648,Batman: Castle of the Bat,648,Batman: Castle of the Bat,Doctor Seltsam
+Van Klooster,1,648.0,648.0,648.0,648,Batman: Castle of the Bat,648,Batman: Castle of the Bat,Van Klooster
+Jack of Spades,2,648.5,619.75,677.25,591,Imp-Possible,706,Robin & Batman #1-3,Jack of Spades
+Dark Joker,1,651.0,651.0,651.0,651,Batman/Dark Joker: The Wild OGN,651,Batman/Dark Joker: The Wild OGN,Dark Joker
+Martha Kane,1,652.0,652.0,652.0,652,Flashpoint: Batman- Knight of Vengeance #1-3,652,Flashpoint: Batman- Knight of Vengeance #1-3,Martha Kane
+Gone Men,1,654.0,654.0,654.0,654,Batman: Prelude to the Wedding #1-5,654,Batman: Prelude to the Wedding #1-5,Gone Men
+Shane Rivers,1,656.0,656.0,656.0,656,Flying Hi,656,Flying Hi,Shane Rivers
+Dragonfly,1,660.0,660.0,660.0,660,Beware of– Poison Ivy,660,Beware of– Poison Ivy,Dragonfly
+Silken Spider,1,660.0,660.0,660.0,660,Beware of– Poison Ivy,660,Beware of– Poison Ivy,Silken Spider
+Tiger Moth,1,660.0,660.0,660.0,660,Beware of– Poison Ivy,660,Beware of– Poison Ivy,Tiger Moth
+Jabah,1,663.0,663.0,663.0,663,Doctor Death,663,Doctor Death,Jabah
+Mikhail,1,663.0,663.0,663.0,663,Doctor Death,663,Doctor Death,Mikhail
+Desaad,3,666.0,346.0,670.0,26,Final Crisis,674,Injustice: Gods Among Us Year 4 Vol. 2,Desaad
+Amazing Grace,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Amazing Grace
+Doctor Bedlam,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Doctor Bedlam
+Kanto,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Kanto
+Krypto,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Krypto
+Liberators,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Liberators
+Mantis,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Mantis
+Marlene Simmonds,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Marlene Simmonds
+Virman Vundabar,1,666.0,666.0,666.0,666,Justice League: The Nail #1-3,666,Justice League: The Nail #1-3,Virman Vundabar
+A.K. O'Fallon,1,667.0,667.0,667.0,667,America Vs. The Justice Society #1-4,667,America Vs. The Justice Society #1-4,A.K. O'Fallon
+Fred Kincaid,1,667.0,667.0,667.0,667,America Vs. The Justice Society #1-4,667,America Vs. The Justice Society #1-4,Fred Kincaid
+Per Degaton,1,667.0,667.0,667.0,667,America Vs. The Justice Society #1-4,667,America Vs. The Justice Society #1-4,Per Degaton
+Rumaan Harjavti,2,670.0,661.5,678.5,653,Hit or Miss!,687,Bruce Wayne in Bialya,Rumaan Harjavti
+Johnny Karaoke,1,670.0,670.0,670.0,670,Grotesk,670,Grotesk,Johnny Karaoke
+Perun II,1,670.0,670.0,670.0,670,Grotesk,670,Grotesk,Perun II
+Wayne Franklin,1,670.0,670.0,670.0,670,Grotesk,670,Grotesk,Wayne Franklin
+Dumpson Tweed,5,671.0,529.0,703.0,163,My Own Worst Enemy,733,Mad,Dumpson Tweed
+Bridgit Pike,1,671.0,671.0,671.0,671,Deface the Face,671,Deface the Face,Bridgit Pike
+Angelo Bufaloni,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Angelo Bufaloni
+Claudio Volpe,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Claudio Volpe
+Dominic Dragna,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Dominic Dragna
+Fiore Buccieri,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Fiore Buccieri
+Giacomo Volpe,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Giacomo Volpe
+Louis Campagna,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Louis Campagna
+Luciano Volpe,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Luciano Volpe
+Redblade,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Redblade
+Vincent Dragna,1,672.0,672.0,672.0,672,Catwoman/Wildcat #1-4,672,Catwoman/Wildcat #1-4,Vincent Dragna
+Help,1,673.0,673.0,673.0,673,The Fall and Rise of Oswald Cobblepot,673,The Fall and Rise of Oswald Cobblepot,Help
+Lisa St. Claire,1,673.0,673.0,673.0,673,The Fall and Rise of Oswald Cobblepot,673,The Fall and Rise of Oswald Cobblepot,Lisa St. Claire
+Nuri Espinoza,1,673.0,673.0,673.0,673,The Fall and Rise of Oswald Cobblepot,673,The Fall and Rise of Oswald Cobblepot,Nuri Espinoza
+Poseidon,1,674.0,674.0,674.0,674,Injustice: Gods Among Us Year 4 Vol. 2,674,Injustice: Gods Among Us Year 4 Vol. 2,Poseidon
+Rex Mason,1,674.0,674.0,674.0,674,Injustice: Gods Among Us Year 4 Vol. 2,674,Injustice: Gods Among Us Year 4 Vol. 2,Rex Mason
+Aleister Golden,1,675.0,675.0,675.0,675,Golden Dawn,675,Golden Dawn,Aleister Golden
+Rory Regan,1,675.0,675.0,675.0,675,Golden Dawn,675,Golden Dawn,Rory Regan
+Daughters of Gotham,1,676.0,676.0,676.0,676,Manslaughter,676,Manslaughter,Daughters of Gotham
+Patient Zero,1,676.0,676.0,676.0,676,Manslaughter,676,Manslaughter,Patient Zero
+Armen Ikarus,1,677.0,677.0,677.0,677,The Amazo Virus,677,The Amazo Virus,Armen Ikarus
+Bullet,1,677.0,677.0,677.0,677,The Amazo Virus,677,The Amazo Virus,Bullet
+Nathaniel Tryon,1,677.0,677.0,677.0,677,The Amazo Virus,677,The Amazo Virus,Nathaniel Tryon
+Bo Griggs,1,680.0,680.0,680.0,680,Scarecrow- The Master of Fear,680,Scarecrow- The Master of Fear,Bo Griggs
+Sherry Squires,1,680.0,680.0,680.0,680,Scarecrow- The Master of Fear,680,Scarecrow- The Master of Fear,Sherry Squires
+Red Hood,1,684.0,684.0,684.0,684,Batman: In Darkest Knight,684,Batman: In Darkest Knight,Red Hood
+Bane Simpson,1,685.0,685.0,685.0,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,Bane Simpson
+HYDRA,1,685.0,685.0,685.0,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,HYDRA
+Selina Luthor,1,685.0,685.0,685.0,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,Selina Luthor
+Wolfgang von Strucker,1,685.0,685.0,685.0,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,685,Bruce Wayne: Agent of S.H.I.E.L.D. #1,Wolfgang von Strucker
+Daniel Cormac,1,687.0,687.0,687.0,687,Bruce Wayne in Bialya,687,Bruce Wayne in Bialya,Daniel Cormac
+Queen Bee II,1,687.0,687.0,687.0,687,Bruce Wayne in Bialya,687,Bruce Wayne in Bialya,Queen Bee II
+Wandjina,1,687.0,687.0,687.0,687,Bruce Wayne in Bialya,687,Bruce Wayne in Bialya,Wandjina
+Wenonah Littlebird,1,687.0,687.0,687.0,687,Bruce Wayne in Bialya,687,Bruce Wayne in Bialya,Wenonah Littlebird
+Kaiyo,1,689.0,689.0,689.0,689,Cross World,689,Cross World,Kaiyo
+Alexandre LeRoi,1,690.0,690.0,690.0,690,Batman: Master of the Future,690,Batman: Master of the Future,Alexandre LeRoi
+Bertinelli Family,1,692.0,692.0,692.0,692,An Unimportant Man,692,An Unimportant Man,Bertinelli Family
+Benjamin Asplin,1,697.0,697.0,697.0,697,Knightquest: The Search,697,Knightquest: The Search,Benjamin Asplin
+Jacob Packer,1,701.0,701.0,701.0,701,Batman: Gotham by Gaslight,701,Batman: Gotham by Gaslight,Jacob Packer
+Claire Clover,1,703.0,703.0,703.0,703,The Wedding,703,The Wedding,Claire Clover
+Skeets,1,703.0,703.0,703.0,703,The Wedding,703,The Wedding,Skeets
+Thomas Wayne,1,703.0,703.0,703.0,703,The Wedding,703,The Wedding,Thomas Wayne
+Edgar Licchario,1,705.0,705.0,705.0,705,Batman: Reptilian #1-6,705,Batman: Reptilian #1-6,Edgar Licchario
+Ace of Spades,1,706.0,706.0,706.0,706,Robin & Batman #1-3,706,Robin & Batman #1-3,Ace of Spades
+Mona Taylor,1,706.0,706.0,706.0,706,Robin & Batman #1-3,706,Robin & Batman #1-3,Mona Taylor
+Wanda Wayland,1,706.0,706.0,706.0,706,Robin & Batman #1-3,706,Robin & Batman #1-3,Wanda Wayland
+Christopher Weiss,1,707.0,707.0,707.0,707,Identity Crisis,707,Identity Crisis,Christopher Weiss
+Jean Loring,1,707.0,707.0,707.0,707,Identity Crisis,707,Identity Crisis,Jean Loring
+Jonathan Cheval,1,707.0,707.0,707.0,707,Identity Crisis,707,Identity Crisis,Jonathan Cheval
+Cassandra Cain,1,709.0,709.0,709.0,709,Tales from the Dark Multiverse: Batman- Hush,709,Tales from the Dark Multiverse: Batman- Hush,Cassandra Cain
+Outsiders,1,709.0,709.0,709.0,709,Tales from the Dark Multiverse: Batman- Hush,709,Tales from the Dark Multiverse: Batman- Hush,Outsiders
+Redline,1,709.0,709.0,709.0,709,Tales from the Dark Multiverse: Batman- Hush,709,Tales from the Dark Multiverse: Batman- Hush,Redline
+Barry Pierce,1,714.0,714.0,714.0,714,Brothers in Blood,714,Brothers in Blood,Barry Pierce
+Buddy Pierce,1,714.0,714.0,714.0,714,Brothers in Blood,714,Brothers in Blood,Buddy Pierce
+Jakob,1,714.0,714.0,714.0,714,Brothers in Blood,714,Brothers in Blood,Jakob
+Elijah Montenegro,1,715.0,715.0,715.0,715,Batman/Houdini: The Devil’s Workshop,715,Batman/Houdini: The Devil’s Workshop,Elijah Montenegro
+Jack Schadenfreude,1,715.0,715.0,715.0,715,Batman/Houdini: The Devil’s Workshop,715,Batman/Houdini: The Devil’s Workshop,Jack Schadenfreude
+Leonard Reinhardt,1,715.0,715.0,715.0,715,Batman/Houdini: The Devil’s Workshop,715,Batman/Houdini: The Devil’s Workshop,Leonard Reinhardt
+Nigel Glass,1,716.0,716.0,716.0,716,Batman: Unseen #1-5,716,Batman: Unseen #1-5,Nigel Glass
+Margaret Barensaver,1,718.0,718.0,718.0,718,"Batman: The Blue, The Grey, and the Bat",718,"Batman: The Blue, The Grey, and the Bat",Margaret Barensaver
+Ray Salinger,1,721.0,721.0,721.0,721,Batman: Earth One OGN,721,Batman: Earth One OGN,Ray Salinger
+Nathan Diskin,1,722.0,722.0,722.0,722,The Widening Gyre,722,The Widening Gyre,Nathan Diskin
+Onomatopoeia,1,725.0,725.0,725.0,725,Batman: Cacophony #1-3,725,Batman: Cacophony #1-3,Onomatopoeia
+Bart Allen clone,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Bart Allen clone
+Clark Kent,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Clark Kent
+Crime Syndicate of Amerika,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Crime Syndicate of Amerika
+Garfield Logan,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Garfield Logan
+Kon-El clone,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Kon-El clone
+"Thomas Wayne, Jr.",1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,"Thomas Wayne, Jr."
+Titans Tomorrow,1,726.0,726.0,726.0,726,Stop Me If You’ve Heard This One…,726,Stop Me If You’ve Heard This One…,Titans Tomorrow
+Hector Ramirez,1,728.0,728.0,728.0,728,Superman: Year One #3,728,Superman: Year One #3,Hector Ramirez
+Merpeople,1,728.0,728.0,728.0,728,Superman: Year One #3,728,Superman: Year One #3,Merpeople
+United States Army,1,728.0,728.0,728.0,728,Superman: Year One #3,728,Superman: Year One #3,United States Army
+Adolf Hitler,1,730.0,730.0,730.0,730,Batman: Dark Allegiances,730,Batman: Dark Allegiances,Adolf Hitler
+Caldecott Pewtie,1,730.0,730.0,730.0,730,Batman: Dark Allegiances,730,Batman: Dark Allegiances,Caldecott Pewtie
+Milton Biggsley,1,730.0,730.0,730.0,730,Batman: Dark Allegiances,730,Batman: Dark Allegiances,Milton Biggsley
+Reverend Jones,1,730.0,730.0,730.0,730,Batman: Dark Allegiances,730,Batman: Dark Allegiances,Reverend Jones
+Hill Gang,1,731.0,731.0,731.0,731,The Surrogate,731,The Surrogate,Hill Gang
+Marius Dimeter,1,732.0,732.0,732.0,732,Superman and Batman Vs. Vampires and Werewolves,732,Superman and Batman Vs. Vampires and Werewolves,Marius Dimeter
+Marian Drews,1,734.0,734.0,734.0,734,Batman: White Knight #1-8,734,Batman: White Knight #1-8,Marian Drews
+Mary Dahl,1,734.0,734.0,734.0,734,Batman: White Knight #1-8,734,Batman: White Knight #1-8,Mary Dahl
+Charon II,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Charon II
+Rake,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Rake
+Thaddeus Volt,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Thaddeus Volt
+Tinderbox,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Tinderbox
+Warhog,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Warhog
+Warhogs,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Warhogs
+Zakaria,1,736.0,736.0,736.0,736,Down Under,736,Down Under,Zakaria
+Gabriel,1,737.0,737.0,737.0,737,Batman: Curse of the White Knight #1-8,737,Batman: Curse of the White Knight #1-8,Gabriel
+Alexandra Kosov,1,739.0,739.0,739.0,739,War Crimes,739,War Crimes,Alexandra Kosov
+Gagsworth A. Gagsworthy,1,740.0,740.0,740.0,740,Batman: Three Jokers #1-3,740,Batman: Three Jokers #1-3,Gagsworth A. Gagsworthy
+Three Jokers,1,740.0,740.0,740.0,740,Batman: Three Jokers #1-3,740,Batman: Three Jokers #1-3,Three Jokers

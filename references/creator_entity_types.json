@@ -1,0 +1,82 @@
+{
+  "A Larger World Studios": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=2778073",
+    "note": "Staff Text explicitly identifies a lettering studio."
+  },
+  "Android Images": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3353888",
+    "note": "ProfessionalHistory describes a comic-coloring company, not an individual colorist."
+  },
+  "Andworld Design": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3571746",
+    "note": "Staff Text identifies a lettering studio founded by Deron Bennett; the studio and founder remain distinct entities."
+  },
+  "Aspen Studios": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=2944359",
+    "note": "Staff Text explicitly identifies a coloring studio."
+  },
+  "Comicraft": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3578540",
+    "note": "Staff Text and ProfessionalHistory identify a lettering studio/firm with several named employees."
+  },
+  "Digital Chameleon": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3353843",
+    "note": "History identifies a coloring and inking studio founded by Chris Chuckry and Lovern Kindzierski; not either founder personally."
+  },
+  "Digital Hellfire": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3593951",
+    "note": "Staff Text identifies a company specializing in comic coloring."
+  },
+  "Electric Pickle": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3354442",
+    "note": "ProfessionalHistory identifies a coloring firm."
+  },
+  "Heroic Age": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3584062",
+    "note": "Staff Text identifies a coloring studio; ProfessionalHistory says the company was created in 1992. The YearOfBirth=1992 field is a company founding year, not a personal birthday."
+  },
+  "Hi-Fi Design": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3354139",
+    "note": "Staff Text identifies a coloring studio employing multiple colorists; Hi-Fi Design and its founders are distinct entities."
+  },
+  "Jamison": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3354841",
+    "note": "Redirect resolves to Jamison, whose staff Text identifies a color-separation company. Allen Jamison is named as its founder, not established as the same person/entity as the company; retain the original credit-label variant."
+  },
+  "Olyoptics": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=2956088",
+    "note": "ProfessionalHistory explicitly identifies a coloring firm."
+  },
+  "Sno-Cone Studios": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=2944362",
+    "note": "Staff Text explicitly identifies a coloring studio; source page title is Sno-Cone Studios."
+  },
+  "Studio F": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3354254",
+    "note": "Staff Text explicitly identifies a coloring firm."
+  },
+  "Wildstorm FX": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=3354173",
+    "note": "Staff Text and ProfessionalHistory identify an in-house art department/studio whose output was credited collectively instead of naming individual colorists."
+  },
+  "Zylonol": {
+    "entity_type": "organization",
+    "source_url": "https://dc.fandom.com/wiki/?oldid=2746847",
+    "note": "ProfessionalHistory explicitly identifies a color-separation firm."
+  }
+}

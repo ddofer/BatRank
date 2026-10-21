@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use BatRank, cite this repository and the original BatChat rankings linked in the README."
+title: "BatRank: A BatChat ranking dataset"
+type: dataset
+authors:
+  - family-names: Ofer
+    given-names: Dan
+    orcid: "https://orcid.org/0000-0001-5136-8014"
+repository-code: "https://github.com/ddofer/BatRank"
+url: "https://www.kaggle.com/datasets/danofer/batchat-batman-rankings"
+date-released: 2026-10-22

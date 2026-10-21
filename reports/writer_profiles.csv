@@ -1,0 +1,357 @@
+creator_id,readings,median_rank,name
+cr_53bb9f0cb8ea,34,340.5,Chuck Dixon
+cr_e601ae2432b8,31,360.0,Alan Grant
+cr_9fe70c456a60,28,240.5,Dennis O'Neil
+cr_a2a68ce83676,27,356.0,Paul Dini
+cr_5865fe07f892,24,414.5,Doug Moench
+cr_2f0d2c10c533,23,539.0,Bill Finger
+cr_9b972373b191,23,194.0,Greg Rucka
+cr_97ba0c70c394,23,243.0,James Tynion IV
+cr_cafe0d5a2490,22,372.0,Tom King
+cr_5088cd27aca0,21,329.0,Scott Snyder
+cr_93e608fe1ffa,20,121.5,Grant Morrison
+cr_a35bc34a4289,19,301.0,Kelley Puckett
+cr_92e75597fb55,16,96.5,Ed Brubaker
+cr_6933d970ea26,16,373.0,Mike W. Barr
+cr_691a9ff673e6,13,173.0,Jeph Loeb
+cr_e2ef35688b02,12,259.0,Tim Seeley
+cr_61d7be36b576,10,580.5,Gardner Fox
+cr_00dd11ad33b6,9,562.0,Bob Haney
+cr_d7c671d3ce18,9,355.0,Brian Azzarello
+cr_deb78abacaa3,9,622.0,J.M. DeMatteis
+cr_3c1016249b1c,9,211.0,Jeff Parker
+cr_5c52c1fb124c,9,121.0,John Ostrander
+cr_02a05b0874db,9,363.0,Tom Taylor
+cr_0d93d4900c98,8,346.0,Devin Grayson
+cr_55b2e68e251d,8,477.0,James Robinson
+cr_5c5a8f582964,8,278.5,Jim Starlin
+cr_76acf35e3687,8,580.5,Joe Kelly
+cr_b81ea9cabdfe,8,290.0,Peter Tomasi
+cr_ccc6a3ce7da2,7,72.0,Darwyn Cooke
+cr_ac7000b434d7,7,285.0,Gail Simone
+cr_5341401a526a,6,390.0,Geoff Johns
+cr_59b2524a5347,6,294.5,Joshua Williamson
+cr_67d3dd3c3daa,6,370.5,Mark Waid
+cr_32659b67815d,6,242.5,Marv Wolfman
+cr_64ab946202e4,6,155.5,Matt Wagner
+cr_199c6cde03a3,5,327.0,Becky Cloonan
+cr_d0fc6f014dc3,5,39.0,Bruce Timm
+cr_548007c5cb26,5,383.0,Dan Jurgens
+cr_5c236441e2b3,5,542.0,Edmond Hamilton
+cr_2b9d230b3722,5,130.0,Howard Chaykin
+cr_6758429a6761,5,351.0,Scott Peterson
+cr_1e27f5b96765,5,359.0,Sholly Fisch
+cr_97e5f85a24cc,5,403.0,Steve Orlando
+cr_621dccf44f96,4,103.0,Alan Brennert
+cr_283cc6b861d3,4,372.0,Brenden Fletcher
+cr_5ed222f8bfa6,4,120.5,Dave Gibbons
+cr_1a7c34f43c08,4,20.5,Frank Miller
+cr_c5e0ed290e0a,4,67.5,Harlan Ellison
+cr_f9070cc7967c,4,602.5,Hilary J. Bader
+cr_c0e9e50e014d,4,333.5,J.H. Williams III
+cr_16bb7ab86a37,4,395.0,John Francis Moore
+cr_5eff838c7769,4,322.0,John Ridley
+cr_62c228801ab4,4,432.5,Judd Winick
+cr_fee78d53487b,4,269.0,Kyle Higgins
+cr_5f92708e168e,4,383.5,Len Wein
+cr_2838f4f19daa,4,173.0,Mariko Tamaki
+cr_eae7b0339ba8,4,317.5,Mike Mignola
+cr_2b9b468c9c8c,4,380.5,Phillip Kennedy Johnson
+cr_3536cc89ad3c,4,213.5,Ray Fawkes
+cr_b324ce771113,4,179.5,Steve Englehart
+cr_5cbf8118480e,4,408.5,Ty Templeton
+cr_4a6126b3586f,3,82.0,Alan Moore
+cr_04148928af36,3,686.0,Andersen Gabrych
+cr_28244613a17f,3,161.0,Ann Nocenti
+cr_473f185468da,3,199.0,Archie Goodwin
+cr_6a28feee3833,3,690.0,Brian Augustyn
+cr_00a0faf48014,3,430.0,Brian Buccellato
+cr_c4b347db8241,3,98.0,CRC Payne
+cr_096e3222a25f,3,87.0,Chip Zdarsky
+cr_416fe6c941da,3,180.0,Dan Raspler
+cr_20e4e678b90f,3,369.0,Dan Watters
+cr_972e1a36326e,3,468.0,David Vern Reed
+cr_2587c10214e4,3,103.0,Dwayne McDuffie
+cr_3f6fb0cd344f,3,603.0,Gerry Conway
+cr_d7bcac73c8ad,3,286.0,Jeff Lemire
+cr_044b8ee6cf89,3,135.0,John Byrne
+cr_c856e000da6c,3,367.0,John Wagner
+cr_71ff3ec759dd,3,653.0,Keith Giffen
+cr_91ac45e6fa61,3,722.0,Kevin Smith
+cr_6c489a4bfe15,3,297.0,Paul Pope
+cr_19ba542fdd38,3,158.0,Peter Milligan
+cr_53f225e703a9,3,293.0,Ram V
+cr_ee590fb4682b,3,302.0,Sam Hamm
+cr_c51b8859013a,3,307.0,Satoshi Miyagawa
+cr_fa2c84fe6fd0,3,472.0,Scott Beatty
+cr_5bffed1a22eb,3,162.0,Tom Peyer
+cr_35ddfbb6d403,3,369.0,Vita Ayala
+cr_d764ca600a5e,3,60.0,Walt Simonson
+cr_15addf71e081,3,161.0,Will Pfeifer
+cr_150fa8ba686a,2,683.0,A.J. Lieberman
+cr_8adacab23a73,2,459.0,Alan Burnett
+cr_f6a833f3370d,2,57.0,Alex Ross
+cr_05f5f5f473bf,2,41.5,Andrew Helfer
+cr_fdce5d430a6f,2,299.5,Art Baltazar
+cr_5bb8f61a61e2,2,590.5,Beau Smith
+cr_74913050330f,2,135.0,Bob Gale
+cr_3ac05d11446b,2,546.0,Brad Meltzer
+cr_a15e10872127,2,203.5,Brian Michael Bendis
+cr_2b1db7c84bc2,2,716.5,Bruce Jones
+cr_1819c474b703,2,212.5,Bryan Q. Miller
+cr_c9cad09e2448,2,432.5,Christina Weir
+cr_67c6c32dc062,2,333.5,Dan Curtis Johnson
+cr_3aad919a4986,2,609.5,Dann Thomas
+cr_fd8d9435464b,2,139.5,Danny Lore
+cr_e02f5bef8ef2,2,135.5,Dean Motter
+cr_a5a2589c6877,2,250.0,Derek Fridolfs
+cr_83ecec924e1d,2,475.5,Don Cameron
+cr_079882c89469,2,477.0,Ed Brisson
+cr_b969ca975c27,2,621.5,Elliot S. Maggin
+cr_134eb8c7b9d9,2,299.5,Franco Aureliani
+cr_f318f3534698,2,239.5,G. Willow Wilson
+cr_1b5e008db5be,2,228.0,Gabriel Hardman
+cr_3f3b71f366d0,2,559.0,Gregg Hurwitz
+cr_da52eaa38185,2,302.0,Ian Edginton
+cr_1311392c41ad,2,365.5,Jamie Delano
+cr_23e942e89396,2,110.0,Jeffrey Brown
+cr_8c978b3abcfc,2,73.5,John Arcudi
+cr_60ca933330c4,2,231.0,John Layman
+cr_407588b1f0bf,2,728.0,Kevin VanHook
+cr_c02a98eae9b8,2,195.0,Kim Yale
+cr_cd5b23ad9de4,2,341.5,Landry Q. Walker
+cr_c7201c7707c6,2,502.5,Lee Bermejo
+cr_595d4ad5d081,2,375.5,Liam Sharp
+cr_944da3e2a64c,2,379.5,Louise Simonson
+cr_9f325fa09f0c,2,389.5,Marc Andreyko
+cr_171cf71d7365,2,383.5,Marguerite Bennett
+cr_3c052a19b64f,2,250.0,Mark Schultz
+cr_ce37d063e58c,2,196.5,Matthew Rosenberg
+cr_ff8490fbfc8c,2,245.5,Max Allan Collins
+cr_00331dd45cf3,2,524.0,Mike Friedrich
+cr_2c08c255bdac,2,340.0,Mindy Newell
+cr_ca5330e1e78b,2,73.5,Neil Gaiman
+cr_a2bb69ebc317,2,432.5,Nunzio DeFilippis
+cr_297a1cda16aa,2,365.0,Paul Kupperberg
+cr_4db7da373c6a,2,359.0,Paul Levitz
+cr_6c34b2390844,2,539.5,Phil Jimenez
+cr_ef75d6160f08,2,360.0,Robert Kanigher
+cr_c9620a102bbc,2,363.0,Roger Stern
+cr_9bf20b137218,2,609.5,Roy Thomas
+cr_8011dbca331a,2,710.0,Scott Lobdell
+cr_b2c619a40020,2,735.5,Sean Murphy
+cr_e14bd6d9255c,2,239.0,Stephanie Phillips
+cr_64922981c67e,2,142.0,Todd Dezago
+cr_bb53c9e1ab4e,2,540.5,Tony Bedard
+cr_d0734b1b5cf1,2,280.0,Warren Ellis
+cr_73813a204927,1,449.0,Adam Beechen
+cr_6fe6d7515150,1,682.0,Adam Glass
+cr_b48892e803da,1,666.0,Alan Davis
+cr_05c651e2af29,1,718.0,Alan Weiss
+cr_32e9d050c6b8,1,103.0,Alex Garland
+cr_cfde29d4b9a5,1,86.0,Alyssa Wong
+cr_318ba1012bc7,1,231.0,Amanda Conner
+cr_4d04f87fbaa9,1,694.0,Andrew Kreisberg
+cr_456db8eb7e2e,1,193.0,Andrew Wheeler
+cr_15fca951cbc4,1,618.0,Andy Kubert
+cr_f872f847f7c5,1,584.0,Barbara Kesel
+cr_dc01f18e8f32,1,87.0,Bengal
+cr_0531647e557c,1,75.0,Bernie Wrightson
+cr_91843338e95d,1,416.0,Bill Freiberger
+cr_bea440a0a0f5,1,10.0,Bill Sienkiewicz
+cr_5a4f4118d2e7,1,589.0,Bill Willingham
+cr_8141e36fd070,1,87.0,Bilquis Evely
+cr_739dbffdff13,1,328.0,Bob Hall
+cr_839b2889f723,1,610.0,Bob Layton
+cr_b024267e4daa,1,642.0,Bob Rozakis
+cr_59f040948fdd,1,300.0,Bobby Moynihan
+cr_bbcda01eebb0,1,87.0,Brandon Thomas
+cr_0dcd37490c57,1,10.0,Brian Bolland
+cr_58e076e7ab7c,1,99.0,Brian K. Vaughan
+cr_8c711f80def2,1,257.0,Bryan Edward Hill
+cr_b8072a3e0796,1,18.0,Bryan Talbot
+cr_1dc7d764b0e9,1,157.0,C.J. Henderson
+cr_ee447705f976,1,380.0,Cameron Stewart
+cr_17852a7da149,1,105.0,Chris Burnham
+cr_cbd088d8ccf6,1,710.0,Chris Roberson
+cr_54a34f1e268a,1,322.0,Christian Ward
+cr_242efb4a39ae,1,306.0,Christopher Yost
+cr_df04dbc62790,1,369.0,Christos Gage
+cr_fe1dbef7e0a3,1,174.0,Christos N. Gage
+cr_5a68bdcb51b6,1,480.0,Collin Kelly
+cr_b8fc31317359,1,87.0,Corinna Bechko
+cr_abc1d28ff86b,1,369.0,Corrina Bechko
+cr_86de8ad2cdf1,1,103.0,Cyrus Voris
+cr_bae00a183282,1,435.0,Dan Mishkin
+cr_0e99a1e14b18,1,443.0,Dan Slott
+cr_d663ac7a0f6c,1,86.0,Dani Fernandez
+cr_c4454684640c,1,87.0,Daniel Warren Johnson
+cr_2942b6d4120c,1,103.0,Danielle Dwyer
+cr_48e649b6723d,1,392.0,Danny DeVito
+cr_bbb92f453286,1,625.0,Daren White
+cr_8ed791063b11,1,352.0,Darren Vincenzo
+cr_f282c99d9a85,1,369.0,Dave Wielgosz
+cr_62cbba6aa969,1,662.0,Dave Wood
+cr_b49db80765eb,1,87.0,David Aja
+cr_b10c4b4ba41d,1,555.0,David Anthony Kraft
+cr_6d240c9582e2,1,675.0,David Finch
+cr_0b34d6db79ff,1,445.0,David Hine
+cr_b6b42f681193,1,395.0,David Michelinie
+cr_19edf41e82f0,1,300.0,Dennis McNicholas
+cr_5007663155dd,1,80.0,Diana Schutz
+cr_0f9110ef1d84,1,103.0,Don McGregor
+cr_1a79f976416f,1,103.0,Doug Alexander Gregory
+cr_284bb6061994,1,470.0,Doug Murray
+cr_5173fc0088ec,1,128.0,Dustin Nguyen
+cr_ed43c493ac33,1,87.0,Dustin Weaver
+cr_a96858f37417,1,605.0,Ed Herron
+cr_9b8cec2e7723,1,87.0,Elsa Charretier
+cr_f62d60f5d4a2,1,87.0,Emma Rios
+cr_f219ce52adce,1,453.0,Enrico Marini
+cr_2a02548e43e5,1,103.0,Eric Cherry
+cr_95b442b702e2,1,416.0,Eric Esquivel
+cr_dd2baf544134,1,334.0,Evan Dorkin
+cr_5003b150c1e1,1,385.0,Francesco Francavilla
+cr_a47cc2c1969b,1,466.0,Frank Robbins
+cr_ff652a880a39,1,490.0,Frank Tieri
+cr_316b76f0ac77,1,223.0,Gabe Soria
+cr_2e5f0cc6f169,1,705.0,Garth Ennis
+cr_5d0befbf614b,1,435.0,Gary Cohn
+cr_953e06081aa9,1,416.0,Gene Luen Yang
+cr_88f8f6d4616d,1,480.0,Genevieve Valentine
+cr_4e28a780c40e,1,51.0,George Pérez
+cr_775553a91336,1,415.0,Gerry Duggan
+cr_b6478ca0bbc1,1,636.0,Glen Murakami
+cr_a25837862488,1,86.0,Greg Lockard
+cr_7089f78833d6,1,689.0,Greg Pak
+cr_75f71d542bf2,1,416.0,Gustavo Duarte
+cr_a007da639c7b,1,416.0,Heath Corson
+cr_dce64f25a6c6,1,300.0,Heidi Gardner
+cr_cdf4df0e9aae,1,574.0,Henry T. Gilroy
+cr_5d4a1e84869d,1,589.0,Ian Boothby
+cr_46736d03a5bc,1,300.0,Ike Barinholtz
+cr_7f48b06aeec2,1,86.0,Ivan Cohen
+cr_0d514bd627b7,1,710.0,J. Michael Straczynski
+cr_bb2f8453fc48,1,648.0,Jack C. Harris
+cr_926233db758b,1,572.0,Jack Kelly
+cr_6e8b12050efd,1,657.0,Jack Schiff
+cr_1f32fb6b0413,1,480.0,Jackson Lanzing
+cr_a08bcc5cd4cd,1,86.0,Jadzia Axelrod
+cr_8e9c9830919d,1,87.0,Jamal Campbell
+cr_40d888ee5791,1,416.0,James Asmus
+cr_3518f4a0aa28,1,10.0,Jan Strnad
+cr_a4eec0e3eeb6,1,76.0,Jason Aaron
+cr_d528723d5413,1,599.0,Jean-Marc Lofficier
+cr_55da8a6898bf,1,570.0,Jen Van Meter
+cr_9cf8110ce96f,1,571.0,Jerry Coleman
+cr_564f94e2e9c1,1,383.0,Jerry Ordway
+cr_047394da8b2d,1,103.0,Jill Thompson
+cr_0d023169dbf5,1,195.0,Jim Balent
+cr_c441bf8dcf55,1,369.0,Jim Krieg
+cr_b6d973bc94a6,1,231.0,Jimmy Palmiotti
+cr_ff597097ab94,1,10.0,Jo Duffy
+cr_7e480798fa9a,1,10.0,Joe Kubert
+cr_a473cd2aeb17,1,695.0,Joey Cavalieri
+cr_f480e8d01731,1,87.0,Jorge Jimenez
+cr_cec33caaa06a,1,551.0,Joseph Greene
+cr_3101148ba7f3,1,482.0,Joseph Samachson
+cr_f18170007a09,1,676.0,Julie Benson
+cr_fb58bbbcf173,1,103.0,Julius Schwartz
+cr_26fcf724502a,1,87.0,Karl Kerschl
+cr_8b4aacd0f78e,1,204.0,Karl Kesel
+cr_1bc856927e25,1,416.0,Kate Perkins
+cr_877c32043058,1,10.0,Katsuhiro Otomo
+cr_06600fa345fd,1,589.0,Keith Champagne
+cr_d9d135ce77f7,1,153.0,Kelly Sue DeConnick
+cr_d5e94b06c6e4,1,369.0,Kenny Porter
+cr_4d8c6da38c70,1,10.0,Kent Williams
+cr_f9ac480ed2e2,1,86.0,Kevin Conroy
+cr_53cbd9769ed5,1,87.0,Kieron Gillen
+cr_aac03b969127,1,103.0,Kimo Temperance
+cr_8a9c87f28a8c,1,10.0,Klaus Janson
+cr_96a4544d77b1,1,369.0,Kurt Busiek
+cr_9e619f255a5d,1,634.0,Larry Hama
+cr_4f147581ef8c,1,276.0,Lee Allred
+cr_398bc3707c93,1,87.0,Lee Weeks
+cr_3c3635d81644,1,203.0,Len Kaminski
+cr_ffeaa799e99f,1,225.0,Lisa Klink
+cr_9741a238c734,1,392.0,Mairghread Scott
+cr_b6bdebabf76c,1,103.0,Mark Askwith
+cr_d191aa449fcd,1,399.0,Mark Millar
+cr_7553253148ce,1,217.0,Mark Russell
+cr_f4a6a33dffc0,1,619.0,Mark Verheiden
+cr_ecc8c3ee5afc,1,624.0,Martin Pasko
+cr_a251c1d32c00,1,153.0,Matt Fraction
+cr_06fbc89af0be,1,720.0,Matt Kindt
+cr_f493a796008e,1,645.0,Matt Wayne
+cr_115f50c1e999,1,440.0,Matteo Casali
+cr_8232166cb7b9,1,303.0,Meghan Fitzmartin
+cr_ac430d9cde3e,1,649.0,Meredith Finch
+cr_c37dcdd0cb4c,1,276.0,Michael Allred
+cr_883f7846a1c5,1,103.0,Michael Golden
+cr_b37d438b41ff,1,103.0,Michael McMahon
+cr_543e31b80429,1,265.0,Michael Moreci
+cr_48154fb21543,1,554.0,Michael Northrop
+cr_ee59cbd8b761,1,305.0,Michael T. Gilbert
+cr_9ee9ff1f3558,1,327.0,Michael W. Conrad
+cr_1d20b8a98249,1,577.0,Mike Baron
+cr_2b3ac086c31d,1,103.0,Mike Carey
+cr_22ecf44b92cd,1,103.0,Mike Carlin
+cr_361f6585dd78,1,708.0,Mike Grell
+cr_c9c56fb4a617,1,392.0,Nadia Shammas
+cr_65b4d0b7482e,1,735.0,Neal Adams
+cr_fe185dbc2688,1,87.0,Nick Derington
+cr_03c00a268bd3,1,87.0,Nick Dragotta
+cr_b878f10b5cf8,1,193.0,Nicole Maines
+cr_1d880619de9f,1,353.0,Patrick Gleason
+cr_e0d731311ae3,1,408.0,Patrick R. Young
+cr_92c5f4d59e6d,1,103.0,Paul Grist
+cr_a4b8c716bc62,1,300.0,Paul Scheer
+cr_ea79e56ff934,1,470.0,Pepe Morino Casaras
+cr_fc3a375353f8,1,515.0,Peter David
+cr_d90198b35f24,1,87.0,Pierrick Colinet
+cr_89ea3ce25023,1,233.0,Ralph Garman
+cr_c11a1a3286c0,1,599.0,Randy Lofficier
+cr_7d15f0faa9a6,1,524.0,Richard Pace
+cr_898898cce211,1,86.0,Ro Stein
+cr_a2cec3e75885,1,162.0,Rob Williams
+cr_09a1ed2a86d3,1,541.0,Robbie Morrison
+cr_85f7ad04658f,1,489.0,Robbie Thompson
+cr_1981e9b1da78,1,185.0,Robert Greenberger
+cr_d018d2727d8e,1,507.0,Robert Loren Fleming
+cr_4265cc6a668c,1,103.0,Robert Rodi
+cr_442bcf67462e,1,280.0,Roberto Recchioni
+cr_9ea42c9a2153,1,644.0,Rodney Barnes
+cr_89b3cb4e21b4,1,204.0,Ron Marz
+cr_e40d2d9b05e8,1,39.0,Ronnie Del Carmen
+cr_0dd9a5be6e7c,1,237.0,Ryan Cady
+cr_f9f13419ec4d,1,149.0,Ryan Ferrier
+cr_08a68dfb4d99,1,295.0,Ryan Parrott
+cr_ebe33c70bd1c,1,48.0,Sal Amendola
+cr_cb1c403e00ee,1,717.0,Sam Humphries
+cr_58fd294bfa7b,1,193.0,Sam Johns
+cr_68e7be26b43b,1,341.0,Scott Bryan Wilson
+cr_5f50866678c9,1,736.0,Scott McDaniel
+cr_0809e60157bc,1,331.0,Shane McCarthy
+cr_0d26d05ea759,1,676.0,Shawna Benson
+cr_8a3f9a11665b,1,464.0,Shea Fontana
+cr_206f0d5d5f68,1,193.0,Sina Grace
+cr_064619f91418,1,87.0,Sophie Campbell
+cr_85b9e579e39a,1,86.0,Stephanie Williams
+cr_f86236202085,1,388.0,Steve Niles
+cr_a30156f39d3e,1,650.0,Stuart Gibbs
+cr_7db168168184,1,98.0,Susan Cheng
+cr_9d534937108e,1,215.0,Tate Brombal
+cr_a55908115d7a,1,86.0,Ted Brandt
+cr_85e73d4eaa1d,1,10.0,Ted McKeever
+cr_53d3c7426d75,1,557.0,Tee Franklin
+cr_93ea18a4f10b,1,80.0,Tim Sale
+cr_909123bb1eec,1,86.0,Tini Howard
+cr_061b0f740c2a,1,646.0,Tom DeFalco
+cr_80aa4e395b0b,1,456.0,Tony S. Daniel
+cr_e350c383297a,1,86.0,Travis Moore
+cr_2e3eaeffeed4,1,103.0,Troy Nixey
+cr_e1fe1b236f4a,1,48.0,Vin Amendola
+cr_40a6a77e82a6,1,428.0,W. Haden Blackman
+cr_e889c65b8282,1,392.0,Wes Craig
+cr_740a9063f4bf,1,485.0,Yoshinori Natsume

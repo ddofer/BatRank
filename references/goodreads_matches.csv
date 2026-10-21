@@ -1,0 +1,56 @@
+story_id,goodreads_book_id,goodreads_url,match_scope,match_note
+c1754cfe9f72,59980,https://www.goodreads.com/book/show/59980.Batman,same_story,Batman #404–407; exact contents confirmed in the public book description.
+ab7bdfcb16cd,106069,https://www.goodreads.com/book/show/106069.Batman,same_story,Complete Long Halloween miniseries #1–13.
+82db811e0629,59960,https://www.goodreads.com/book/show/59960.Batman,same_story,Complete original Dark Knight Returns miniseries #1–4.
+64b34060e082,72479,https://www.goodreads.com/book/show/72479.Batman_Dracula,same_story,Original Red Rain graphic novel; not the later sequels.
+f14af128ac9d,13223349,https://www.goodreads.com/book/show/13223349-batman-volume-1,subset,Collection is Batman (2011) #1–7; ranked story continues through #11.
+968a68810ffc,16992,https://www.goodreads.com/book/show/16992.Kingdom_Come,same_story,Complete Kingdom Come miniseries #1–4.
+ea11a3181f9f,3430164,https://www.goodreads.com/book/show/3430164-batman,same_story,R.I.P. main arc Batman #676–681; edition extras may vary.
+150e380a6b21,106076,https://www.goodreads.com/book/show/106076.Batman,same_story,Dark Victory miniseries; editions may include #0 and extras.
+85abfea140eb,22374,https://www.goodreads.com/book/show/22374.Batman,same_story,Original Arkham Asylum graphic novel; edition supplements vary.
+eb669499c6ad,10889279,https://www.goodreads.com/book/show/10889279-batman,same_story,Black Mirror Detective Comics #871–881.
+708ef7fc38eb,51078,https://www.goodreads.com/book/show/51078.Batman,subset,Broken Bat collection omits Detective Comics #663 from the ranked scope.
+2b52a9e41673,5173602,https://www.goodreads.com/book/show/5173602-final-crisis,subset,"Ranked Final Crisis scope includes Submit, Superman Beyond, DC Universe #0 and Batman #682–683; edition contents vary and full equivalence is unverified."
+cdf1c682a148,107128,https://www.goodreads.com/book/show/107128.Batman,same_story,The Cult miniseries #1–4.
+ef9601903ded,464437,https://www.goodreads.com/book/show/464437.The_Batman_Adventures,same_story,Original Batman Adventures: Mad Love special; not an expanded anthology.
+7456e9df155d,591355,https://www.goodreads.com/book/show/591355.Batman,same_story,A Lonely Place of Dying crossover Batman #440–442 and New Titans #60–61.
+eab3b54e0cb3,8544958,https://www.goodreads.com/book/show/8544958-batman,same_story,Return of Bruce Wayne miniseries #1–6.
+911b6e1ab5bb,2182780,https://www.goodreads.com/book/show/2182780.Batman,broader_collection,Collection adds Made of Wood (Detective Comics #784–786) to The Man Who Laughs.
+d3042d538d9d,107174,https://www.goodreads.com/book/show/107174.Catwoman,same_story,Original Selina’s Big Score graphic novel.
+fe08efef6f2e,17671913,https://www.goodreads.com/book/show/17671913-batman-volume-3,same_story,Batman (2011) #13–17 main arc; not the complete multi-title crossover.
+402325e47126,107066,https://www.goodreads.com/book/show/107066.Batman_and_the_Mad_Monk,same_story,Batman and the Mad Monk #1–6.
+7d25e3a56a24,107036,https://www.goodreads.com/book/show/107036.Batman_and_the_Monster_Men,same_story,Batman and the Monster Men #1–6.
+94e98f9fc30e,107117,https://www.goodreads.com/book/show/107117.Batman,same_story,"Venom, Legends of the Dark Knight #16–20."
+2acd7faeafd3,6375845,https://www.goodreads.com/book/show/6375845-batman,same_story,Complete Hush Batman #608–619; avoids separately rated half-volumes.
+f9a161f5e942,107020,https://www.goodreads.com/book/show/107020.Batman,subset,Who Rules the Night collection omits ranked Showcase ’93 #7–8.
+e47050675be6,44132735,https://www.goodreads.com/book/show/44132735-the-batman-who-laughs,broader_collection,The Batman Who Laughs collection also includes The Grim Knight one-shot.
+f8770a6ab230,96358,https://www.goodreads.com/book/show/96358.Batman,same_story,The Killing Joke original graphic novel; combined editions may add extras and recoloring.
+04232453c376,2669470,https://www.goodreads.com/book/show/2669470-batman,broader_collection,Going Sane collection also includes Legends of the Dark Knight #54; ranked story is #65–68.
+10da474c0a3b,107040,https://www.goodreads.com/book/show/107040.Batman,same_story,1992 Batman: Sword of Azrael #1–4; not the 2022 Sword of Azrael series.
+30ac96be009b,154209,https://www.goodreads.com/book/show/154209.Catwoman,same_story,Catwoman: When in Rome #1–6.
+32559af20fd0,26067585,https://www.goodreads.com/book/show/26067585-batman-volume-8,subset,Superheavy collection covers #41–45 plus material from #40/annual; ranked arc extends through #50.
+fcdb1b014825,105724,https://www.goodreads.com/book/show/105724.Batgirl,same_story,Batgirl: Year One #1–9.
+c5b88fc4af98,1014723,https://www.goodreads.com/book/show/1014723.Batman,same_story,"Original Prey collection, Legends of the Dark Knight #11–15; later expanded editions can include Terror."
+664aab0e39e7,9408670,https://www.goodreads.com/book/show/9408670-batman,broader_collection,"Under the Red Hood collection also includes Batman annual #25; BatChat ranks Batman #635–641, #645–650."
+5080c61e50de,34662803,https://www.goodreads.com/book/show/34662803-batman-vol-4,same_story,War of Jokes and Riddles main arc Batman (2016) #25–32.
+827b5173757c,4788225,https://www.goodreads.com/book/show/4788225-batman,same_story,Heart of Hush Detective Comics #846–850.
+ced2455b65cb,440960,https://www.goodreads.com/book/show/440960.Batman_and_Son,broader_collection,"Batman and Son original collection adds material after #658, including illustrated prose The Clown at Midnight."
+5a6ae3d297a8,810691,https://www.goodreads.com/book/show/810691.Batman,same_story,"Faces, Legends of the Dark Knight #28–30."
+5f366ae36b9f,6359290,https://www.goodreads.com/book/show/6359290-batman,same_story,Ranked scope and collection both include Battle for the Cowl #1–3 and Gotham Gazette bookends.
+9bbb42e87f1d,31217834,https://www.goodreads.com/book/show/31217834-batman-vol-1,same_story,Ranked scope and collection both include Batman: Rebirth #1 and Batman (2016) #1–6.
+9cf0f28ce2de,107032,https://www.goodreads.com/book/show/107032.Batman,same_story,A Death in the Family Batman #426–429; work-level ratings may pool expanded editions.
+40a7d4fe26fa,31220490,https://www.goodreads.com/book/show/31220490-batman-vol-2,broader_collection,I Am Suicide collection includes Batman #14–15 (Rooftops); BatChat ranks #9–13.
+73f5c943680c,160875,https://www.goodreads.com/book/show/160875.Batman,same_story,"Shaman, Legends of the Dark Knight #1–5."
+1b38d5825b4c,107159,https://www.goodreads.com/book/show/107159.Batman,same_story,Gotham by Gaslight original graphic novel; combined editions can add Master of the Future.
+76fa34e3b2da,39104180,https://www.goodreads.com/book/show/39104180-batman-vol-7,same_story,The Wedding Batman (2016) #44–50.
+44bc3ab237ea,26085,https://www.goodreads.com/book/show/26085.Identity_Crisis,same_story,2004 Identity Crisis #1–7; not the unrelated Batman #455–457 story with the same title.
+f7781cf65b0f,12791521,https://www.goodreads.com/book/show/12791521-batman,same_story,Batman: Earth One first graphic novel; not Volume 2 or 3.
+191befd05358,37775321,https://www.goodreads.com/book/show/37775321-batman,same_story,Batman: White Knight #1–8.
+9435943991eb,52541753,https://www.goodreads.com/book/show/52541753-batman,same_story,Batman: Three Jokers #1–3.
+3fdacd3b1ea1,1309276,https://www.goodreads.com/book/show/1309276.Batman,broader_collection,Ego and Other Tails anthology includes other Darwyn Cooke stories; not a standalone Ego score.
+9cdc208257ef,245797,https://www.goodreads.com/book/show/245797.Gotham_Central_Vol_2,same_story,"Half a Life Gotham Central #6–10; uses the five-volume paperback line, not Book One #1–10."
+3f4587601308,106042,https://www.goodreads.com/book/show/106042.Gotham_Central_Vol_1,broader_collection,In the Line of Duty collection includes Gotham Central #1–5; ranked story is #1–2.
+5db7840aa559,22363,https://www.goodreads.com/book/show/22363.Batman,same_story,"Gothic, Legends of the Dark Knight #6–10."
+2642d7ba0200,12090357,https://www.goodreads.com/book/show/12090357-batman,broader_collection,Gates of Gotham collection adds Detective Comics annual material beyond #1–5.
+e2938a5adf1e,11186443,https://www.goodreads.com/book/show/11186443-batman,same_story,Original Batman: Noël graphic novel.
+902478e6d5ee,18339834,https://www.goodreads.com/book/show/18339834-batman-volume-4,subset,Zero Year Secret City covers #21–24; ranked Zero Year also includes Dark City.
