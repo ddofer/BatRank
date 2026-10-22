@@ -21,7 +21,12 @@ if __name__ == "__main__":
     root = Path(__file__).resolve().parents[1]
     reports = root / "reports"
     validation = set(reports.glob("*validation.json"))
-    dataset = [root / "README.md", root / "data/external/creator_watch.csv"]
+    dataset = [
+        root / "README.md",
+        root / "data/external/creator_watch.csv",
+        root / "data/external/animal_watch.csv",
+        root / "data/external/story_labels.csv",
+    ]
     dataset += list((root / "data/processed").glob("*.csv"))
     dataset += [p for p in (root / "references").iterdir() if p.suffix in {".md", ".csv", ".json"}]
     dataset += [

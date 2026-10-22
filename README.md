@@ -10,7 +10,7 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 
 | Notebook | What’s in it | Kaggle |
 |---|---|---|
-| [Batman stories: the EDA](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Writers, publication years, heroes, villains, creative teams, and word clouds | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
+| [Batman stories: the EDA](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Best and worst-ranked creators and characters, series, Elseworlds, gorillas, sharks, and plot words | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Predicting the rankings](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
 
@@ -28,6 +28,8 @@ Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatte
 | `story_creators.csv` | 19,466 | Who worked on each story and in which role |
 | `creator_awards.csv` | 311 | Creator-to-award links |
 | `story_texts.csv` | 2,637 | Full plot summaries and records of missing text |
+
+Two small tables in `data/external/` add [checked animal appearances](data/external/animal_watch.csv) and [explicit issue labels](data/external/story_labels.csv), including Elseworlds and named events. Both join on `story_id` and retain source links. Missing labels mean unknown.
 
 Start with `stories.csv`. Join on `story_id` or `creator_id`. The [data dictionary](references/data_dictionary.md) explains the fields, joins, and missing values.
 

@@ -1,0 +1,111 @@
+story_id,animal,classification,evidence_note,source_url,requested_title,substory_index
+d4398ff1b550,shark,shark,Joker traps Batman and a hostage in a tank with a shark.,https://dc.fandom.com/wiki/Batman_Vol_1_251,Batman Vol 1 251,1.0
+d9d84232e2a9,gorilla,body_unverified,Ultra-Humanite (Earth-21); listed as antagonists. Cast name alone does not establish which body is depicted.,https://dc.fandom.com/wiki/DC:_The_New_Frontier_Vol_1_6,DC: The New Frontier Vol 1 6,
+d9d84232e2a9,gorilla,robot,The apparent Gorilla Grodd is revealed to be a robot.,https://dc.fandom.com/wiki/DC:_The_New_Frontier_Vol_1_4,DC: The New Frontier Vol 1 4,1.0
+eb669499c6ad,shark,excluded_name,"Tiger Shark (New Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Detective_Comics_Vol_1_878,Detective Comics Vol 1 878,
+242ae1a0ae5d,gorilla,gorilla,Karmak (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Batman_Incorporated_Vol_1_2,Batman Incorporated Vol 1 2,
+2b52a9e41673,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Final_Crisis_Vol_1_1,Final Crisis Vol 1 1,
+2b52a9e41673,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Final_Crisis_Vol_1_2,Final Crisis Vol 1 2,
+2b52a9e41673,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Final_Crisis_Vol_1_4,Final Crisis Vol 1 4,
+7b02c19ec0ee,gorilla,gorilla,Sam Simeon (New Earth); listed as featured.,https://dc.fandom.com/wiki/Solo_Vol_1_5,Solo Vol 1 5,
+ade5b25e4815,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Eternal_Vol_1_8,Batman: Eternal Vol 1 8,
+a29c41517bd5,shark,shark,Bane’s mother is thrown into shark-infested waters.,https://dc.fandom.com/wiki/Batman:_Vengeance_of_Bane_Vol_1_1,Batman: The Vengeance of Bane Vol 1 1,1.0
+7d25e3a56a24,shark,excluded_name,"Loan shark describes Sal Maroni’s criminal business, not an animal.",https://dc.fandom.com/wiki/Batman_and_the_Monster_Men_Vol_1_5,Batman and the Monster Men Vol 1 5,1.0
+6e3553e2da25,gorilla,gorilla,Karmak (Prime Earth); listed as antagonists.,https://dc.fandom.com/wiki/Batman_Incorporated_Vol_2_0,Batman Incorporated Vol 2 0,
+6e3553e2da25,gorilla,gorilla,Jackanapes (Batman in Bethlehem); listed as supporting.,https://dc.fandom.com/wiki/Batman_Incorporated_Vol_2_5,Batman Incorporated Vol 2 5,
+6e3553e2da25,gorilla,gorilla,Damian seeks help from the super-gorilla Jackanapes in a possible future.,https://dc.fandom.com/wiki/Batman_Incorporated_Vol_2_5,Batman Incorporated Vol 2 5,1.0
+a8012ccf95bf,gorilla,body_unverified,Ultra-Humanite (Lil Gotham); listed as antagonists. Cast name alone does not establish which body is depicted.,https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_8,Batman: Li'l Gotham Vol 1 8,
+a8012ccf95bf,gorilla,gorilla,Grodd (Lil Gotham); listed as antagonists.,https://dc.fandom.com/wiki/Batman:_Li%27l_Gotham_Vol_1_12,Batman: Li'l Gotham Vol 1 12,
+434eae1b3100,gorilla,excluded_name,"Gorilla Gang: human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Vol_1_156,Batman Vol 1 156,
+e61f8dd155e6,gorilla,unresolved_substory,Mallah (New Earth); listed as flashback. Issue has unresolved story attribution.,https://dc.fandom.com/wiki/Secret_Six_Vol_3_6,Secret Six Vol 3 6,
+e61f8dd155e6,shark,shark_person,King Shark (Nanaue (New Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Secret_Six_Vol_3_4,Secret Six Vol 3 4,
+e61f8dd155e6,shark,shark_person,King Shark (Nanaue (New Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Secret_Six_Vol_3_5,Secret Six Vol 3 5,
+e61f8dd155e6,shark,shark_person,King Shark (Nanaue (New Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Secret_Six_Vol_3_7,Secret Six Vol 3 7,
+b57a75c33d56,shark,shark_person,King Shark (Nanaue (Prime Earth)); listed as antagonists.,https://dc.fandom.com/wiki/All-Star_Batman_Vol_1_2,All-Star Batman Vol 1 2,
+85671c76d516,shark,excluded_name,Vinnie “the Shark” Starkey is a human drug dealer.,https://dc.fandom.com/wiki/Detective_Comics_Vol_1_651,Detective Comics Vol 1 651,1.0
+80edb630d687,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Eternal_Vol_1_36,Batman: Eternal Vol 1 36,
+bfe6ce7e692d,shark,identity_unverified,Shark II (Prime Earth); listed as cameo; species not established by this cast entry.,https://dc.fandom.com/wiki/Batman_and_Robin_Vol_3_13,Batman and Robin Vol 3 13,
+790384ef1c2c,shark,shark_person,King Shark (Nanaue (Prime Earth)); listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Batman:_Urban_Legends_Vol_1_15,Batman: Urban Legends Vol 1 15,
+81719ee34d2f,gorilla,gorilla,Gorilla Grodd (Justice League vs. Godzilla vs. Kong); listed as flashback. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_1,Justice League Vs. Godzilla Vs. Kong Vol 1 1,
+81719ee34d2f,gorilla,gorilla,Gorilla Grodd (Justice League vs. Godzilla vs. Kong); listed as antagonists.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_5,Justice League Vs. Godzilla Vs. Kong Vol 1 5,
+81719ee34d2f,gorilla,gorilla,Gorillas; listed as antagonists.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_5,Justice League Vs. Godzilla Vs. Kong Vol 1 5,
+81719ee34d2f,gorilla,gorilla,Gorilla Grodd (Justice League vs. Godzilla vs. Kong); listed as antagonists.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_6,Justice League Vs. Godzilla Vs. Kong Vol 1 6,
+81719ee34d2f,gorilla,gorilla,Gorillas; listed as antagonists.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_6,Justice League Vs. Godzilla Vs. Kong Vol 1 6,
+81719ee34d2f,gorilla,gorilla,Gorilla Grodd (Justice League vs. Godzilla vs. Kong); listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_7,Justice League Vs. Godzilla Vs. Kong Vol 1 7,
+81719ee34d2f,gorilla,gorilla,Gorillas; listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_7,Justice League Vs. Godzilla Vs. Kong Vol 1 7,
+81719ee34d2f,gorilla,gorilla,Grodd encounters Kong on Skull Island; Grodd is the confirmed gorilla.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_1,Justice League Vs. Godzilla Vs. Kong Vol 1 1,1.0
+81719ee34d2f,gorilla,mentioned_only,Gorilla Grodd (Justice League vs. Godzilla vs. Kong); listed as mentioned. Not counted as an appearance.,https://dc.fandom.com/wiki/Justice_League_vs._Godzilla_vs._Kong_Vol_1_2,Justice League Vs. Godzilla Vs. Kong Vol 1 2,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_1,The Joker: The Man Who Stopped Laughing Vol 1 1,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_2,The Joker: The Man Who Stopped Laughing Vol 1 2,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_3,The Joker: The Man Who Stopped Laughing Vol 1 3,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_4,The Joker: The Man Who Stopped Laughing Vol 1 4,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_5,The Joker: The Man Who Stopped Laughing Vol 1 5,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_6,The Joker: The Man Who Stopped Laughing Vol 1 6,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_7,The Joker: The Man Who Stopped Laughing Vol 1 7,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_8,The Joker: The Man Who Stopped Laughing Vol 1 8,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_9,The Joker: The Man Who Stopped Laughing Vol 1 9,
+652e4d3e15cb,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/The_Joker:_The_Man_Who_Stopped_Laughing_Vol_1_10,The Joker: The Man Who Stopped Laughing Vol 1 10,
+b0a3cfd86898,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Eternal_Vol_1_23,Batman: Eternal Vol 1 23,
+b0a3cfd86898,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Eternal_Vol_1_28,Batman: Eternal Vol 1 28,
+087eca6f9edc,gorilla,gorilla,Gorillas; listed as supporting.,https://dc.fandom.com/wiki/Batman_Giant_Vol_1_6,Batman Giant Vol 1 6,
+087eca6f9edc,gorilla,gorilla,Gorillas; listed as other.,https://dc.fandom.com/wiki/Batman_Giant_Vol_1_7,Batman Giant Vol 1 7,
+087eca6f9edc,gorilla,gorilla,Gorillas; listed as supporting.,https://dc.fandom.com/wiki/Batman:_Universe_Vol_1_2,Batman: Universe Vol 1 2,
+087eca6f9edc,gorilla,gorilla,Gorillas; listed as other.,https://dc.fandom.com/wiki/Batman:_Universe_Vol_1_3,Batman: Universe Vol 1 3,
+087eca6f9edc,gorilla,gorilla,Batman visits Gorilla City and meets King Nnamdi.,https://dc.fandom.com/wiki/Batman:_Universe_Vol_1_2,Batman: Universe Vol 1 2,1.0
+087eca6f9edc,gorilla,mentioned_only,Grodd II (Prime Earth); listed as mentioned. Not counted as an appearance.,https://dc.fandom.com/wiki/Batman_Giant_Vol_1_6,Batman Giant Vol 1 6,
+087eca6f9edc,gorilla,mentioned_only,Grodd II (Prime Earth); listed as mentioned. Not counted as an appearance.,https://dc.fandom.com/wiki/Batman:_Universe_Vol_1_2,Batman: Universe Vol 1 2,
+5e013e5cd2b7,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Vol_3_98,Batman Vol 3 98,
+deed1ad9ddcc,gorilla,gorilla,Jackanapes (Batman in Bethlehem); listed as antagonists.,https://dc.fandom.com/wiki/Batman_Vol_1_666,Batman Vol 1 666,
+1000ecdb6fec,gorilla,gorilla,Gorillas; listed as flashback. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Batman:_Legends_of_the_Dark_Knight_Vol_1_94,Batman: Legends of the Dark Knight Vol 1 94,
+b38b63e0b254,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Villains_United_Vol_1_1,Villains United Vol 1 1,
+b38b63e0b254,gorilla,gorilla,Mallah (New Earth); listed as flashback. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Villains_United_Vol_1_4,Villains United Vol 1 4,
+b38b63e0b254,gorilla,gorilla,Mallah (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Villains_United_Vol_1_5,Villains United Vol 1 5,
+b38b63e0b254,gorilla,gorilla,Mallah (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Villains_United_Vol_1_6,Villains United Vol 1 6,
+b38b63e0b254,shark,shark_person,King Shark (Nanaue (New Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Villains_United_Vol_1_5,Villains United Vol 1 5,
+b38b63e0b254,shark,shark_person,King Shark (Nanaue (New Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Villains_United_Vol_1_6,Villains United Vol 1 6,
+ddab9a800eda,shark,identity_unverified,Shark (City of Madness); listed as other; species not established by this cast entry.,https://dc.fandom.com/wiki/Batman:_City_of_Madness_Vol_1_1,Batman: City of Madness Vol 1 1,
+ddab9a800eda,shark,identity_unverified,Shark (Gotham Below); listed as cameo; species not established by this cast entry.,https://dc.fandom.com/wiki/Batman:_City_of_Madness_Vol_1_2,Batman: City of Madness Vol 1 2,
+f752963a1e5f,gorilla,excluded_name,"Mogo (Injustice): the Green Lantern planet, not the Bat-Ape.",https://dc.fandom.com/wiki/Injustice:_Gods_Among_Us:_Year_Two_Vol_1_8,Injustice: Gods Among Us Year Two Vol 1 8,
+f752963a1e5f,gorilla,excluded_name,"Mogo (Injustice): the Green Lantern planet, not the Bat-Ape.",https://dc.fandom.com/wiki/Injustice:_Gods_Among_Us:_Year_Two_Vol_1_9,Injustice: Gods Among Us Year Two Vol 1 9,
+f752963a1e5f,gorilla,excluded_name,"Mogo (Injustice): the Green Lantern planet, not the Bat-Ape.",https://dc.fandom.com/wiki/Injustice:_Gods_Among_Us:_Year_Two_Vol_1_12,Injustice: Gods Among Us Year Two Vol 1 12,
+6f2813e4ed8b,shark,excluded_name,"Tiger Shark (Prime Earth): human criminal name, not an animal.",https://dc.fandom.com/wiki/Batman_Vol_2_12,Batman Vol 2 12,
+5aa6952e8b76,gorilla,depiction_only,Gorilla Grodd (New Earth); listed as depiction. Not counted as an appearance.,https://dc.fandom.com/wiki/Underworld_Unleashed:_Patterns_of_Fear_Vol_1_1,Underworld Unleashed: Patterns of Fear Vol 1 1,
+5aa6952e8b76,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Underworld_Unleashed_Vol_1_1,Underworld Unleashed Vol 1 1,
+5aa6952e8b76,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Underworld_Unleashed_Vol_1_3,Underworld Unleashed Vol 1 3,
+32559af20fd0,shark,excluded_name,"Great White Shark is Warren White, a human criminal.",https://dc.fandom.com/wiki/Batman_Vol_2_47,Batman Vol 2 47,1.0
+32559af20fd0,shark,shark,Gordon’s robotic Batsuit swings two shark carcasses as clubs.,https://dc.fandom.com/wiki/Batman_Vol_2_45,Batman Vol 2 45,1.0
+77242845d12c,gorilla,gorilla,Sam Simeon (Scooby-Doo Team-Up); listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Scooby-Doo!_Team-Up_Vol_1_2,Scooby-Doo Team-Up Vol 1 2,
+b6bde7024ec2,ape,ape,Titans Apes (Tiny Titans); listed as supporting.,https://dc.fandom.com/wiki/Tiny_Titans_Vol_1_28,Tiny Titans Vol 1 28,
+b6bde7024ec2,gorilla,gorilla,Monsieur Mallah (Tiny Titans); listed as supporting.,https://dc.fandom.com/wiki/Tiny_Titans_Vol_1_28,Tiny Titans Vol 1 28,
+0ee214642a1e,gorilla,gorilla,Gorilla Grodd (Injustice); listed as antagonists.,https://dc.fandom.com/wiki/Injustice:_Gods_Among_Us_Vol_1_3,Injustice: Gods Among Us Vol 1 3,
+7520d9fd86fb,gorilla,gorilla,Grodd II (Prime Earth); listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/DC_Rebirth_Holiday_Special_Vol_1_1,DC Rebirth Holiday Special Vol 1 1,
+03d6df658f8f,gorilla,body_unverified,Ultra-Humanite (DCAU); listed as flashback. Cast name alone does not establish which body is depicted.,https://dc.fandom.com/wiki/Batman_Beyond_Unlimited_Vol_1_4,Batman Beyond Unlimited Vol 1 4,
+ca0525c1df79,shark,shark,Pirate Batman dives into shark-filled water to rescue Felina.,https://dc.fandom.com/wiki/Detective_Comics_Annual_Vol_1_7,Detective Comics Annual Vol 1 7,1.0
+266bfdb5b196,gorilla,excluded_name,"Mogo (Injustice): the Green Lantern planet, not the Bat-Ape.",https://dc.fandom.com/wiki/Injustice:_Gods_Among_Us:_Year_Four_Vol_1_5,Injustice Gods Among Us Year Four Vol 1 5,
+753519aa2e5d,shark,shark,The selected story’s supporting cast lists an unnamed great white shark and marks its death; this is not King Shark.,https://dc.fandom.com/wiki/Justice_League_vs._Suicide_Squad_Vol_1_2,Justice League Vs. Suicide Squad Vol 1 2,
+e092e19b211d,gorilla,gorilla,Grodd II (Prime Earth); listed as other.,https://dc.fandom.com/wiki/Batman_Vol_3_41,Batman Vol 3 41,
+e092e19b211d,gorilla,mentioned_only,Grodd II (Prime Earth); listed as mentioned. Not counted as an appearance.,https://dc.fandom.com/wiki/Batman_Vol_3_42,Batman Vol 3 42,
+d05db266f1d6,ape,ape,"Mogo, a trained ape, becomes Bat-Ape. The synopsis does not specify species.",https://dc.fandom.com/wiki/Batman_Vol_1_114,Batman Vol 1 114,3.0
+3a8900ff8ee2,gorilla,gorilla,Gorilla Grodd (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Superman/Batman_Vol_1_3,Superman/Batman Vol 1 3,
+3a8900ff8ee2,shark,shark_person,King Shark (Nanaue (New Earth)); listed as cameo. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Superman/Batman_Vol_1_3,Superman/Batman Vol 1 3,
+5f43a87ae0c2,shark,depiction_only,King Shark (Nanaue (Harley Quinn TV Series)); listed as depiction. Not counted as an appearance.,https://dc.fandom.com/wiki/Harley_Quinn:_The_Animated_Series:_The_Eat._Bang!_Kill._Tour_Vol_1_1,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour Vol 1 1",
+5f43a87ae0c2,shark,shark_person,King Shark (Nanaue (Harley Quinn TV Series)); listed as other.,https://dc.fandom.com/wiki/Harley_Quinn:_The_Animated_Series:_The_Eat._Bang!_Kill._Tour_Vol_1_6,"Harley Quinn: The Animated Series- The Eat, Bang, Kill Tour Vol 1 6",
+37c8f74bce10,shark,excluded_name,"Great White Shark is Warren White, a human financial criminal.",https://dc.fandom.com/wiki/Batman_Vol_1_654,Batman Vol 1 654,1.0
+3450065b5228,gorilla,gorilla,Karmak (New Earth); listed as antagonists.,https://dc.fandom.com/wiki/Detective_Comics_Vol_1_339,Detective Comics Vol 1 339,
+3450065b5228,gorilla,gorilla,Karmak is a gorilla whose intelligence is enhanced by an invention.,https://dc.fandom.com/wiki/Detective_Comics_Vol_1_339,Detective Comics Vol 1 339,1.0
+c6706a4b3c36,gorilla,gorilla,Jackanapes (Prime Earth); listed as supporting.,https://dc.fandom.com/wiki/Batman_Vol_2_23.1:_The_Joker,Batman Vol 2 23.1,
+c6706a4b3c36,gorilla,gorilla,Jackanapes (Prime Earth); listed as flashback. Included as a brief or past appearance.,https://dc.fandom.com/wiki/Batman_Vol_2_23.1:_The_Joker,Batman Vol 2 23.1,
+c6706a4b3c36,gorilla,gorilla,Joker takes a baby gorilla from the zoo and names him Jackanapes.,https://dc.fandom.com/wiki/Batman_Vol_2_23.1:_The_Joker,Batman Vol 2 23.1,1.0
+154cd055a313,gorilla,splicer,"Batman fights a gorilla splicer: an altered human, not an ordinary gorilla.",https://dc.fandom.com/wiki/Batman_Beyond_Vol_2_24,Batman Beyond Vol 2 24,1.0
+99222ba56cfc,gorilla,mentioned_only,Gorilla Grodd (Full Moon); listed as mentioned. Not counted as an appearance.,https://dc.fandom.com/wiki/Batman:_Full_Moon_Vol_1_3,Batman: Full Moon Vol 1 3,
+5fea3fc82a61,gorilla,body_unverified,Ultra-Humanite (The Brave and the Bold); listed as antagonists. Cast name alone does not establish which body is depicted.,https://dc.fandom.com/wiki/Batman:_The_Brave_and_the_Bold_Vol_1_3,Batman: The Brave and the Bold Vol 1 3,
+5fea3fc82a61,gorilla,gorilla,Ultra-Humanite plans a mind-transfer experiment using his pet gorilla Topango.,https://dc.fandom.com/wiki/Batman:_The_Brave_and_the_Bold_Vol_1_3,Batman: The Brave and the Bold Vol 1 3,1.0
+504d435caa58,gorilla,gorilla,Gorillas; listed as antagonists.,https://dc.fandom.com/wiki/Detective_Comics_Vol_1_31,Detective Comics Vol 1 31,
+504d435caa58,gorilla,gorilla,The Monk uses a giant gorilla to attack Batman.,https://dc.fandom.com/wiki/Detective_Comics_Vol_1_31,Detective Comics Vol 1 31,1.0
+12a1e37b77d7,gorilla,gorilla,Congorilla (The Nail); listed as other.,https://dc.fandom.com/wiki/Justice_League:_The_Nail_Vol_1_2,Justice League: The Nail Vol 1 2,
+b1c96a5ae5d2,shark,shark_person,King Shark (Nanaue (Prime Earth)); listed as supporting.,https://dc.fandom.com/wiki/Suicide_Squad_Vol_4_6,Suicide Squad Vol 4 6,
+b1c96a5ae5d2,shark,shark_person,King Shark (Nanaue (Prime Earth)); listed as featured.,https://dc.fandom.com/wiki/Suicide_Squad_Vol_4_7,Suicide Squad Vol 4 7,
+b1c96a5ae5d2,shark,shark_person,King Shark threatens a survivor while Yo-Yo is still alive inside him.,https://dc.fandom.com/wiki/Suicide_Squad_Vol_4_6,Suicide Squad Vol 4 6,1.0
+f641b480c721,shark,shark_person,King Shark (Nanaue (Prime Earth)); listed as antagonists.,https://dc.fandom.com/wiki/Robin_%26_Batman_Vol_1_2,Robin and Batman Vol 1 2,
+9435943991eb,shark,shark,Sharks listed as other.,https://dc.fandom.com/wiki/Batman:_Three_Jokers_Vol_1_1,Batman: Three Jokers Vol 1 1,
+9435943991eb,shark,shark,A Jokerized shark escapes its aquarium and eats Gaggy.,https://dc.fandom.com/wiki/Batman:_Three_Jokers_Vol_1_1,Batman: Three Jokers Vol 1 1,1.0

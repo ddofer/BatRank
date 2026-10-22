@@ -23,13 +23,11 @@ Which writers and villains turn up in the best Batman stories? Explore 740 ranki
 ```markdown
 # Who gets the good Batman stories?
 
-Which writers dominate a Batman reading list? Which villains turn up in the best stories? And why do two books by Doug Moench and Kelley Jones land **710 places apart**?
+Which writers, artists, and characters turn up in BatChat's favorites? Which series have the strongest showing? And how much changes when we compare books from the same decade?
 
-Let's explore **740 stories ranked by BatChat**, the podcast hosted by Matt Lazorwitz and Will Nevin. We'll start with writers and publication years, then characters, creative teams, and the stories themselves.
+These are **740 stories ranked by Matt Lazorwitz and Will Nevin** on [BatChat](https://comicsxf.com/batchat-rankings/). **Rank 1 is best. Lower is better throughout.** Start with the leaderboards, then look at eras, creative teams, and plots.
 
-**Rank 1 is best throughout.** This is the **2026-10-21** snapshot of [ComicsXF's list](https://comicsxf.com/batchat-rankings/). It reflects the hosts' choices and tastes, not a poll of Batman readers.
-
-*Part of [BatRank](https://github.com/ddofer/BatRank), by [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ).*
+By [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ). [Dataset](https://www.kaggle.com/datasets/danofer/batchat-batman-rankings) · [Code and sources](https://github.com/ddofer/BatRank).
 ```
 
 ## Prediction — notebook 1

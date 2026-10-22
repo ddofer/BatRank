@@ -183,3 +183,12 @@ Each notebook received a full rewrite and a second reader’s critique. The EDA 
 Repeated setup, the EDA award and publication-age detours, the standalone importance chart, and the audience notebook’s prediction experiment were removed. Their earlier numerical results above remain part of the audit history. Retired figures and reports are excluded from the current sharing bundles. Feature-importance tables remain available from the prediction notebook.
 
 Review corrected tied positions on the audience comparison scale, distinguished writer age from experience, and fixed a misleading description of team continuity. The publication-era check now exports its stricter review-count calculations and leave-one-out range in `same_cohort_audiences.json`.
+
+
+## EDA update — 22 October 2026
+
+Added creator and character rank distributions, series comparisons, explicit wiki labels, plot-word searches, and animal watch. Creator comparisons require complete story attribution. New character leaderboards merge three reviewed alias groups and deduplicate each story. The five-story cutoff is qualified with a ten-story check.
+
+Animal watch has 110 evidence rows covering confirmed and excluded candidates. Its chart shows 38 distinct stories; some appear in both animal panels. The companion label table has 740 rows: 32 contain Elseworlds-labelled issues, 40 contain wiki graphic-novel categories, and 161 contain named event fields. Event names are not crossover labels. Missing source labels are not negative observations.
+
+Independent review checked rank directions, sample cutoffs, source scope, and the new prose. The updated notebook executed successfully. All 90 tests and lint passed. No fresh scraping was needed.

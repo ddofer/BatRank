@@ -248,3 +248,32 @@ These definitions apply to notebook figures and tables exported under `reports/`
 | Counts, coverage, credit shares, atlas color | Observed quantity or proportion, with local denominators | **No universal better direction.** More votes are more observations, not higher ratings. Darker atlas cells mean a larger share in that rank band; farther left means better-ranked books. |
 
 Confidence intervals describe uncertainty under the stated resampling method. The middle-half bars in cast, era, and publication-age figures instead show the spread of observed ranks. Permutation-importance error bars show variation across folds. These bars are not interchangeable.
+
+
+## EDA reference tables
+
+`data/external/animal_watch.csv` records reviewed gorilla, ape, and shark candidates. It includes false matches so the decisions can be checked. More than one row can describe a story.
+
+| Field | Meaning |
+|---|---|
+| `story_id` | Join to stories. |
+| `animal` | Search family: gorilla, ape, or shark. |
+| `classification` | Gorilla, unspecified ape, shark, shark-person, robot, or splicer; other values explain exclusions or unresolved evidence. |
+| `evidence_note` | Short description of the evidence and any appearance limits. |
+| `source_url` | Wiki issue page supporting the decision. |
+| `requested_title` | Issue reference used in the dataset. |
+| `substory_index` | Selected substory, when the evidence is a synopsis. Blank for cast-list evidence. |
+
+`data/external/story_labels.csv` contains explicit issue labels extracted from the saved wiki pages by `python -m scripts.story_labels`. These are issue-level labels: a ranked backup can inherit the containing issue’s label.
+
+| Field | Meaning |
+|---|---|
+| `story_id` | Unique story key. |
+| `reference_count` | Issue references examined. |
+| `labelled_issue_count` | References with an available cached wiki page, including pages with no relevant label. |
+| `label_issue_coverage` | Available pages divided by references. This measures access, not completeness of source labelling. |
+| `elseworlds_issue_count`, `graphic_novel_issue_count`, `event_issue_count` | References with explicit Elseworlds, Graphic Novels category, or Event fields. Zero means no recorded label, not a verified absence. |
+| `elseworlds_source_urls`, `graphic_novel_source_urls`, `event_source_urls` | Pipe-separated evidence URLs. |
+| `event_names` | Pipe-separated event names. An event label does not necessarily mean a crossover. |
+
+Elseworlds means an alternate-continuity story. A graphic-novel category does not establish whether a book was originally published as a graphic novel or collected later. `format_hint` in `stories.csv` separately records explicit original-graphic-novel wording from the ranking list.

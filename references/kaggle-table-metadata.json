@@ -1662,6 +1662,112 @@
           }
         ]
       }
+    },
+    {
+      "path": "data/external/animal_watch.csv",
+      "description": "Reviewed animal sightings and excluded keyword matches; join on story_id. See evidence_note and source_url.",
+      "schema": {
+        "fields": [
+          {
+            "name": "story_id",
+            "description": "Join to stories.csv on story_id.",
+            "type": "string"
+          },
+          {
+            "name": "animal",
+            "description": "Animal search family.",
+            "type": "string"
+          },
+          {
+            "name": "classification",
+            "description": "Reviewed type or exclusion reason.",
+            "type": "string"
+          },
+          {
+            "name": "evidence_note",
+            "description": "Paraphrased source evidence and limits.",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "description": "Issue source URL.",
+            "type": "string"
+          },
+          {
+            "name": "requested_title",
+            "description": "Requested issue reference.",
+            "type": "string"
+          },
+          {
+            "name": "substory_index",
+            "description": "Synopsis substory index when available.",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/external/story_labels.csv",
+      "description": "Explicit cached issue labels; one row per story. Zero labels mean unrecorded, not confirmed absence.",
+      "schema": {
+        "fields": [
+          {
+            "name": "story_id",
+            "description": "Join to stories.csv on story_id.",
+            "type": "string"
+          },
+          {
+            "name": "reference_count",
+            "description": "Issue references examined.",
+            "type": "number"
+          },
+          {
+            "name": "labelled_issue_count",
+            "description": "References with available cached wiki pages.",
+            "type": "number"
+          },
+          {
+            "name": "label_issue_coverage",
+            "description": "Fraction of references with available pages; source label completeness is unknown.",
+            "type": "number"
+          },
+          {
+            "name": "elseworlds_issue_count",
+            "description": "Explicit matching issue count; zero means unrecorded.",
+            "type": "number"
+          },
+          {
+            "name": "elseworlds_source_urls",
+            "description": "Pipe-separated supporting issue URLs.",
+            "type": "string"
+          },
+          {
+            "name": "graphic_novel_issue_count",
+            "description": "Explicit matching issue count; zero means unrecorded.",
+            "type": "number"
+          },
+          {
+            "name": "graphic_novel_source_urls",
+            "description": "Pipe-separated supporting issue URLs.",
+            "type": "string"
+          },
+          {
+            "name": "event_issue_count",
+            "description": "Explicit matching issue count; zero means unrecorded.",
+            "type": "number"
+          },
+          {
+            "name": "event_source_urls",
+            "description": "Pipe-separated supporting issue URLs.",
+            "type": "string"
+          },
+          {
+            "name": "event_names",
+            "description": "Pipe-separated named events; not necessarily crossovers.",
+            "type": "string"
+          }
+        ]
+      }
     }
   ]
 }
