@@ -1,14 +1,14 @@
 # Data dictionary
 
-The snapshot contains **740 ranked entries × 162 columns** in `stories.csv` and **2,434 story–reference associations × 78 columns** in `issues.csv`. One ranked entry can be an arc, an original graphic novel, a backup, an anthology, or several stories read together.
+The canonical processed snapshot contains **740 ranked entries × 162 columns**. The upload splits it into **21 columns in `stories.csv`** (rank and title first) and **142 in `story_features.csv`**, with only `story_id` repeated. A one-to-one join reconstructs every original field. `issues.csv` contains **2,434 story–reference associations × 78 columns**. One ranked entry can be an arc, an original graphic novel, a backup, an anthology, or several stories read together.
 
-Both files are UTF-8 CSV without a saved dataframe index. Empty fields mean unavailable or inapplicable; booleans use `True`/`False`. Nullable counts and years can serialize as decimals. Multi-value names, wiki targets and event IDs use `|`; GCD type/URL lists and publisher credit lists use `; `. `work_award_matches` is a JSON array inside a quoted CSV cell. Sets are deduplicated; matching names does not resolve every alias or prove who physically drew an historically disputed credit.
+All files are UTF-8 CSV without a saved dataframe index. Empty fields mean unavailable or inapplicable; booleans use `True`/`False`. Nullable counts and years can serialize as decimals. Multi-value names, wiki targets and event IDs use `|`; GCD type/URL lists and publisher credit lists use `; `. `work_award_matches` is a JSON array inside a quoted CSV cell. Sets are deduplicated; matching names does not resolve every alias or prove who physically drew an historically disputed credit.
 
 Join the tables on `story_id`; `(story_id, requested_title)` uniquely identifies an issue-table row. The same issue can occur in several readings. Deduplicate `issue_id` when counting global wiki issues, and keep shared issues/episode companions together during validation. An exploded join is not a larger sample of independent ranked stories.
 
 ## Ranked entries: identity, bibliography and original metadata
 
-These fields occur in `stories.csv`.
+These fields occur in the joined story tables (`stories.csv` and `story_features.csv`).
 
 | Columns | Definition |
 |---|---|
@@ -67,7 +67,7 @@ For strict character comparisons, require `cast_scope == 'selected_narratives'` 
 
 ## Team continuity, age and collection links
 
-Team features occur in `stories.csv`. References follow their listed reading order and receive equal weight; they are not weighted by narrative pages.
+Team features occur in `story_features.csv`. References follow their listed reading order and receive equal weight; they are not weighted by narrative pages.
 
 | Columns | Definition |
 |---|---|

@@ -35,11 +35,8 @@ texts:
 	uv run python -m scripts.texts
 	uv run python scripts/dataset.py --offline
 
-notebooks/%.ipynb: notebooks/%.py
-	uv run python scripts/build_notebook.py $< $@
-	uv run jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=900 $@
-
-notebooks: $(patsubst %.py,%.ipynb,$(wildcard notebooks/*.py))
+notebooks:
+	uv run python scripts/execute_notebooks.py
 
 share:
 	uv run python -m scripts.package

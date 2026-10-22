@@ -5,14 +5,15 @@ BatRank links these stories to creators, characters, awards, plot, and ratings.
 
 | Table | Contents |
 |---|---|
-| `stories.csv` | 740 ranked stories and their features |
+| `stories.csv` | 740 ranked stories; 21 columns with rank and title first |
+| `story_features.csv` | Specialist features and provenance; join one-to-one on `story_id` |
 | `issues.csv` | 2,434 issue references within those stories |
 | `creators.csv` | 1,847 creator name records, including flagged studios |
 | `story_creators.csv` | 19,466 story–creator–role links, with attribution scope |
 | `creator_awards.csv` | 311 creator-to-award-event links |
 | `story_texts.csv` | 2,637 selected synopsis or missing-text records |
 
-Join story tables on `story_id` and creator tables on `creator_id`. Use `credit_scope='selected_narrative'` for the people who worked on the selected stories. Award links use `event_id` to join `award_events.csv`. Smaller curated tables add issue labels (`story_labels.csv`), animal sightings (`animal_watch.csv`), Mad Hatter's reviewed story roles (`hatter_story_roles.csv`), and a cited creator-controversy list (`creator_watch.csv`).
+Start with the compact `stories.csv`; add `story_features.csv` for cast, awards, outside ratings and their match scopes. Join story tables on `story_id` and creator tables on `creator_id`. Use `credit_scope='selected_narrative'` for the people who worked on the selected stories. Award links use `event_id` to join `award_events.csv`. Smaller curated tables add issue labels (`story_labels.csv`), animal sightings (`animal_watch.csv`), Mad Hatter's reviewed story roles (`hatter_story_roles.csv`), and a cited creator-controversy list (`creator_watch.csv`).
 
 The text table contains **1,711 available summaries totaling 703,219 words**; these are wiki contributors’ plot descriptions. Recent comics have thinner coverage.
 
@@ -30,3 +31,5 @@ I'll try to update as the rankings progress, they've got stories for years!
 - [BatChat vs the Crowd](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) — where Goodreads readers and critics disagree with the hosts
 - [Can a Computer Predict BatChat's Favorites?](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) — regression, plot words, the misses
 - [What Pushes a Batman Story Up BatChat's List?](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) — model weights, stability checks, SHAP breakdowns
+
+- [Which Batman Stories Deserve a Second Look?](https://www.kaggle.com/code/danofer/which-batman-stories-deserve-a-second-look) — 20 reranking discussion candidates, including ten from early episodes

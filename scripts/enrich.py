@@ -9,6 +9,7 @@ import collections
 import json
 import re
 import unicodedata
+from itertools import pairwise
 from urllib.parse import quote
 
 import mwparserfromhell
@@ -349,7 +350,7 @@ def team_features(rows, total):
         elif "_self_inking_share" not in row and artists and inkers:
             self_ink.append(len(artists & inkers) / len(artists))
     counts = collections.Counter(matched_teams)
-    adjacent = [(a, b) for a, b in zip(teams, teams[1:]) if a is not None and b is not None]
+    adjacent = [(a, b) for a, b in pairwise(teams) if a is not None and b is not None]
     return {
         "narrative_credit_issue_coverage": len(matched_teams) / total,
         "narrative_team_count": len(counts) if counts else None,

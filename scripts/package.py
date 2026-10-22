@@ -1,5 +1,6 @@
 """Stage the flat Kaggle dataset folder: final tables plus dataset-metadata.json."""
 
+import csv
 import json
 import shutil
 from pathlib import Path
@@ -11,7 +12,19 @@ def stage_kaggle(root, target):
     shutil.rmtree(target, ignore_errors=True)
     target.mkdir(parents=True)
     for table in tables["resources"]:
-        shutil.copy2(root / table["source"], target / table["path"])
+        source = root / table["source"]
+        destination = target / table["path"]
+        if table["path"] in {"stories.csv", "story_features.csv"} and "schema" in table:
+            fields = [field["name"] for field in table["schema"]["fields"]]
+            with source.open(newline="") as src, destination.open("w", newline="") as dest:
+                reader = csv.DictReader(src)
+                if not set(fields).issubset(reader.fieldnames or []):
+                    raise ValueError(f"Missing columns in {source}")
+                writer = csv.DictWriter(dest, fieldnames=fields, extrasaction="ignore")
+                writer.writeheader()
+                writer.writerows(reader)
+        else:
+            shutil.copy2(source, destination)
     metadata = {
         "id": "danofer/batchat-batman-rankings",
         "title": "BatRank: A BatChat Batman Ranking Dataset",

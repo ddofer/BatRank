@@ -1,6 +1,6 @@
 # BatRank
 
-A Batman dataset built from [ComicsXF’s BatChat rankings](https://comicsxf.com/batchat-rankings/), with six notebooks on the stories, their creators, the podcast’s taste, and what drives it.
+A Batman dataset built from [ComicsXF’s BatChat rankings](https://comicsxf.com/batchat-rankings/), with seven notebooks on the stories, their creators, the podcast’s taste, and what drives it.
 
 **740 stories. Rank 1 is best. Snapshot: 21 October 2026.**
 
@@ -10,22 +10,24 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 
 | Notebook | What’s in it | Kaggle |
 |---|---|---|
-| [Who gets the good Batman stories?](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Writers, artists, letterers, eras, writer–artist pairs | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
+| [Who gets the good Batman stories?](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Writers, artists, letterers, eras, writer–artist pairs, cited controversy examples | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
 | [Gotham's rogues, ranked](notebooks/2.1-batchat-gothams-rogues.ipynb) | Heroes and villains by rank, the Mad Hatter trick, gorillas and sharks, villain word clouds | [Run](https://www.kaggle.com/code/danofer/gotham-s-rogues-ranked) |
 | [What Batman plots are made of](notebooks/2.2-batchat-plot-words.ipynb) | Series, Elseworlds, plot-summary coverage, plot ingredients, the bat word cloud | [Run](https://www.kaggle.com/code/danofer/what-batman-plots-are-made-of) |
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Can a computer predict BatChat's favorites?](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
-| [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Model weights, permutation importance, SHAP breakdowns of the mismatches, per audience | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
+| [Which stories deserve a second look?](notebooks/4.0-batchat-second-look.ipynb) | 20 held-out model disagreements, including ten early-episode case studies | [Run](https://www.kaggle.com/code/danofer/which-batman-stories-deserve-a-second-look) |
+| [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Model weights, held-out SHAP size/direction, story counts, uncertainty, audience comparisons | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
 
 Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from big-cast books and collections; the rogues notebook [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 
 ## Dataset
 
-[Download on Kaggle](https://www.kaggle.com/datasets/danofer/batchat-batman-rankings). Eleven flat CSVs; every column is described on the Kaggle data page.
+[Download on Kaggle](https://www.kaggle.com/datasets/danofer/batchat-batman-rankings). Twelve flat CSVs; every column is described on the Kaggle data page.
 
 | File | Rows | Contents |
 |---|---:|---|
-| `stories.csv` | 740 | Rankings, writers, artists, characters, dates, awards, and outside ratings |
+| `stories.csv` | 740 | 21 columns: rank and title first, selected-story credits, years and discussion links |
+| `story_features.csv` | 740 | Cast, awards, outside ratings, coverage flags and provenance; join on `story_id` |
 | `issues.csv` | 2,434 | Issues included in each story |
 | `creators.csv` | 1,847 | Creator names, biographies, and awards; studios are flagged |
 | `story_creators.csv` | 19,466 | Who worked on each story and in which role |
@@ -34,7 +36,7 @@ Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatte
 
 Five small curated tables join on `story_id`, `creator_id`, or `event_id`: `award_events.csv`, [animal_watch.csv](data/external/animal_watch.csv), [story_labels.csv](data/external/story_labels.csv), [hatter_story_roles.csv](data/external/hatter_story_roles.csv), and [creator_watch.csv](data/external/creator_watch.csv). Missing labels mean unknown.
 
-Start with `stories.csv`. Join on `story_id` or `creator_id`. The [data dictionary](references/data_dictionary.md) explains the fields, joins, and missing values.
+Start with `stories.csv`; specialist columns are in `story_features.csv`. Join them one-to-one on `story_id`, or join creator tables on `creator_id`. The [data dictionary](references/data_dictionary.md) explains the fields, joins, and missing values.
 
 There are **1,711 plot summaries totaling 703,219 words**, with no length cap. Text covers 587 stories; 481 have complete summaries and issue lists. Recent comics have less coverage. Outside ratings cover selected books and editions. The notebooks check those matches before comparing scores.
 
@@ -44,12 +46,12 @@ There are **1,711 plot summaries totaling 703,219 words**, with no length cap. T
 
 ```bash
 uv sync --locked
-make notebooks   # build each notebooks/*.ipynb from its .py source and execute it
 make share       # stage data/kaggle/ + dataset-metadata.json; then: kaggle datasets version -p data/kaggle -m msg --dir-mode skip
+make notebooks   # execute the notebooks; save each only after a successful run
 make check       # tests and lint
 ```
 
-The notebooks are self-contained: pandas, seaborn, scikit-learn, scipy, and shap only. No scraping or API keys. Each `notebooks/*.py` is the percent-format source; `scripts/build_notebook.py` turns it into the `.ipynb` (keeping the one image attachment).
+The `.ipynb` files are the notebook sources; there are no parallel `.py` copies. They run offline against the staged tables using the dependencies in `pyproject.toml`. The artwork is embedded as an attributed attachment. Run one notebook with `uv run python scripts/execute_notebooks.py notebooks/2.2-batchat-plot-words.ipynb`.
 
 ## Processing code
 

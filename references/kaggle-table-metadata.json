@@ -3,17 +3,22 @@
   {
    "path": "stories.csv",
    "source": "data/processed/stories.csv",
-   "description": "740 stories ranked by BatChat. Start here. Rank 1 is best; lower ranks are better. Includes publication details, writers and artists, characters, awards, outside ratings, and coverage flags. Join other story tables on story_id. Unique key: story_id. Empty values mean unknown or inapplicable.",
+   "description": "Start here: 740 ranked stories, with rank and title first, selected-story credits, publication years and discussion links. Rank 1 is best. Specialist features and provenance are in story_features.csv; join one-to-one on story_id. Empty values mean unknown.",
    "schema": {
     "fields": [
      {
-      "name": "source_label",
-      "description": "Original BatChat story label with its leading rank number removed.",
-      "type": "string"
+      "name": "rank",
+      "description": "Position on BatChat’s list. Lower is better; 1 is the top-ranked story. Uses page order because some printed source numbers repeat. Prediction target, not an input feature.",
+      "type": "number"
      },
      {
       "name": "title",
       "description": "Story title parsed from the BatChat label.",
+      "type": "string"
+     },
+     {
+      "name": "story_id",
+      "description": "Story identifier. Join to stories.csv using this field. Unique here; derived from the original source label.",
       "type": "string"
      },
      {
@@ -22,13 +27,112 @@
       "type": "string"
      },
      {
-      "name": "source_year",
-      "description": "Year shown in one of the top-five story cards on the source page. Missing for other entries; not filled from external metadata.",
+      "name": "narrative_writers",
+      "description": "Writers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "narrative_pencilers",
+      "description": "Pencilers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "narrative_inkers",
+      "description": "Inkers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "narrative_colorists",
+      "description": "Colorists for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "narrative_letterers",
+      "description": "Letterers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "narrative_editors",
+      "description": "Editors for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
+      "type": "string"
+     },
+     {
+      "name": "cover_year_start",
+      "description": "Earliest/latest known cover years and earliest explicitly recorded publication year among matched issues. A partial set of dates may miss the true start/end. Publication year is not inferred from a cover year.",
+      "type": "number"
+     },
+     {
+      "name": "cover_year_end",
+      "description": "Earliest/latest known cover years and earliest explicitly recorded publication year among matched issues. A partial set of dates may miss the true start/end. Publication year is not inferred from a cover year.",
+      "type": "number"
+     },
+     {
+      "name": "issue_count",
+      "description": "All references match and the reading list is complete; issue count is supplied only under that condition. Digital chapters and collected manga volumes are still references, not equivalent-length units.",
+      "type": "number"
+     },
+     {
+      "name": "page_count",
+      "description": "Sum of wiki whole-issue page counts only when the list is complete and every issue supplies a numeric count. Almost entirely unavailable; see the separate GCD narrative counts below.",
+      "type": "number"
+     },
+     {
+      "name": "medium",
+      "description": "`comic`, `webcomic`, `manga` or `unknown`; `original_graphic_novel` only when the source explicitly says OGN, otherwise `unspecified`. Animation-themed comic adaptations remain comics.",
+      "type": "string"
+     },
+     {
+      "name": "format_hint",
+      "description": "`comic`, `webcomic`, `manga` or `unknown`; `original_graphic_novel` only when the source explicitly says OGN, otherwise `unspecified`. Animation-themed comic adaptations remain comics.",
+      "type": "string"
+     },
+     {
+      "name": "discussion_date",
+      "description": "Episode link and date proxy from its URL, otherwise an exact SoundCloud URL match to public RSS. Provenance records which method supplied the date. Not independently verified audio-release timing.",
       "type": "string"
      },
      {
       "name": "episode_url",
       "description": "Episode link and date proxy from its URL, otherwise an exact SoundCloud URL match to public RSS. Provenance records which method supplied the date. Not independently verified audio-release timing.",
+      "type": "string"
+     },
+     {
+      "name": "issue_list_complete",
+      "description": "Reviewed correction/reading-list explanation and whether the listed references represent the resolved whole reading. Unspecified event scope and partial/unresolved lists remain incomplete.",
+      "type": "boolean"
+     },
+     {
+      "name": "metadata_complete",
+      "description": "All references match and the reading list is complete; issue count is supplied only under that condition. Digital chapters and collected manga volumes are still references, not equivalent-length units.",
+      "type": "boolean"
+     },
+     {
+      "name": "substory_attribution_coverage",
+      "description": "Fraction of references with selected narratives and number with more than one indexed substory. Full attribution does not establish a complete event reading list or complete credits in every craft.",
+      "type": "number"
+     }
+    ]
+   }
+  },
+  {
+   "path": "story_features.csv",
+   "source": "data/processed/stories.csv",
+   "description": "Specialist story features and provenance. Join to stories.csv on story_id (one-to-one). Includes cast, awards, outside ratings and their match scopes, coverage flags, source links and whole-issue credits.",
+   "schema": {
+    "fields": [
+     {
+      "name": "story_id",
+      "description": "Story identifier. Join to stories.csv using this field. Unique here; derived from the original source label.",
+      "type": "string"
+     },
+     {
+      "name": "source_label",
+      "description": "Original BatChat story label with its leading rank number removed.",
+      "type": "string"
+     },
+     {
+      "name": "source_year",
+      "description": "Year shown in one of the top-five story cards on the source page. Missing for other entries; not filled from external metadata.",
       "type": "string"
      },
      {
@@ -42,24 +146,9 @@
       "type": "number"
      },
      {
-      "name": "rank",
-      "description": "Position on BatChat’s list. Lower is better; 1 is the top-ranked story. Uses page order because some printed source numbers repeat. Prediction target, not an input feature.",
-      "type": "number"
-     },
-     {
       "name": "rank_label_disagrees",
       "description": "True if the printed source_rank differs from the unique page-order rank.",
       "type": "boolean"
-     },
-     {
-      "name": "story_id",
-      "description": "Story identifier. Join to stories.csv using this field. Unique here; derived from the original source label.",
-      "type": "string"
-     },
-     {
-      "name": "discussion_date",
-      "description": "Episode link and date proxy from its URL, otherwise an exact SoundCloud URL match to public RSS. Provenance records which method supplied the date. Not independently verified audio-release timing.",
-      "type": "string"
      },
      {
       "name": "discussion_date_source",
@@ -70,11 +159,6 @@
       "name": "issue_list_note",
       "description": "Reviewed correction/reading-list explanation and whether the listed references represent the resolved whole reading. Unspecified event scope and partial/unresolved lists remain incomplete.",
       "type": "string"
-     },
-     {
-      "name": "issue_list_complete",
-      "description": "Reviewed correction/reading-list explanation and whether the listed references represent the resolved whole reading. Unspecified event scope and partial/unresolved lists remain incomplete.",
-      "type": "boolean"
      },
      {
       "name": "issue_reference_count",
@@ -90,11 +174,6 @@
       "name": "metadata_coverage",
       "description": "Number of candidate references, distinct matched wiki issue IDs, and matched IDs divided by references. Coverage 1 does not establish complete credits or known event scope.",
       "type": "number"
-     },
-     {
-      "name": "metadata_complete",
-      "description": "All references match and the reading list is complete; issue count is supplied only under that condition. Digital chapters and collected manga volumes are still references, not equivalent-length units.",
-      "type": "boolean"
      },
      {
       "name": "writers",
@@ -137,28 +216,8 @@
       "type": "string"
      },
      {
-      "name": "cover_year_start",
-      "description": "Earliest/latest known cover years and earliest explicitly recorded publication year among matched issues. A partial set of dates may miss the true start/end. Publication year is not inferred from a cover year.",
-      "type": "number"
-     },
-     {
-      "name": "cover_year_end",
-      "description": "Earliest/latest known cover years and earliest explicitly recorded publication year among matched issues. A partial set of dates may miss the true start/end. Publication year is not inferred from a cover year.",
-      "type": "number"
-     },
-     {
       "name": "publication_year_start",
       "description": "Earliest/latest known cover years and earliest explicitly recorded publication year among matched issues. A partial set of dates may miss the true start/end. Publication year is not inferred from a cover year.",
-      "type": "number"
-     },
-     {
-      "name": "issue_count",
-      "description": "All references match and the reading list is complete; issue count is supplied only under that condition. Digital chapters and collected manga volumes are still references, not equivalent-length units.",
-      "type": "number"
-     },
-     {
-      "name": "page_count",
-      "description": "Sum of wiki whole-issue page counts only when the list is complete and every issue supplies a numeric count. Almost entirely unavailable; see the separate GCD narrative counts below.",
       "type": "number"
      },
      {
@@ -190,16 +249,6 @@
       "name": "creator_watch_count",
       "description": "Exact matches against the small cited creator-event list, including whole-issue backup, editorial and executive-editor credits. Names and source URLs correspond in list order. Status is `documented_event_in_issue_credits` or `unreviewed`; zero is not a reviewed negative or misconduct score. Allegations and convictions remain distinct in the source list.",
       "type": "number"
-     },
-     {
-      "name": "medium",
-      "description": "`comic`, `webcomic`, `manga` or `unknown`; `original_graphic_novel` only when the source explicitly says OGN, otherwise `unspecified`. Animation-themed comic adaptations remain comics.",
-      "type": "string"
-     },
-     {
-      "name": "format_hint",
-      "description": "`comic`, `webcomic`, `manga` or `unknown`; `original_graphic_novel` only when the source explicitly says OGN, otherwise `unspecified`. Animation-themed comic adaptations remain comics.",
-      "type": "string"
      },
      {
       "name": "rank_percentile",
@@ -372,36 +421,6 @@
       "type": "number"
      },
      {
-      "name": "narrative_writers",
-      "description": "Writers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
-      "name": "narrative_pencilers",
-      "description": "Pencilers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
-      "name": "narrative_inkers",
-      "description": "Inkers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
-      "name": "narrative_colorists",
-      "description": "Colorists for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
-      "name": "narrative_letterers",
-      "description": "Letterers for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
-      "name": "narrative_editors",
-      "description": "Editors for the stories selected by BatChat. Names are separated by |. Unresolved issues or missing names can leave this list incomplete; check the coverage fields.",
-      "type": "string"
-     },
-     {
       "name": "featured_entity_ids",
       "description": "Deduplicated ordinary-appearance wiki targets from the respective source headings. IDs are page-title strings, not numeric person IDs or redirect-resolved entities. Groups/institutions can occur. Role labels are not narrator/viewpoint measurements. Story rows union references.",
       "type": "string"
@@ -500,11 +519,6 @@
       "name": "cast_scope",
       "description": "Fraction of listed references with a cast-bearing indexed appearance section; `selected_narratives` only if every reference's attribution resolved, otherwise `includes_whole_issue_unresolved`. Scope and coverage are separate checks.",
       "type": "string"
-     },
-     {
-      "name": "substory_attribution_coverage",
-      "description": "Fraction of references with selected narratives and number with more than one indexed substory. Full attribution does not establish a complete event reading list or complete credits in every craft.",
-      "type": "number"
      },
      {
       "name": "multi_substory_issue_count",
