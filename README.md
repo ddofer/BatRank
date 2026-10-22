@@ -40,6 +40,8 @@ Start with `stories.csv`; specialist columns are in `story_features.csv`. Join t
 
 There are **1,711 plot summaries totaling 703,219 words**, with no length cap. Text covers 587 stories; 481 have complete summaries and issue lists. Recent comics have less coverage. Outside ratings cover 70 Goodreads matches, 390 stories with RoundUp reader ratings, and 227 with critic ratings. Strict same-story and review-count checks leave cohorts of 52, 147, and 110. The [acquisition audit](references/enrichment_research.md#ratings-acquisition-coverage-audit) explains the remaining gaps.
 
+Code inputs start collapsed on Kaggle and compatible Jupyter viewers; figures and tables remain visible. Expand a cell to inspect its code. GitHub’s static preview may show inputs regardless of these settings.
+
 Notebook tables show at most 20 rows, with labeled previews for longer tables. The CSV exports retain all records. [Dataset validation](reports/validation.json) and [ratings validation](reports/ratings_validation.json) record coverage, unresolved matches and rejected rating links.
 
 ## Run locally

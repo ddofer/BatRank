@@ -46,3 +46,7 @@ Pooled error fell from **174.14 to 169.57**, about 4.6 places, with improvements
 Interaction screening is limited to pairs among the 20 most influential numeric/name inputs, with at least eight jointly observed stories, five linked groups and nonzero contributions in four fits. Era × length leads; the notebook shows observed rank medians beside the extra pair term and masks sparse cells. Credit-related interactions are much smaller and do not establish a creator-team effect. All tree explanations use held-out stories; continuity variants stay separate in the interaction screen.
 
 Reproduce with `uv run python scripts/execute_notebooks.py notebooks/5.0-batchat-what-drives-the-ranking.ipynb`. The CPU package supplies TreeSHAP directly, without the separate SHAP package or GPU dependencies. The CSV exports are unchanged.
+
+## Reader presentation
+
+All seven notebooks mark code inputs as hidden by default using Kaggle’s `_kg_hide-input` and Jupyter’s `jupyter.source_hidden` cell metadata. Outputs remain visible and code remains available to expand. GitHub’s static renderer may ignore input visibility metadata. The final tree-model prose now leads with the measured improvement and removes an unnecessary closing flourish.
