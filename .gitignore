@@ -18,3 +18,4 @@ data/external/*
 !data/external/creator_watch.csv
 reports/*.zip
 reports/notebooks/
+data/kaggle/

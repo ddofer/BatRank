@@ -1,6 +1,6 @@
 # Data dictionary
 
-The snapshot contains **740 ranked entries × 162 columns** in `data/processed/stories.csv` and **2,434 story–reference associations × 78 columns** in `data/processed/issues.csv`. One ranked entry can be an arc, an original graphic novel, a backup, an anthology, or several stories read together.
+The snapshot contains **740 ranked entries × 162 columns** in `stories.csv` and **2,434 story–reference associations × 78 columns** in `issues.csv`. One ranked entry can be an arc, an original graphic novel, a backup, an anthology, or several stories read together.
 
 Both files are UTF-8 CSV without a saved dataframe index. Empty fields mean unavailable or inapplicable; booleans use `True`/`False`. Nullable counts and years can serialize as decimals. Multi-value names, wiki targets and event IDs use `|`; GCD type/URL lists and publisher credit lists use `; `. `work_award_matches` is a JSON array inside a quoted CSV cell. Sets are deduplicated; matching names does not resolve every alias or prove who physically drew an historically disputed credit.
 
@@ -107,7 +107,7 @@ Strict notebook comparisons use Goodreads `same_story`, or RoundUp audience comp
 
 ## Creator and work awards
 
-Award features occur in `stories.csv`. The reviewed universe is official Eisner **winners, 1988–2025**, plus predecessor Kirby winners **1985–1987**; no ceremony in 1990. Nominees and unreviewed award systems/years are excluded. `references/award_events.csv` resolves all exported event IDs. Detailed sources and assumptions are in `references/awards_sources.md`.
+Award features occur in `stories.csv`. The reviewed universe is official Eisner **winners, 1988–2025**, plus predecessor Kirby winners **1985–1987**; no ceremony in 1990. Nominees and unreviewed award systems/years are excluded. `award_events.csv` resolves all exported event IDs. Detailed sources and assumptions are in `references/awards_sources.md`.
 
 | Columns | Definition |
 |---|---|
@@ -186,7 +186,7 @@ One creator may have several roles on an entry; one role can have many creators.
 
 ### creator_awards.csv
 
-The unique key is **`(creator_id, event_id)`**. Join `creator_id` to creators and `event_id` to `references/award_events.csv`.
+The unique key is **`(creator_id, event_id)`**. Join `creator_id` to creators and `event_id` to `award_events.csv`.
 
 | Columns | Definition |
 |---|---|
@@ -281,7 +281,7 @@ Elseworlds means an alternate-continuity story. A graphic-novel category does no
 
 ### Mad Hatter role audit
 
-`references/hatter_story_roles.csv` reviews all 34 stories in the EDA’s Hatter appearance cohort. It supplements the source’s antagonist label; it does not change the extracted cast records.
+`hatter_story_roles.csv` reviews all 34 stories in the EDA’s Hatter appearance cohort. It supplements the source’s antagonist label; it does not change the extracted cast records.
 
 | Field | Meaning |
 |---|---|

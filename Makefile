@@ -1,4 +1,4 @@
-.PHONY: data offline enrich ratings creators texts analyze insights compare notebooks html share check
+.PHONY: data offline enrich ratings creators texts analyze insights compare notebooks share check
 
 # Bound native math threads; small folds otherwise spend time oversubscribing CPUs.
 export OMP_NUM_THREADS = 2
@@ -46,10 +46,7 @@ compare:
 
 notebooks: analyze insights compare
 
-html:
-	uv run python -m scripts.render
-
-share: html
+share:
 	uv run python -m scripts.package
 
 check:

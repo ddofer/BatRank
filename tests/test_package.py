@@ -1,16 +1,21 @@
-from zipfile import ZipFile
+import json
 
-from scripts.package import write_bundle
+from scripts.package import KAGGLE_FILES, stage_kaggle
 
 
-def test_bundle_preserves_layout_and_replaces_old_archive(tmp_path):
-    source = tmp_path / "data/processed/stories.csv"
-    source.parent.mkdir(parents=True)
-    source.write_text("story_id,rank\na,1\n")
-    target = tmp_path / "release.zip"
-    target.write_text("obsolete archive")
-    write_bundle(target, [source, source], tmp_path)
-    with ZipFile(target) as bundle:
-        assert bundle.namelist() == ["data/processed/stories.csv"]
-        assert bundle.read(bundle.namelist()[0]) == source.read_bytes()
-    assert not target.with_suffix(".tmp").exists()
+def test_stage_kaggle_flattens_tables_and_writes_metadata(tmp_path):
+    root = tmp_path / "root"
+    for name in KAGGLE_FILES:
+        (root / name).parent.mkdir(parents=True, exist_ok=True)
+        (root / name).write_text("story_id\na\n")
+    (root / "references/kaggle-dataset-about.md").write_text("About")
+    (root / "references/kaggle-table-metadata.json").write_text(
+        json.dumps({"resources": [{"path": name.split("/")[-1]} for name in KAGGLE_FILES]})
+    )
+    target = tmp_path / "kaggle"
+    stage_kaggle(root, target)
+    metadata = json.loads((target / "dataset-metadata.json").read_text())
+    assert sorted(p.name for p in target.glob("*.csv")) == sorted(
+        n.split("/")[-1] for n in KAGGLE_FILES
+    )
+    assert metadata["description"] == "About" and len(metadata["keywords"]) <= 5
