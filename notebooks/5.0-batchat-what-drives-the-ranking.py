@@ -49,6 +49,18 @@ N = len(stories)
 stories["batchat_score"] = N - stories["rank"]
 
 # %% [markdown]
+# ## The short version
+#
+# | Audience | Pushes a story **up** | Pushes it **down** |
+# |---|---|---|
+# | **BatChat** (740 stories) | Grant Morrison (≈ +70 places), Ed Brubaker, Greg Rucka · the **Joker** as villain (≈ +50) · **Bruce Wayne** in the lead (≈ +60; Batgirl/Robin-led books rank lower) · Jim Gordon, the GCPD, Gotham's mobs · 1990s Bat-office editors (Archie Goodwin, Scott Peterson, Mark Chiarello) · being from the **1980s–2000s** | Editor **Eddie Berganza** (≈ −55) · **Superman** in the cast (≈ −40) · long arcs · the Riddler · 2010s–20s production teams (Rob Leigh, Jason Wright, Dezi Sienty) |
+# | **Goodreads readers** (40 books) | The Joker, Two-Face · long collections · Todd Klein, Matt Hollingsworth | Matt Wagner · Archie Goodwin, Dennis O'Neil · Bruce Wayne in the lead |
+# | **RoundUp readers** (110) | Modern editors Maggie Howell, Mark Doyle, Mike Marts · Grant Morrison · the Falcone crime family | Tim Seeley · Tim Drake in the lead · 1990s production (John Costanza, Adrienne Roy) |
+# | **RoundUp critics** (78) | **Newer** books · Howell, Doyle · colorists John Kalisz, Adriano Lucas | The **Joker** (their biggest negative) · Scarecrow · Tweedledum and Tweedledee |
+#
+# Three things hold across the noise. **Era is the master variable**: the single most useful fact about a story is its cover year, and most creator names are shorthand for which DC it came from. **Only Grant Morrison helps every audience.** And **the Joker splits the room**: BatChat and Goodreads reward him, critics punish him. The rest of the notebook shows where each of these comes from and how much to trust it.
+
+# %% [markdown]
 # ## The model, in one paragraph
 #
 # A linear model gives every feature a weight, and a story's predicted score is the sum of its weights. Each creator and character is a yes/no feature (did this person work on it? is this character in it?); cover year and issue count enter as plain numbers. A name needs **five stories** to get a weight, so one-off credits can't swing the result. The weights *are* the answer to "what drives the ranking"; the rest of this notebook is about reading them carefully.
@@ -200,6 +212,35 @@ print(
 # Two character weights stand out. **A story with the Joker as antagonist gains about 50 places**, and **a story where Bruce Wayne is a featured character gains about 60**: the Batgirl, Robin, and Nightwing-led books, where he isn't, rank worse. **Superman as a featured character costs about 40.** The hosts prefer Batman alone, in Gotham, against the Joker.
 #
 # The biggest drag is editor **Eddie Berganza**, about −55, followed by a run of 2010s–2020s letterers and colorists (Rob Leigh, Jason Wright, Dezi Sienty). Those names are shorthand for an era of DC the hosts don't rate.
+#
+# ### Why isn't Tom King on that chart?
+#
+# He wrote **#3** (*Cold Days*) and **#7** (*Some of These Days*). He also wrote **#703** (*The Wedding*) and **#738** (*Dreadful Reins*). Across his 24 stories the median is 415 and the middle half spans 115 to 584, the widest spread of any prolific writer. A name only earns a weight when its books cluster, and his don't. Below, the twelve most-credited writers, each box the middle half of their stories, with the model's weight in the label.
+
+# %%
+writers = stories.assign(writer=stories.narrative_writers.str.split("|")).explode("writer")
+top = writers.writer.value_counts().head(12).index
+chart = writers[writers.writer.isin(top)]
+order = chart.groupby("writer")["rank"].median().sort_values().index
+labels = {
+    w: f"{w} · n={chart.writer.eq(w).sum()} · weight {batchat_weights.get(f'{w} (writer)', 0):+.0f}"
+    for w in order
+}
+chart = chart.assign(label=chart.writer.map(labels))
+fig, ax = plt.subplots(figsize=(11, 6.5))
+common = dict(data=chart, x="rank", y="label", order=[labels[w] for w in order], ax=ax)
+sns.stripplot(**common, color=GREY, alpha=0.45, size=4, jitter=False, zorder=0)
+sns.boxplot(**common, color=BLUE, whis=0, showfliers=False, width=0.45)
+ax.set(
+    xlabel="BatChat rank · 1 = best",
+    ylabel="",
+    xlim=(1, N),
+    title="A name earns a weight only when its books cluster",
+)
+plt.show()
+
+# %% [markdown]
+# Grant Morrison's 25 stories sit mostly in the top third, so his name is worth about +70. Chuck Dixon's 38 spread across the whole list, so his is worth nothing. And Bill Finger's books sit in the bottom third yet his weight is +1: the 1940s cover year already took the blame. A weight is a statement about consistency, *after* the era is accounted for; it says nothing about talent.
 #
 # ## 2. Are the big weights real, or noise?
 #
