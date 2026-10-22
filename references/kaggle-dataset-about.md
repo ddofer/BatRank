@@ -1,5 +1,4 @@
-BatChat takes >740 Batman stories and ranks them from best (1) to worst. It's hosted by Matt Lazorwitz and Will Nevin on [ComicsXF](https://comicsxf.com/batchat-rankings/).
-BatRank links these stories to creators, characters, awards, plot, and ratings.
+BatRank links 740 Batman stories ranked by [BatChat at ComicsXF](https://comicsxf.com/batchat-rankings/) to creators, characters, awards, plot summaries and outside ratings.
 
 **Start with `stories.csv`. Rank 1 is best.**
 
@@ -27,11 +26,12 @@ I'll try to update as the rankings progress, they've got stories for years!
 
 ### Notebooks
 
+Tables show at most 20 rows, with labeled previews for longer tables. The downloaded CSVs retain all records. [Validation reports](https://github.com/ddofer/BatRank/tree/main/reports) document coverage and unresolved matches.
+
 - [Who Gets the Good Batman Stories?](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) — writers, artists, letterers, eras
 - [Gotham's Rogues, Ranked](https://www.kaggle.com/code/danofer/gotham-s-rogues-ranked) — heroes, villains, the Mad Hatter trick, villain word clouds
 - [What Batman Plots Are Made Of](https://www.kaggle.com/code/danofer/what-batman-plots-are-made-of) — series, Elseworlds, plot-summary coverage, the bat word cloud
 - [BatChat vs the Crowd](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) — where Goodreads readers and critics disagree with the hosts
 - [Can a Computer Predict BatChat's Favorites?](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) — regression, plot words, the misses
 - [What Pushes a Batman Story Up BatChat's List?](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) — model weights, stability checks, SHAP breakdowns
-
 - [Which Batman Stories Deserve a Second Look?](https://www.kaggle.com/code/danofer/which-batman-stories-deserve-a-second-look) — 20 reranking discussion candidates, including ten from early episodes
