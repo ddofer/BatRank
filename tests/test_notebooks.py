@@ -70,3 +70,20 @@ def test_rendered_notebook_tables_have_fewer_than_25_rows():
                 parser.feed("".join(output.get("data", {}).get("text/html", [])))
         assert parser.counts, path.name
         assert all(rows < 25 for rows in parser.counts), (path.name, parser.counts)
+
+
+def test_creator_credit_share_table_has_values():
+    notebook = json.loads(
+        (Path(__file__).parents[1] / "notebooks/2.0-batchat-the-art-of-gotham.ipynb").read_text()
+    )
+    tables = [
+        "".join(output.get("data", {}).get("text/html", []))
+        for cell in notebook["cells"]
+        for output in cell.get("outputs", [])
+    ]
+    shares = [
+        table for table in tables if "Share of credits held by the five busiest names" in table
+    ]
+    assert len(shares) == 1
+    assert "NaN" not in shares[0]
+    assert shares[0].count("%") == 6

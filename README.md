@@ -44,11 +44,10 @@ Notebook tables show at most 20 rows, with labeled previews for longer tables. T
 
 ## Run locally
 
-`make share` stages the Kaggle tables in `data/kaggle/`; the notebooks look for `stories.csv` there or under `/kaggle/input`.
+The easiest way to run the notebooks is through their Kaggle links above, with the dataset attached. To run locally, download the [Kaggle dataset](https://www.kaggle.com/datasets/danofer/batchat-batman-rankings) into `data/kaggle/` so that `data/kaggle/stories.csv` exists. If the full archive is unavailable, download the twelve CSVs individually from the dataset’s Data Explorer. The notebooks also find the attached dataset under `/kaggle/input` when run on Kaggle.
 
 ```bash
 uv sync --locked
-make share       # stage data/kaggle/ + dataset-metadata.json; then: kaggle datasets version -p data/kaggle -m msg --dir-mode skip
 make notebooks   # execute the notebooks; save each only after a successful run
 make check       # tests and lint
 ```
@@ -60,6 +59,8 @@ The `.ipynb` files are the notebook sources; there are no parallel `.py` copies.
 [scripts/dataset.py](scripts/dataset.py) downloads the ranking list and issue metadata. It caches responses and spaces requests. The other [scripts](scripts/) add characters, awards, creator details, ratings, and plot summaries. [tests/](tests/) covers parsing and joins.
 
 `make data` fetches the core data. The full enrichment also uses reviewed mappings and source caches; see the [source notes](references/enrichment_research.md). Raw caches and full plot text are kept out of GitHub.
+
+Maintainers with the complete processed tables can run `make share` to rebuild `data/kaggle/` and its `dataset-metadata.json` for upload. A fresh clone does not include those processed tables; use the download above to run the notebooks.
 
 ## Sources
 

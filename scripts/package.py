@@ -4,27 +4,12 @@ import csv
 import json
 import shutil
 from pathlib import Path
+from tempfile import TemporaryDirectory
 
 
 def stage_kaggle(root, target):
     """Copy each table named in references/kaggle-table-metadata.json flat into target."""
     tables = json.loads((root / "references/kaggle-table-metadata.json").read_text())
-    shutil.rmtree(target, ignore_errors=True)
-    target.mkdir(parents=True)
-    for table in tables["resources"]:
-        source = root / table["source"]
-        destination = target / table["path"]
-        if table["path"] in {"stories.csv", "story_features.csv"} and "schema" in table:
-            fields = [field["name"] for field in table["schema"]["fields"]]
-            with source.open(newline="") as src, destination.open("w", newline="") as dest:
-                reader = csv.DictReader(src)
-                if not set(fields).issubset(reader.fieldnames or []):
-                    raise ValueError(f"Missing columns in {source}")
-                writer = csv.DictWriter(dest, fieldnames=fields, extrasaction="ignore")
-                writer.writeheader()
-                writer.writerows(reader)
-        else:
-            shutil.copy2(source, destination)
     metadata = {
         "id": "danofer/batchat-batman-rankings",
         "title": "BatRank: A BatChat Batman Ranking Dataset",
@@ -41,9 +26,28 @@ def stage_kaggle(root, target):
         "isPrivate": False,
         "resources": [{k: v for k, v in r.items() if k != "source"} for r in tables["resources"]],
     }
-    (target / "dataset-metadata.json").write_text(
-        json.dumps(metadata, indent=1, ensure_ascii=False)
-    )
+    target.parent.mkdir(parents=True, exist_ok=True)
+    with TemporaryDirectory(prefix=f".{target.name}-", dir=target.parent) as temporary:
+        staged = Path(temporary)
+        for table in tables["resources"]:
+            source = root / table["source"]
+            destination = staged / table["path"]
+            if table["path"] in {"stories.csv", "story_features.csv"} and "schema" in table:
+                fields = [field["name"] for field in table["schema"]["fields"]]
+                with source.open(newline="") as src, destination.open("w", newline="") as dest:
+                    reader = csv.DictReader(src)
+                    if not set(fields).issubset(reader.fieldnames or []):
+                        raise ValueError(f"Missing columns in {source}")
+                    writer = csv.DictWriter(dest, fieldnames=fields, extrasaction="ignore")
+                    writer.writeheader()
+                    writer.writerows(reader)
+            else:
+                shutil.copy2(source, destination)
+        (staged / "dataset-metadata.json").write_text(
+            json.dumps(metadata, indent=1, ensure_ascii=False)
+        )
+        shutil.rmtree(target, ignore_errors=True)
+        staged.replace(target)
     print(f"{target}: {len(tables['resources'])} tables")
 
 
