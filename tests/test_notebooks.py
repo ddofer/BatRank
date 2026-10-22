@@ -1,4 +1,4 @@
-"""Check the notebook's series grouping against relaunch and duplicate references."""
+"""Check notebook series grouping and rendered table sizes."""
 
 import json
 from pathlib import Path
@@ -38,3 +38,35 @@ def test_series_combines_volumes_and_counts_each_story_once():
         ("b", "Batman Adventures"),
         ("c", "Batman"),
     ]
+
+
+def test_rendered_notebook_tables_have_fewer_than_25_rows():
+    from html.parser import HTMLParser
+
+    class TableRows(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.in_body = False
+            self.rows = 0
+            self.counts = []
+
+        def handle_starttag(self, tag, attrs):
+            if tag == "tbody":
+                self.in_body = True
+            elif tag == "tr" and self.in_body:
+                self.rows += 1
+
+        def handle_endtag(self, tag):
+            if tag == "tbody":
+                self.in_body = False
+            elif tag == "table":
+                self.counts.append(self.rows)
+                self.rows = 0
+
+    for path in (Path(__file__).parents[1] / "notebooks").glob("*.ipynb"):
+        parser = TableRows()
+        for cell in json.loads(path.read_text())["cells"]:
+            for output in cell.get("outputs", []):
+                parser.feed("".join(output.get("data", {}).get("text/html", [])))
+        assert parser.counts, path.name
+        assert all(rows < 25 for rows in parser.counts), (path.name, parser.counts)
