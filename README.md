@@ -17,7 +17,7 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 | [Can a computer predict BatChat's favorites?](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
 | [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Model weights, permutation importance, SHAP breakdowns of the mismatches, per audience | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
 
-Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from ensemble books and collections; the EDA [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
+Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from big-cast books and collections; the rogues notebook [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 
 ## Dataset
 
@@ -44,12 +44,12 @@ There are **1,711 plot summaries totaling 703,219 words**, with no length cap. T
 
 ```bash
 uv sync --locked
-make notebooks   # execute all three notebooks in place
+make notebooks   # build each notebooks/*.ipynb from its .py source and execute it
 make share       # stage data/kaggle/ + dataset-metadata.json; then: kaggle datasets version -p data/kaggle -m msg --dir-mode skip
 make check       # tests and lint
 ```
 
-The notebooks are self-contained: pandas, seaborn, scikit-learn, scipy, and shap only. No scraping or API keys.
+The notebooks are self-contained: pandas, seaborn, scikit-learn, scipy, and shap only. No scraping or API keys. Each `notebooks/*.py` is the percent-format source; `scripts/build_notebook.py` turns it into the `.ipynb` (keeping the one image attachment).
 
 ## Processing code
 
@@ -61,4 +61,4 @@ The notebooks are self-contained: pandas, seaborn, scikit-learn, scipy, and shap
 
 Rankings are by **Matt Lazorwitz and Will Nevin**, hosts of [BatChat at ComicsXF](https://comicsxf.com/batchat-rankings/). Issue details and summaries come mainly from [DC Database](https://dc.fandom.com/). Other sources include [Comic-Con’s Eisner archives](https://www.comic-con.org/awards/eisner-awards/), [Grand Comics Database](https://www.comics.org/), [DC](https://www.dc.com/), [Goodreads](https://www.goodreads.com/), and [Comic Book RoundUp](https://comicbookroundup.com/). Source links remain in the tables.
 
-This is an independent project. Sources retain their own terms; the combined dataset is not CC0. The EDA includes one attributed *Ego* thumbnail for commentary on its composition.
+This is an independent project. Sources retain their own terms; the combined dataset is not CC0. The plot-words notebook includes one attributed *Ego* thumbnail for commentary on its composition.

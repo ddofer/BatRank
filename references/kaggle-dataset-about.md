@@ -22,8 +22,11 @@ By [Dan Ofer](https://scholar.google.com/citations?user=uDx2ItYAAAAJ). [Code and
 Source links and column descriptions are included. The sources have different terms; redistribution rights have not been cleared for the combined bundle.
 I'll try to update as the rankings progress, they've got stories for years!
 
-### Start with the EDA
+### Notebooks
 
-- [Who Gets the Good Batman Stories?](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories)
-- [BatChat vs the Crowd: Where Batman Fans Disagree](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree)
-- [BatChat's Favorite Batman Stories?](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories)
+- [Who Gets the Good Batman Stories?](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) — writers, artists, letterers, eras
+- [Gotham's Rogues, Ranked](https://www.kaggle.com/code/danofer/gotham-s-rogues-ranked) — heroes, villains, the Mad Hatter trick, villain word clouds
+- [What Batman Plots Are Made Of](https://www.kaggle.com/code/danofer/what-batman-plots-are-made-of) — series, Elseworlds, plot-summary coverage, the bat word cloud
+- [BatChat vs the Crowd](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) — where Goodreads readers and critics disagree with the hosts
+- [Can a Computer Predict BatChat's Favorites?](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) — regression, plot words, the misses
+- [What Pushes a Batman Story Up BatChat's List?](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) — model weights, stability checks, SHAP breakdowns

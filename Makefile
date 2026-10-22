@@ -1,4 +1,4 @@
-.PHONY: data offline enrich ratings creators texts notebooks share check FORCE
+.PHONY: data offline enrich ratings creators texts notebooks share check
 
 # Bound native math threads; small folds otherwise spend time oversubscribing CPUs.
 export OMP_NUM_THREADS = 2
@@ -35,12 +35,11 @@ texts:
 	uv run python -m scripts.texts
 	uv run python scripts/dataset.py --offline
 
-notebooks/%.ipynb: FORCE
+notebooks/%.ipynb: notebooks/%.py
+	uv run python scripts/build_notebook.py $< $@
 	uv run jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=900 $@
 
-FORCE:
-
-notebooks: $(wildcard notebooks/*.ipynb)
+notebooks: $(patsubst %.py,%.ipynb,$(wildcard notebooks/*.py))
 
 share:
 	uv run python -m scripts.package
