@@ -51,19 +51,23 @@ stories["batchat_score"] = N - stories["rank"]
 # %% [markdown]
 # ## The short version
 #
-# | Audience | Pushes a story **up** | Pushes it **down** |
-# |---|---|---|
-# | **BatChat** (740 stories) | Grant Morrison (≈ +70 places), Ed Brubaker, Greg Rucka · the **Joker** as villain (≈ +50) · **Bruce Wayne** in the lead (≈ +60; Batgirl/Robin-led books rank lower) · Jim Gordon, the GCPD, Gotham's mobs · 1990s Bat-office editors (Archie Goodwin, Scott Peterson, Mark Chiarello) · being from the **1980s–2000s** | Editor **Eddie Berganza** (≈ −55) · **Superman** in the cast (≈ −40) · long arcs · the Riddler · 2010s–20s production teams (Rob Leigh, Jason Wright, Dezi Sienty) |
-# | **Goodreads readers** (40 books) | The Joker, Two-Face · long collections · Todd Klein, Matt Hollingsworth | Matt Wagner · Archie Goodwin, Dennis O'Neil · Bruce Wayne in the lead |
-# | **RoundUp readers** (110) | Modern editors Maggie Howell, Mark Doyle, Mike Marts · Grant Morrison · the Falcone crime family | Tim Seeley · Tim Drake in the lead · 1990s production (John Costanza, Adrienne Roy) |
-# | **RoundUp critics** (78) | **Newer** books · Howell, Doyle · colorists John Kalisz, Adriano Lucas | The **Joker** (their biggest negative) · Scarecrow · Tweedledum and Tweedledee |
+# Numbers are rank places on the 740-story list: +50 means "about 50 places higher, all else equal."
 #
-# Three things hold across the noise. **Era is the master variable**: the single most useful fact about a story is its cover year, and most creator names are shorthand for which DC it came from. **Only Grant Morrison helps every audience.** And **the Joker splits the room**: BatChat and Goodreads reward him, critics punish him. The rest of the notebook shows where each of these comes from and how much to trust it.
+# | Pushes a story **up** BatChat's list | Pushes it **down** |
+# |---|---|
+# | Grant Morrison (≈ +70), Ed Brubaker, Greg Rucka | Editor Eddie Berganza (≈ −55) |
+# | The **Joker** as the villain (≈ +50) | **Superman** in the cast (≈ −40) |
+# | **Bruce Wayne** in the lead (≈ +60); Batgirl- and Robin-led books rank lower | Long arcs |
+# | Jim Gordon, the GCPD, Gotham's mobs | The Riddler |
+# | The 1990s Bat-office editors | 2010s–20s production teams |
+# | A cover date from the **1980s–2000s** | |
+#
+# Three things hold across the noise. **When a story came out matters more than anything else**, and most creator names are shorthand for which DC they came from. **Only Grant Morrison helps every audience** (Goodreads, critics, and the podcast). And **the Joker splits the room**: BatChat and Goodreads readers reward him, critics punish him. The rest of the notebook shows where each of these comes from and how much to trust it.
 
 # %% [markdown]
 # ## The model, in one paragraph
 #
-# A linear model gives every feature a weight, and a story's predicted score is the sum of its weights. Each creator and character is a yes/no feature (did this person work on it? is this character in it?); cover year and issue count enter as plain numbers. A name needs **five stories** to get a weight, so one-off credits can't swing the result. The weights *are* the answer to "what drives the ranking"; the rest of this notebook is about reading them carefully.
+# A linear model gives every feature a weight, and a story's predicted score is the sum of its weights. Each creator and character is a yes/no feature (did this person work on it? is this character in it?); cover year, issue count, and format (comic, graphic novel, prose) complete the list. A name needs **five stories** to get a weight, so one-off credits can't swing the result. The weights *are* the answer to "what drives the ranking"; the rest of this notebook is about reading them carefully.
 
 # %%
 ROLES = ["writers", "pencilers", "inkers", "colorists", "letterers", "editors"]
@@ -203,7 +207,8 @@ ax.set(
 )
 plt.show()
 print(
-    f"Held-out error: {mean_absolute_error(y, held_out):.0f} rank places. {len(stable)} names passed the stability check."
+    f"On stories it never saw, the model misses by about {mean_absolute_error(y, held_out):.0f} places. "
+    f"{len(stable)} names passed the stability check."
 )
 
 # %% [markdown]
@@ -215,7 +220,7 @@ print(
 #
 # ### Why isn't Tom King on that chart?
 #
-# He wrote **#3** (*Cold Days*) and **#7** (*Some of These Days*). He also wrote **#703** (*The Wedding*) and **#738** (*Dreadful Reins*). Across his 24 stories the median is 415 and the middle half spans 115 to 584, the widest spread of any prolific writer. A name only earns a weight when its books cluster, and his don't. Below, the twelve most-credited writers, each box the middle half of their stories, with the model's weight in the label.
+# He wrote **#3** (*Cold Days*) and **#7** (*Some of These Days*). He also wrote **#703** (*The Wedding*) and **#738** (*Dreadful Reins*). Across his 24 stories the typical (median) rank is 415 and the middle half spans 115 to 584, the widest spread of any prolific writer. A name only earns a weight when its books cluster, and his don't. Below, the twelve most-credited writers, each box the middle half of their stories; the model's weight is at the end of each label.
 
 # %%
 writers = stories.assign(writer=stories.narrative_writers.str.split("|")).explode("writer")
@@ -240,14 +245,16 @@ ax.set(
 plt.show()
 
 # %% [markdown]
-# Grant Morrison's 25 stories sit mostly in the top third, so his name is worth about +70. Chuck Dixon's 38 spread across the whole list, so his is worth nothing. And Bill Finger's books sit in the bottom third yet his weight is +1: the 1940s cover year already took the blame. A weight is a statement about consistency, *after* the era is accounted for; it says nothing about talent.
+# Grant Morrison's 25 stories sit mostly in the top third, so his name is worth about +70. Chuck Dixon's 38 spread across the whole list, so his is worth nothing. Bill Finger's books cluster too, in the bottom third, yet his weight is +1: a name has to explain something the cover year doesn't, and "1940s" already took the blame. A weight is a statement about consistency *beyond the era*; it says nothing about talent.
 #
 # ## 2. Are the big weights real, or noise?
 #
 # A name on five stories can get a large weight by luck. Two checks:
 #
 # - **Shuffle test.** Scramble one kind of information at a time (all the writer names, say) across the stories the model was not trained on, and see how much worse its predictions get. A big loss means the model leans on that information.
-# - **Stability.** Refit on five different four-fifths of the list. A name keeps its weight only if the sign never flips and the size stays above 10 places every time. Those are the solid bars above; the grey ones failed.
+# - **Stability.** Drop a different fifth of the list five times and refit each time. A name keeps its weight only if the sign never flips and the size stays above 10 places every time. Those are the solid bars above; the grey ones failed.
+#
+# The chart below is the shuffle test; the stability result is already drawn into the first chart.
 
 # %%
 order = shuffle_cost.groupby("block")["worse by"].mean().sort_values(ascending=False).index
@@ -271,13 +278,21 @@ ax.set(
 plt.show()
 
 # %% [markdown]
-# **Year and length matter most.** Shuffling them costs about five places; shuffling writer names or characters about three. Pencilers and inkers barely register, which is surprising for comics until you remember that an artist mostly tells the model which era it's in, and the year already said so. Format (comic vs graphic novel) adds nothing.
+# **Year and length matter most.** Shuffling them costs about five places out of a typical 173-place miss; shuffling writer names or characters about three. Pencilers and inkers barely register, which is surprising for comics until you remember that an artist mostly tells the model which era it's in, and the year already said so. The format column (comic, graphic novel, prose) adds nothing.
 #
 # The stability check keeps most of the big names. Morrison, Brubaker, Rucka, the Joker, Bruce Wayne, Berganza, and Superman all survive five refits. Darwyn Cooke, Todd Klein, and Michael Lark do not: their weight is real in the full fit but swings with which fifth of the list is left out, so treat them as suggestive.
 #
 # ## 3. Do readers and critics care about the same things?
 #
-# Same model, now predicting Goodreads stars (40 matched books) and reader and critic scores on Comic Book RoundUp, a review-aggregator site (110 and 78 books). With so few books, a name needs only three stories to get a weight here, and individual names are weak evidence. The broad strokes are what count.
+# Same model, now predicting Goodreads stars for the 40 stories we could find there, and reader and critic scores on Comic Book RoundUp, a review-aggregator site, for 110 and 78 stories. With so few books, a name needs only three stories to get a weight here, and individual names are weak evidence. The broad strokes:
+#
+# | Audience | Pushes a story **up** | Pushes it **down** |
+# |---|---|---|
+# | **Goodreads readers** (40) | The Joker, Two-Face · long collections · Todd Klein, Matt Hollingsworth | Matt Wagner · Archie Goodwin, Dennis O'Neil · Bruce Wayne in the lead |
+# | **RoundUp readers** (110) | Modern editors Maggie Howell, Mark Doyle, Mike Marts · Grant Morrison · the Falcone crime family | Tim Seeley · Tim Drake in the lead · 1990s production (John Costanza, Adrienne Roy) |
+# | **RoundUp critics** (78) | **Newer** books · Howell, Doyle · colorists John Kalisz, Adriano Lucas | The **Joker** (their biggest negative) · Scarecrow · Tweedledum and Tweedledee |
+#
+# Below, one panel per audience, BatChat first for comparison: the six strongest pulls each way, in that audience's own units (rank places, stars, or points out of ten).
 
 # %%
 goodreads_ok = stories.goodreads_match_scope.eq("same_story") & stories.goodreads_rating_count.ge(
@@ -308,13 +323,13 @@ fig.tight_layout()
 plt.show()
 
 # %% [markdown]
-# The audiences do not share tells. **Grant Morrison** is the only name that helps both BatChat and RoundUp readers. **The Joker is BatChat's and Goodreads' favorite villain and the critics' least favorite.** Goodreads rewards long collections and Todd Klein's lettering; BatChat penalizes long arcs. Matt Wagner is a modest plus for BatChat and the single biggest minus on Goodreads. RoundUp readers and critics agree on two editors, Maggie Howell and Mark Doyle, who edited the modern books the hosts rank low.
+# The audiences do not react to the same names. **Grant Morrison** is the only name that helps both BatChat and RoundUp readers. **The Joker is BatChat's and Goodreads' favorite villain and the critics' least favorite.** Goodreads rewards long collections and Todd Klein's lettering; BatChat penalizes long arcs. Matt Wagner is a modest plus for BatChat and the single biggest minus on Goodreads. RoundUp readers and critics agree on two editors, Maggie Howell and Mark Doyle, who edited the modern books the hosts rank low.
 #
 # One pattern is solid across all this noise: BatChat's taste is built on creators from the 1980s–2000s, while Goodreads and the critics lean on characters and recency.
 #
 # ## 4. The mismatches, one story at a time
 #
-# For a linear model, a story's prediction splits exactly into one contribution per feature. [SHAP](https://shap.readthedocs.io/) is the standard tool for that split; here it reduces to weight × value, but it generalises to any model, which is why we use it. Each panel shows the names and numbers that most pushed the model's guess for that story, **counting only features the story actually has.** Left column: the three stories the hosts liked far more than the model expected. Right column: far less.
+# Since a guess is just weights added up, we can list which names and numbers pushed each story where. (The tool that does this split for any model, not just a linear one, is called [SHAP](https://shap.readthedocs.io/); the methods note explains.) Each panel shows the names and numbers that most pushed the model's guess for that story, **counting only features the story actually has.** Left column: the three stories the hosts liked far more than the model expected. Right column: far less.
 
 # %%
 features = batchat_model[0].transform(X)
@@ -344,23 +359,23 @@ fig.tight_layout()
 plt.show()
 
 # %% [markdown]
-# **The hosts' upside surprises are the model being blind to craft.** *The Joker's Five-Way Revenge* (#11) gets credit for Dennis O'Neil, the Joker, and Neal Adams, then loses it all for being one issue from 1973. *Undone* (#47) is lifted by Bruce Wayne and its 2015 cover date and dragged by its editors and its length; nothing in the table says it's a silent issue about grief.
+# **The hosts' upside surprises are the model being blind to craft.** *The Joker's Five-Way Revenge* (#11) gets credit for Dennis O'Neil, the Joker, and Neal Adams, then loses it all for being one issue from 1973. *Undone* (#47) is lifted by Bruce Wayne and its 2015 cover date and dragged by its editors and its length; nothing in the credits says it's a silent issue about grief.
 #
-# **The downside surprises are era tells firing on books the hosts hated.** *Knightquest: The Search* (#697) and *The Poison Tomorrow* (#727) get +40 from Todd Klein, +34 from Archie Goodwin, and +27 from Dennis O'Neil: the 1990s Bat-office the hosts usually love. And *Batman & Robin Eternal* (#480) is the model's single worst guess, **#11**, because a 26-issue weekly series breaks a linear model: issue count alone adds 178 places.
+# **The downside surprises are era signals firing on books the hosts hated.** *Knightquest: The Search* (#697) and *The Poison Tomorrow* (#727) get +40 from Todd Klein, +34 from Archie Goodwin, and +27 from Dennis O'Neil: the 1990s Bat-office the hosts usually love. And *Batman & Robin Eternal* (#480) is the model's single worst guess, **#11**, because the model adds the same bonus per issue, so 26 issues collect 26 times the bonus: issue count alone adds 178 places.
 #
 # ## What we can and can't say
 #
-# - **Yes, there are clear tells.** Grant Morrison, Ed Brubaker, Greg Rucka, the Joker, Jim Gordon and the GCPD, and the 1990s Bat-office editors push a story up BatChat's list. Eddie Berganza, Superman, and a cluster of 2010s colorists and letterers pull it down.
-# - **The tells are era-shaped.** The single most useful fact is the cover year; most creator weights are shorthand for "which DC was this".
+# - **Yes, there are clear signals.** Grant Morrison, Ed Brubaker, Greg Rucka, the Joker, Jim Gordon and the GCPD, and the 1990s Bat-office editors push a story up BatChat's list. Eddie Berganza, Superman, and a cluster of 2010s colorists and letterers pull it down.
+# - **The signals are era-shaped.** The single most useful fact is the cover year; most creator weights are shorthand for "which DC was this".
 # - **They are not the hosts' taste in full.** The model still misses by about 170 places, and its biggest misses are books where craft, not credits, decided it.
-# - **Outside audiences run on different tells.** Only Grant Morrison helps everyone. The Joker helps BatChat and Goodreads and hurts with critics.
+# - **Outside audiences run on different signals.** Only Grant Morrison helps everyone. The Joker helps BatChat and Goodreads and hurts with critics.
 #
 # <details><summary>Methods notes</summary>
 #
-# - **Model:** ridge regression (the penalty chosen by cross-validation from 0.1 to 1000), the same set-up as the prediction notebook. The one change: a name needs five stories for a weight, not three, to keep one-off credits out of the chart. Targets: BatChat score (740 − rank), Goodreads stars, RoundUp scores.
+# - **Model:** ridge regression (the penalty chosen by cross-validation from 0.1 to 1000), the same set-up as [the prediction notebook](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories). The one change: a name needs five stories for a weight, not three, to keep one-off credits out of the chart. Targets: BatChat score (740 − rank), Goodreads stars, RoundUp scores.
 # - **Stability** keeps a name only if its weight has the same sign and is larger than 10 in all five fold refits. A rough filter, not a significance test.
 # - **Shuffle test** scrambles whole groups of columns at once (`sklearn.inspection.permutation_importance` does the same one column at a time); groups keep correlated names together.
-# - **SHAP** for a linear model is weight × (value − mean value). We show only features the story has, so an absent name never appears in its breakdown. A tree model with `TreeExplainer` would show interactions, but the prediction notebook found the random forest no more accurate, so the simpler model is the honest one.
+# - **SHAP** for a linear model is weight × (value − mean value). We show only features the story has, so an absent name never appears in its breakdown. A tree model with `TreeExplainer` would show interactions, but the prediction notebook found a random forest (a crowd of simple rule-of-thumb models that vote) no more accurate, so the simpler model is the honest one.
 #
 # </details>
 #
