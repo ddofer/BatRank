@@ -1,4 +1,4 @@
-.PHONY: data offline enrich ratings creators texts analyze insights compare notebooks share check
+.PHONY: data offline enrich ratings creators texts notebooks share check FORCE
 
 # Bound native math threads; small folds otherwise spend time oversubscribing CPUs.
 export OMP_NUM_THREADS = 2
@@ -35,16 +35,12 @@ texts:
 	uv run python -m scripts.texts
 	uv run python scripts/dataset.py --offline
 
-analyze:
-	uv run python -c 'import nbformat; from nbclient import NotebookClient; p="notebooks/1.0-batchat-rankings.ipynb"; n=nbformat.read(p, as_version=4); NotebookClient(n, timeout=900, resources={"metadata":{"path":"."}}).execute(); nbformat.write(n,p)'
+notebooks/%.ipynb: FORCE
+	uv run jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=900 $@
 
-insights:
-	uv run python -c 'import nbformat; from nbclient import NotebookClient; p="notebooks/2.0-batchat-the-art-of-gotham.ipynb"; n=nbformat.read(p, as_version=4); NotebookClient(n, timeout=900, resources={"metadata":{"path":"."}}).execute(); nbformat.write(n,p)'
+FORCE:
 
-compare:
-	uv run python -c 'import nbformat; from nbclient import NotebookClient; p="notebooks/3.0-batchat-versus-the-crowd.ipynb"; n=nbformat.read(p, as_version=4); NotebookClient(n, timeout=900, resources={"metadata":{"path":"."}}).execute(); nbformat.write(n,p)'
-
-notebooks: analyze insights compare
+notebooks: $(wildcard notebooks/*.ipynb)
 
 share:
 	uv run python -m scripts.package

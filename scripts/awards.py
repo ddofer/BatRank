@@ -597,7 +597,7 @@ def main():
         for e in events
         if e["event_id"] in used
     ]
-    pd.DataFrame(records).to_csv(ROOT / "references/award_events.csv", index=False)
+    pd.DataFrame(records).to_csv(ROOT / "data/external/award_events.csv", index=False)
     personal = [e for e in events if e["recipient_scope"] == "personal" and e["recipient_names"]]
     print(
         json.dumps(

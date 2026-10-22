@@ -35,7 +35,7 @@ Creator matching normalizes punctuation, accents and initial spacing, with expli
 ## Files and validation
 
 - `data/external/awards.json`: full parsed winner events, source hashes, observed years and one feature record per ranked story.
-- `references/award_events.csv`: only the award events referenced by exported story features or curated work matches, including year, category, matched recipients, craft scope, awarded work and primary source URL.
+- `data/external/award_events.csv`: only the award events referenced by exported story features or curated work matches, including year, category, matched recipients, craft scope, awarded work and primary source URL.
 - `creator_award_event_ids` and each `work_award_matches` entry join to that audit table's `event_id`.
 
 Six focused parser tests cover the archive's h5 year heading, two categories in one list item, a category and winner split over adjacent list items, tied personal recipients, accented-name identity, whole-name boundaries, category scope, conservative year boundaries, missing pre-award history, and selected-narrative attribution. All source years 1985–2025 except 1990 must occur, and curated work links must resolve to exactly one official event. Offline generation needs no network.

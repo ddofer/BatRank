@@ -2,6 +2,7 @@
  "resources": [
   {
    "path": "stories.csv",
+   "source": "data/processed/stories.csv",
    "description": "740 stories ranked by BatChat. Start here. Rank 1 is best; lower ranks are better. Includes publication details, writers and artists, characters, awards, outside ratings, and coverage flags. Join other story tables on story_id. Unique key: story_id. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -820,6 +821,7 @@
   },
   {
    "path": "issues.csv",
+   "source": "data/processed/issues.csv",
    "description": "2,434 issue references belonging to the ranked stories. Includes dates, who worked on the issue, selected stories within it, characters, and source revisions. The same issue can belong to more than one ranked story. Unique key: story_id, requested_title. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -1218,6 +1220,7 @@
   },
   {
    "path": "creators.csv",
+   "source": "data/processed/creators.csv",
    "description": "1,847 normalized creator name records, with biographies and observed awards. Some records describe studios. Check entity_type and source fields before interpreting age or gender. Unique key: creator_id. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -1441,6 +1444,7 @@
   },
   {
    "path": "story_creators.csv",
+   "source": "data/processed/story_creators.csv",
    "description": "19,466 links between stories and the people or studios who worked on them. Filter credit_scope to selected_narrative for the selected stories, or whole_issue for everyone named in their issues. Do not count both scopes as separate people. Unique key: story_id, creator_id, role, credit_scope. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -1539,6 +1543,7 @@
   },
   {
    "path": "creator_awards.csv",
+   "source": "data/processed/creator_awards.csv",
    "description": "311 links between creator records and observed Eisner/Kirby personal or honor awards. Join event_id to award_events.csv for event details. Filter by award_year before using awards as historical features. Unique key: creator_id, event_id. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -1582,6 +1587,7 @@
   },
   {
    "path": "story_texts.csv",
+   "source": "data/processed/story_texts.csv",
    "description": "2,637 selected wiki synopsis records, including explicit missing-text rows. Contains 1,711 available summaries with 703,219 words and no length cap. Join story_id to stories.csv; join story_id and requested_title to issues.csv. Exact source revisions are retained. Unique key: story_id, requested_title, substory_index. Empty values mean unknown or inapplicable.",
    "schema": {
     "fields": [
@@ -1665,6 +1671,7 @@
   },
   {
    "path": "award_events.csv",
+   "source": "data/external/award_events.csv",
    "description": "Eisner and Kirby award events (wins and honors) linked from creator_awards.csv. Unique key: event_id.",
    "schema": {
     "fields": [
@@ -1718,6 +1725,7 @@
   },
   {
    "path": "animal_watch.csv",
+   "source": "data/external/animal_watch.csv",
    "description": "Reviewed animal sightings and excluded keyword matches; join on story_id. See evidence_note and source_url.",
    "schema": {
     "fields": [
@@ -1761,6 +1769,7 @@
   },
   {
    "path": "story_labels.csv",
+   "source": "data/external/story_labels.csv",
    "description": "Explicit cached issue labels; one row per story. Zero labels mean unrecorded, not confirmed absence.",
    "schema": {
     "fields": [
@@ -1824,6 +1833,7 @@
   },
   {
    "path": "hatter_story_roles.csv",
+   "source": "data/external/hatter_story_roles.csv",
    "description": "Review of 34 Mad Hatter appearance matches; source presence is distinct from a main-antagonist role.",
    "schema": {
     "fields": [
@@ -1877,6 +1887,7 @@
   },
   {
    "path": "creator_watch.csv",
+   "source": "data/external/creator_watch.csv",
    "description": "Short, cited list of creators with documented misconduct events (a conviction, allegations, or employment decisions). Absence from the list is not a clearance.",
    "schema": {
     "fields": [

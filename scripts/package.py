@@ -4,31 +4,14 @@ import json
 import shutil
 from pathlib import Path
 
-KAGGLE_FILES = [
-    "data/processed/stories.csv",
-    "data/processed/issues.csv",
-    "data/processed/creators.csv",
-    "data/processed/story_creators.csv",
-    "data/processed/creator_awards.csv",
-    "data/processed/story_texts.csv",
-    "references/award_events.csv",
-    "data/external/animal_watch.csv",
-    "data/external/story_labels.csv",
-    "references/hatter_story_roles.csv",
-    "data/external/creator_watch.csv",
-]
-
 
 def stage_kaggle(root, target):
-    """Copy the final tables flat into target and write Kaggle's dataset-metadata.json."""
+    """Copy each table named in references/kaggle-table-metadata.json flat into target."""
+    tables = json.loads((root / "references/kaggle-table-metadata.json").read_text())
     shutil.rmtree(target, ignore_errors=True)
     target.mkdir(parents=True)
-    for name in KAGGLE_FILES:
-        shutil.copy2(root / name, target / Path(name).name)
-    tables = json.loads((root / "references/kaggle-table-metadata.json").read_text())
-    assert sorted(r["path"] for r in tables["resources"]) == sorted(
-        p.name for p in target.iterdir()
-    )
+    for table in tables["resources"]:
+        shutil.copy2(root / table["source"], target / table["path"])
     metadata = {
         "id": "danofer/batchat-batman-rankings",
         "title": "BatRank: A BatChat Batman Ranking Dataset",
@@ -38,16 +21,17 @@ def stage_kaggle(root, target):
         "keywords": [
             "popular culture",
             "comics and animation",
-            "data visualization",
-            "nlp",
             "movies and tv shows",
+            "nlp",
+            "data visualization",
         ],
-        "resources": tables["resources"],
+        "isPrivate": False,
+        "resources": [{k: v for k, v in r.items() if k != "source"} for r in tables["resources"]],
     }
     (target / "dataset-metadata.json").write_text(
         json.dumps(metadata, indent=1, ensure_ascii=False)
     )
-    print(f"{target}: {len(KAGGLE_FILES)} tables")
+    print(f"{target}: {len(tables['resources'])} tables")
 
 
 if __name__ == "__main__":

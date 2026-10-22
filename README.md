@@ -14,7 +14,7 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Can a computer predict BatChat's favorites?](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
 
-Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from ensemble books and collections; the EDA [checks his actual role](references/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
+Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from ensemble books and collections; the EDA [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 
 ## Dataset
 
@@ -29,7 +29,7 @@ Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatte
 | `creator_awards.csv` | 311 | Creator-to-award links |
 | `story_texts.csv` | 2,637 | Full plot summaries and records of missing text |
 
-Five small curated tables join on `story_id`, `creator_id`, or `event_id`: `award_events.csv`, [animal_watch.csv](data/external/animal_watch.csv), [story_labels.csv](data/external/story_labels.csv), [hatter_story_roles.csv](references/hatter_story_roles.csv), and [creator_watch.csv](data/external/creator_watch.csv). Missing labels mean unknown.
+Five small curated tables join on `story_id`, `creator_id`, or `event_id`: `award_events.csv`, [animal_watch.csv](data/external/animal_watch.csv), [story_labels.csv](data/external/story_labels.csv), [hatter_story_roles.csv](data/external/hatter_story_roles.csv), and [creator_watch.csv](data/external/creator_watch.csv). Missing labels mean unknown.
 
 Start with `stories.csv`. Join on `story_id` or `creator_id`. The [data dictionary](references/data_dictionary.md) explains the fields, joins, and missing values.
 
@@ -37,14 +37,12 @@ There are **1,711 plot summaries totaling 703,219 words**, with no length cap. T
 
 ## Run locally
 
-Download the dataset from Kaggle into `data/kaggle/` (or run `make share` after `make data` to stage it there). The notebooks look for `stories.csv` under `/kaggle/input` or `data/kaggle`.
+`make share` stages the Kaggle tables in `data/kaggle/`; the notebooks look for `stories.csv` there or under `/kaggle/input`.
 
 ```bash
 uv sync --locked
-make insights    # EDA
-make compare     # audience comparisons
-make analyze     # prediction
-make share       # stage data/kaggle and dataset-metadata.json for Kaggle
+make notebooks   # execute all three notebooks in place
+make share       # stage data/kaggle/ + dataset-metadata.json; then: kaggle datasets version -p data/kaggle -m msg --dir-mode skip
 make check       # tests and lint
 ```
 
@@ -54,7 +52,7 @@ The notebooks are self-contained: pandas, seaborn, scikit-learn, and scipy only.
 
 [scripts/dataset.py](scripts/dataset.py) downloads the ranking list and issue metadata. It caches responses and spaces requests. The other [scripts](scripts/) add characters, awards, creator details, ratings, and plot summaries. [tests/](tests/) covers parsing and joins.
 
-`make data` fetches the core data. The full enrichment also uses reviewed mappings and source caches; see the [source notes](references/enrichment_research.md) and [audit](reports/review.md). Raw caches and full plot text are kept out of GitHub.
+`make data` fetches the core data. The full enrichment also uses reviewed mappings and source caches; see the [source notes](references/enrichment_research.md). Raw caches and full plot text are kept out of GitHub.
 
 ## Sources
 

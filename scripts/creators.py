@@ -252,9 +252,9 @@ def main():
         .all()
         .all()
     )
-    used = pd.read_csv(ROOT / "references/award_events.csv")
+    used = pd.read_csv(ROOT / "data/external/award_events.csv")
     extend_award_audit(used, snapshot, creator_awards).to_csv(
-        ROOT / "references/award_events.csv", index=False
+        ROOT / "data/external/award_events.csv", index=False
     )
     for name, table in [
         ("creators", creators),

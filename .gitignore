@@ -16,6 +16,10 @@ data/processed/
 data/external/*
 !data/external/catalogue.json
 !data/external/creator_watch.csv
+!data/external/animal_watch.csv
+!data/external/story_labels.csv
+!data/external/award_events.csv
+!data/external/hatter_story_roles.csv
 reports/*.zip
 reports/notebooks/
 data/kaggle/
