@@ -77,3 +77,19 @@ The Puckett/Parobeck comparison consists of comics tied to the animated continui
 The canonical Goodreads snapshot has *Red Rain* at 3.66 and *White Knight* at 4.28, against BatChat ranks 6 and 734. Their [Goodreads Red Rain](https://www.goodreads.com/book/show/72479.Batman_Dracula) and [White Knight](https://www.goodreads.com/book/show/37775321-batman) URLs should accompany those comparisons. They remain retrospective snapshot values. DC's [White Knight collected-edition page](https://www.dc.com/graphic-novels/batman-white-knight-2017/batman-white-knight) confirms that the collection contains all eight issues. The [original announcement quoting Murphy](https://www.dc.com/blog/2017/07/07/sean-murphy-s-batman-white-knight-arrives-october-4) supports the political premise, but announced seven issues before the completed series expanded to eight; it should not supply the final issue count.
 
 The coloring comparison is supported by DC's [Absolute Killing Joke edition](https://www.dc.com/graphic-novels/absolute-batman-the-killing-joke), which includes the original colors and Bolland's later version. GCD's [2008 Deluxe Edition record](https://www.comics.org/issue/510483/) identifies John Higgins as the original colorist and Bolland's subsequent recoloring and reconstruction. Calling these the same narrative does not establish identical visual presentation or supplementary contents across Goodreads editions.
+
+## Ratings acquisition coverage audit
+
+The original configured acquisition was present in the cache: ten Goodreads shelf pages (347 distinct books) and all 100 configured RoundUp catalogues. The small model cohorts mixed two limitations: curated acquisition/crosswalk coverage, and strict same-story, completeness, and review-count filters. The parser also skipped rated annuals and named specials.
+
+The expanded pass preserves the original HTML and `data/external/ratings.json`, stores new pages in `data/raw/external_ratings_expanded/`, and writes `data/external/ratings_expanded.json`. The dataset builder prefers that expanded snapshot when present. Requests run serially with a five-second minimum delay; Fetcher retries 429 and transient 5xx responses with backoff. One Parallax catalogue candidate remained unavailable after repeated HTTP 500 responses; unresolved digital/print numbering is not guessed.
+
+| Source | Any rating before → after | Complete same-story before → after | Final model cohort before → after |
+|---|---:|---:|---:|
+| Goodreads | 55 → 70 | 40 → 52 | 40 → 52 |
+| RoundUp readers | 326 → 390 | 215 → 271 | 110 → 147 |
+| RoundUp critics | 174 → 227 | 105 → 149 | 78 → 110 |
+
+The thresholds remain 100 Goodreads ratings, five reader ratings on every issue, and three critic reviews on every issue. The full pass parses 164 verified RoundUp catalogues and attaches 1,575 distinct wiki-issue matches after rejecting eight creator conflicts. These are still curated samples, not exhaustive searches or random samples.
+
+The added crosswalks are in `goodreads_matches_additions.csv`, `roundup_series_additions.json`, and `roundup_issue_matches.json`. Goodreads matches are reviewed against book descriptions and canonical issue lists; title similarity alone is not accepted. For example, [Born to Kill](https://www.goodreads.com/book/show/13228177) lists the exact eight issues, while [Mindfields](https://www.goodreads.com/book/show/28109909) includes additional issues and remains marked as a broader collection. RoundUp's [full DC directory](https://comicbookroundup.com/comic-books/reviews/dc-comics/all-series) supplies catalogue URLs; [Batman annual #2](https://comicbookroundup.com/comic-books/reviews/dc-comics/batman-(2016)/annual-2) and [the Riddler one-shot](https://comicbookroundup.com/comic-books/reviews/dc-comics/batman-one-bad-day-(2022)/the-riddler-1) illustrate the previously discarded token types.

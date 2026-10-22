@@ -38,7 +38,7 @@ Five small curated tables join on `story_id`, `creator_id`, or `event_id`: `awar
 
 Start with `stories.csv`; specialist columns are in `story_features.csv`. Join them one-to-one on `story_id`, or join creator tables on `creator_id`. The [data dictionary](references/data_dictionary.md) explains the fields, joins, and missing values.
 
-There are **1,711 plot summaries totaling 703,219 words**, with no length cap. Text covers 587 stories; 481 have complete summaries and issue lists. Recent comics have less coverage. Outside ratings cover selected books and editions. The notebooks check those matches before comparing scores.
+There are **1,711 plot summaries totaling 703,219 words**, with no length cap. Text covers 587 stories; 481 have complete summaries and issue lists. Recent comics have less coverage. Outside ratings cover 70 Goodreads matches, 390 stories with RoundUp reader ratings, and 227 with critic ratings. Strict same-story and review-count checks leave cohorts of 52, 147, and 110. The [acquisition audit](references/enrichment_research.md#ratings-acquisition-coverage-audit) explains the remaining gaps.
 
 ## Run locally
 

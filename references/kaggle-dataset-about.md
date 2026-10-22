@@ -15,6 +15,8 @@ BatRank links these stories to creators, characters, awards, plot, and ratings.
 
 Start with the compact `stories.csv`; add `story_features.csv` for cast, awards, outside ratings and their match scopes. Join story tables on `story_id` and creator tables on `creator_id`. Use `credit_scope='selected_narrative'` for the people who worked on the selected stories. Award links use `event_id` to join `award_events.csv`. Smaller curated tables add issue labels (`story_labels.csv`), animal sightings (`animal_watch.csv`), Mad Hatter's reviewed story roles (`hatter_story_roles.csv`), and a cited creator-controversy list (`creator_watch.csv`).
 
+Outside ratings are available for 70 Goodreads matches, 390 stories on RoundUp readers, and 227 on RoundUp critics. Complete same-story and review-count checks leave comparison samples of 52, 147, and 110. Coverage is curated and differs by era and edition.
+
 The text table contains **1,711 available summaries totaling 703,219 words**; these are wiki contributors’ plot descriptions. Recent comics have thinner coverage.
 
 

@@ -83,14 +83,14 @@ Team features occur in `story_features.csv`. References follow their listed read
 
 ## External ratings
 
-Goodreads fields occur only in `stories.csv`; RoundUp scores/counts occur in both tables.
+In the upload, Goodreads fields occur in `story_features.csv`; RoundUp scores/counts occur in `story_features.csv` and `issues.csv`.
 
 | Columns | Definition |
 |---|---|
-| `goodreads_book_id`, `goodreads_url`, `goodreads_title`, `goodreads_author` | Reviewed edition ID/link and shelf title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match. |
-| `goodreads_rating`, `goodreads_rating_count` | Public shelf aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements. |
+| `goodreads_book_id`, `goodreads_url`, `goodreads_title`, `goodreads_author` | Reviewed edition ID/link and public title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match. |
+| `goodreads_rating`, `goodreads_rating_count` | Public shelf or book-page aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements. |
 | `goodreads_match_scope`, `goodreads_match_note` | `same_story` for the same named narrative, `broader_collection` for extra stories, `subset` for a partial/unverified whole-reading equivalence; accompanying scope explanation. Not a numeric confidence score. |
-| `goodreads_shelf_url`, `goodreads_retrieved_at` | Actual aggregate extraction page and cached response timestamp in UTC. |
+| `goodreads_shelf_url`, `goodreads_retrieved_at` | Shelf URL when sampled from a shelf (empty for book-page extraction, whose source is `goodreads_url`), and cached response timestamp in UTC. |
 | `roundup_user_rating`, `roundup_critic_rating` | Native issue scores on 0–10 scales; story values are **equal-weight means of scored references**, separately by audience. They can summarize partial lists; not weighted by review counts. |
 | `roundup_user_count`, `roundup_critic_count` | Issue audience counts; story values sum available issue counts. These are issue-review observations, not distinct people, independent votes or confidence intervals. |
 | stories: `roundup_user_min_count`, `roundup_critic_min_count` | Smallest count among that audience's scored references. It says nothing about unscored references. |
@@ -103,7 +103,7 @@ Goodreads fields occur only in `stories.csv`; RoundUp scores/counts occur in bot
 
 Strict notebook comparisons use Goodreads `same_story`, or RoundUp audience completeness **plus** `all_indexed_narratives`, then explicit count thresholds. Review-count screening uses the weakest issue; predictive vote controls use Goodreads total ratings or RoundUp mean issue-review observations (`roundup_*_count / issue_reference_count`). These controls, log transforms, availability flags and the derived switch rate live in analysis code, not extra canonical CSV columns. Current ratings support retrospective comparisons, not historical forecasts.
 
-`references/goodreads_matches.csv` records curated book IDs and scope decisions; `references/roundup_series.json` maps verified wiki series/volumes to catalogue URLs, including Detective Comics’ resumed #934+ numbering in its 2016 catalogue. Annual/special/digital-numbering ambiguities and duplicate catalogue issue numbers are excluded rather than guessed. No individual reviewer identities or review prose is exported.
+`references/goodreads_matches.csv` and `goodreads_matches_additions.csv` record curated book IDs and scope decisions. `references/roundup_series.json` and `roundup_series_additions.json` map verified wiki series/volumes to catalogue URLs, including Detective Comics’ resumed #934+ numbering in its 2016 catalogue. Numbered annuals and explicitly crosswalked named specials are supported; `roundup_issue_matches.json` records special issue tokens. Unresolved digital/print numbering and duplicate catalogue issue numbers remain excluded. No individual reviewer identities or review prose is exported.
 
 ## Creator and work awards
 

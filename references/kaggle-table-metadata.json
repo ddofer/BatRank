@@ -332,12 +332,12 @@
      },
      {
       "name": "goodreads_book_id",
-      "description": "Reviewed edition ID/link and shelf title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
+      "description": "Reviewed edition ID/link and public title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
       "type": "number"
      },
      {
       "name": "goodreads_url",
-      "description": "Reviewed edition ID/link and shelf title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
+      "description": "Reviewed edition ID/link and public title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
       "type": "string"
      },
      {
@@ -352,32 +352,32 @@
      },
      {
       "name": "goodreads_rating",
-      "description": "Public shelf aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements.",
+      "description": "Public shelf or book-page aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements.",
       "type": "number"
      },
      {
       "name": "goodreads_rating_count",
-      "description": "Public shelf aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements.",
+      "description": "Public shelf or book-page aggregate on the native 1–5 scale and rating count. Goodreads can pool editions at work level; a book URL does not guarantee edition-specific ratings or identical coloring/supplements.",
       "type": "number"
      },
      {
       "name": "goodreads_title",
-      "description": "Reviewed edition ID/link and shelf title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
+      "description": "Reviewed edition ID/link and public title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
       "type": "string"
      },
      {
       "name": "goodreads_author",
-      "description": "Reviewed edition ID/link and shelf title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
+      "description": "Reviewed edition ID/link and public title/first listed author. Matching uses explicit mappings and creator cross-checks, not an automatically accepted fuzzy-title match.",
       "type": "string"
      },
      {
       "name": "goodreads_shelf_url",
-      "description": "Actual aggregate extraction page and cached response timestamp in UTC.",
+      "description": "Shelf URL when sampled from a shelf (empty for book-page extraction, whose source is goodreads_url), and cached response timestamp in UTC.",
       "type": "string"
      },
      {
       "name": "goodreads_retrieved_at",
-      "description": "Actual aggregate extraction page and cached response timestamp in UTC.",
+      "description": "Shelf URL when sampled from a shelf (empty for book-page extraction, whose source is goodreads_url), and cached response timestamp in UTC.",
       "type": "string"
      },
      {

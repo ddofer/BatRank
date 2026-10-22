@@ -428,7 +428,9 @@ def export(stories, issues, base_only=False):
         .isoformat()
     )
     stories["ranking_source_url"] = RANKINGS
-    ratings_path = ROOT / "data/external/ratings.json"
+    ratings_path = ROOT / "data/external/ratings_expanded.json"
+    if not ratings_path.exists():
+        ratings_path = ROOT / "data/external/ratings.json"
     if ratings_path.exists() and not base_only:
         ratings = json.loads(ratings_path.read_text())
         story_ratings = pd.DataFrame(ratings["stories"])

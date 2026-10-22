@@ -1,4 +1,4 @@
-"""Cache public rating aggregates; run `python -m scripts.ratings [--offline]` before make offline."""
+"""Expand public rating aggregates into ratings_expanded.json; preserve original source caches."""
 
 import argparse
 import json
@@ -6,6 +6,7 @@ import re
 import time
 import unicodedata
 from datetime import datetime, timezone
+from html import unescape
 from urllib.robotparser import RobotFileParser
 
 import pandas as pd
@@ -14,6 +15,7 @@ from bs4 import BeautifulSoup
 from scripts.dataset import RAW, ROOT, Fetcher
 
 CACHE = RAW / "external_ratings"
+EXPANDED_CACHE = RAW / "external_ratings_expanded"
 ROUNDUP = "https://comicbookroundup.com/comic-books/reviews/dc-comics/"
 SHELVES = [
     "batman",
@@ -38,7 +40,7 @@ def fetch_html(session, url, path, robots, offline):
         if offline:
             raise FileNotFoundError(path)
         assert robots.can_fetch(session.headers["User-Agent"], url), url
-        time.sleep(max(3, robots.crawl_delay("*") or 0))
+        time.sleep(max(5, robots.crawl_delay("*") or 0))
         response = session.get(url, timeout=90)
         response.raise_for_status()
         if response.status_code != 200 or len(response.content) < 1000:
@@ -77,6 +79,28 @@ def goodreads_shelf(html, source_url, retrieved_at):
     return books
 
 
+def goodreads_book(html, source_url, retrieved_at):
+    """Read the public book's structured aggregate, without combining edition counts."""
+    soup = BeautifulSoup(html, "html.parser")
+    for script in soup.select('script[type="application/ld+json"]'):
+        record = json.loads(script.string or script.get_text())
+        if record.get("@type") != "Book" or "aggregateRating" not in record:
+            continue
+        aggregate = record["aggregateRating"]
+        score, count = float(aggregate["ratingValue"]), int(aggregate["ratingCount"])
+        if not 1 <= score <= 5 or count <= 0:
+            raise ValueError(f"Invalid Goodreads aggregate: {source_url}")
+        return dict(
+            goodreads_rating=score,
+            goodreads_rating_count=count,
+            goodreads_title=unescape(record["name"]),
+            goodreads_author=unescape(record["author"][0]["name"]),
+            goodreads_shelf_url=None,
+            goodreads_retrieved_at=retrieved_at,
+        )
+    raise ValueError(f"No public book aggregate: {source_url}")
+
+
 def roundup_series(html, slug, retrieved_at):
     rows = {}
     ambiguous = set()
@@ -86,8 +110,9 @@ def roundup_series(html, slug, retrieved_at):
         if not cell or not link:
             continue
         token = link["href"].rsplit("/", 1)[1]
-        # shortcut: annual/special/digital numbering needs explicit edition matching; leave it missing.
-        if not re.fullmatch(r"\d+(?:\.\d+)?", token):
+        # Keep source issue tokens, including annuals and named specials. A special token
+        # can only match through an explicit issue crosswalk below.
+        if not re.fullmatch(r"[a-z0-9][a-z0-9.-]*", token):
             continue
         result = dict(
             roundup_url="https://comicbookroundup.com" + link["href"],
@@ -140,16 +165,23 @@ def normalized(name):
     }.get(key, key)
 
 
-def issue_rating(issue, mapping, catalogues):
+def issue_rating(issue, mapping, catalogues, issue_matches=None):
     if pd.isna(issue.wiki_title):
         return None
     match = re.fullmatch(r"(.+) (\d+(?:\.\d+)?)", issue.wiki_title)
-    if not match or match[1] not in mapping:
+    series, token = (match[1], match[2]) if match else (issue.wiki_title, "1")
+    explicit = (issue_matches or {}).get(issue.wiki_title)
+    if explicit:
+        slug, token = explicit["slug"], explicit["token"]
+    elif series not in mapping:
         return None
-    slug = mapping[match[1]]
-    if match[1] == "Detective Comics Vol 1" and int(match[2].split(".")[0]) >= 934:
-        slug = "detective-comics-(2016)"
-    result = catalogues[slug].get(match[2])
+    else:
+        slug = mapping[series]
+        if " Annual Vol " in series:
+            token = "annual-" + token
+        if series == "Detective Comics Vol 1" and int(token.split(".")[0]) >= 934:
+            slug = "detective-comics-(2016)"
+    result = catalogues[slug].get(token)
     if result is None or not any(k.endswith("_rating") for k in result):
         return None
     result = result.copy()
@@ -210,6 +242,12 @@ def main():
     parser.add_argument("--offline", action="store_true")
     args = parser.parse_args()
     CACHE.mkdir(parents=True, exist_ok=True)
+    EXPANDED_CACHE.mkdir(parents=True, exist_ok=True)
+
+    def cache_path(filename):
+        original = CACHE / filename
+        return original if original.exists() else EXPANDED_CACHE / filename
+
     session = Fetcher().session
     robots = {}
     for host, filename in [
@@ -234,6 +272,22 @@ def main():
         for book_id, book in goodreads_shelf(html, url, snapshot_date(path)).items():
             books.setdefault(book_id, book)
     matches = pd.read_csv(ROOT / "references/goodreads_matches.csv")
+    additional = ROOT / "references/goodreads_matches_additions.csv"
+    if additional.exists():
+        matches = pd.concat([matches, pd.read_csv(additional)], ignore_index=True)
+    for match in matches.itertuples():
+        if match.goodreads_book_id not in books:
+            path = cache_path(f"goodreads-book-{match.goodreads_book_id}.html")
+            html = fetch_html(
+                session,
+                match.goodreads_url,
+                path,
+                robots["https://www.goodreads.com"],
+                args.offline,
+            )
+            books[match.goodreads_book_id] = goodreads_book(
+                html, match.goodreads_url, snapshot_date(path)
+            )
     goodreads = pd.DataFrame(
         [{**row, **books[row["goodreads_book_id"]]} for row in matches.to_dict("records")]
     )
@@ -241,9 +295,20 @@ def main():
         columns={"match_scope": "goodreads_match_scope", "match_note": "goodreads_match_note"}
     )
     mapping = json.loads((ROOT / "references/roundup_series.json").read_text())
+    additional = ROOT / "references/roundup_series_additions.json"
+    if additional.exists():
+        mapping.update(json.loads(additional.read_text()))
+    issue_matches_path = ROOT / "references/roundup_issue_matches.json"
+    issue_matches = (
+        json.loads(issue_matches_path.read_text()) if issue_matches_path.exists() else {}
+    )
     catalogues = {}
-    for slug in sorted(set(mapping.values()) | {"detective-comics-(2016)"}):
-        path = CACHE / f"roundup-series-{slug}.html"
+    for slug in sorted(
+        set(mapping.values())
+        | {v["slug"] for v in issue_matches.values()}
+        | {"detective-comics-(2016)"}
+    ):
+        path = cache_path(f"roundup-series-{slug}.html")
         html = fetch_html(
             session, ROUNDUP + slug, path, robots["https://comicbookroundup.com"], args.offline
         )
@@ -263,7 +328,7 @@ def main():
     # Inputs may already contain yesterday's export; recompute from the original columns.
     issues = issues.drop(columns=[c for c in issues if c.startswith("roundup_")])
     rows = [
-        issue_rating(i, mapping, catalogues)
+        issue_rating(i, mapping, catalogues, issue_matches)
         for i in issues.drop_duplicates("wiki_title").itertuples()
     ]
     ratings = pd.DataFrame([r for r in rows if r])
@@ -280,16 +345,20 @@ def main():
         "stories": json.loads(aggregate.to_json(orient="records")),
         "issues": json.loads(ratings.to_json(orient="records")),
     }
-    destination = ROOT / "data/external/ratings.json"
+    destination = ROOT / "data/external/ratings_expanded.json"
     temporary = destination.with_suffix(".tmp")
     temporary.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")))
     temporary.replace(destination)
     report = dict(
+        goodreads_available_books=len(books),
         goodreads_stories=len(goodreads),
         goodreads_scopes=goodreads.goodreads_match_scope.value_counts().to_dict(),
         roundup_issues=len(ratings),
         credit_conflicts=json.loads(conflicts.to_json(orient="records")),
         source_series=len(catalogues),
+        source_pages_complete=True,
+        acquisition="Cached serial requests with five-second minimum spacing; transient retries use Fetcher.",
+        matching="Curated title/edition crosswalks and creator-overlap checks; no fuzzy title matches are accepted automatically.",
         aggregation="equal_weight_issue_means; counts are issue-review observations",
         scope="Goodreads same_story matches the named narrative, not every edition's supplementary contents; RoundUp rates whole issues.",
     )
@@ -300,6 +369,7 @@ def main():
         report[f"roundup_{audience}_complete"] = int(
             aggregate[f"roundup_{audience}_complete"].sum()
         )
+    (ROOT / "reports").mkdir(exist_ok=True)
     (ROOT / "reports/ratings_validation.json").write_text(
         json.dumps(report, indent=2, allow_nan=False)
     )
