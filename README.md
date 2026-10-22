@@ -14,7 +14,7 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Predicting the rankings](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
 
-Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter appears in surprisingly well-ranked books. Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
+Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s high median mostly comes from ensemble books and collections; the EDA [checks his actual role](references/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 
 ## Dataset
 

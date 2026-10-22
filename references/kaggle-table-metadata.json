@@ -1768,6 +1768,59 @@
           }
         ]
       }
+    },
+    {
+      "path": "references/hatter_story_roles.csv",
+      "description": "Review of 34 Mad Hatter appearance matches; source presence is distinct from a main-antagonist role.",
+      "schema": {
+        "fields": [
+          {
+            "name": "story_id",
+            "description": "Unique story key; join to stories.",
+            "type": "string"
+          },
+          {
+            "name": "title",
+            "description": "Snapshot story title.",
+            "type": "string"
+          },
+          {
+            "name": "rank",
+            "description": "Snapshot rank; lower is better.",
+            "type": "number"
+          },
+          {
+            "name": "reviewed_role",
+            "description": "Manual review: main antagonist, larger cast/collection, or unclear.",
+            "type": "string"
+          },
+          {
+            "name": "evidence_note",
+            "description": "Short explanation from summaries or story lists.",
+            "type": "string"
+          },
+          {
+            "name": "available_synopses",
+            "description": "Available synopsis records for this story.",
+            "type": "number"
+          },
+          {
+            "name": "selected_synopsis_records",
+            "description": "Total selected synopsis records, including missing text.",
+            "type": "number"
+          },
+          {
+            "name": "source_revision_urls",
+            "description": "Pipe-separated reviewed wiki revision URLs.",
+            "type": "string"
+          },
+          {
+            "name": "review_date",
+            "description": "Date of the manual review.",
+            "type": "string"
+          }
+        ]
+      }
     }
   ]
 }

@@ -277,3 +277,20 @@ Confidence intervals describe uncertainty under the stated resampling method. Th
 | `event_names` | Pipe-separated event names. An event label does not necessarily mean a crossover. |
 
 Elseworlds means an alternate-continuity story. A graphic-novel category does not establish whether a book was originally published as a graphic novel or collected later. `format_hint` in `stories.csv` separately records explicit original-graphic-novel wording from the ranking list.
+
+
+### Mad Hatter role audit
+
+`references/hatter_story_roles.csv` reviews all 34 stories in the EDA’s Hatter appearance cohort. It supplements the source’s antagonist label; it does not change the extracted cast records.
+
+| Field | Meaning |
+|---|---|
+| `story_id` | Unique story key; join to stories. |
+| `title`, `rank` | Snapshot story name and rank; lower is better. |
+| `reviewed_role` | Main antagonist, part of a larger cast/collection, or unclear from available summaries. |
+| `evidence_note` | Short reason for the classification. A main role in one anthology short does not make the entire collection Hatter-led. |
+| `available_synopses`, `selected_synopsis_records` | Available summaries and total selected summary records for the ranked story. |
+| `source_revision_urls` | Pipe-separated links to the reviewed wiki revisions. |
+| `review_date` | Date of this manual evidence review. |
+
+These classifications use summaries and story lists, not full-comic panel counts. The six unclear entries are not treated as negative examples.

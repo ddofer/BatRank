@@ -70,7 +70,6 @@ Kevin Conroy,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Kevin Conroy
 Nubia,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Nubia
 Sojourner Mullein,1,86.0,86.0,86.0,86,DC Pride 2022,86,DC Pride 2022,Sojourner Mullein
 Batman II,1,87.0,87.0,87.0,87,Batman: Black and White V.4,87,Batman: Black and White V.4,Batman II
-Edward Nygma,1,87.0,87.0,87.0,87,Batman: Black and White V.4,87,Batman: Black and White V.4,Edward Nygma
 Gilda Gold,1,87.0,87.0,87.0,87,Batman: Black and White V.4,87,Batman: Black and White V.4,Gilda Gold
 League of Assassins,1,87.0,87.0,87.0,87,Batman: Black and White V.4,87,Batman: Black and White V.4,League of Assassins
 Samuel Bradley,3,89.0,63.0,137.5,37,Solo #5,186,The Doomsday Book,Samuel Bradley
@@ -90,7 +89,7 @@ Eric Moran,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Eric Moran
 Outsiders II,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Outsiders II
 Violet Harper,1,105.0,105.0,105.0,105,Demon Star,105,Demon Star,Violet Harper
 Alfred Pennyworth,14,118.5,93.5,316.5,40,Father’s Day,554,Young Alfred: Pain in the Butler OGN,Alfred Pennyworth
-Victor Sage,5,119.0,95.0,213.0,37,Solo #5,222,Riddles,Victor Sage
+Victor Sage,5,119.0,95.0,213.0,37,Solo #5,222,Riddles,The Question (Vic Sage)
 Lashina,1,121.0,121.0,121.0,121,Up Against the Wall,121,Up Against the Wall,Lashina
 Task Force X,1,121.0,121.0,121.0,121,Up Against the Wall,121,Up Against the Wall,Task Force X
 James Gordon,20,123.0,83.75,247.25,1,Year One,529,Arkham War,James Gordon
@@ -103,7 +102,7 @@ Fruitbat-Man,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Fruitbat-Ma
 Hawk and Dove,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Hawk and Dove
 Henry Hall,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Henry Hall
 Jenna Duffy,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Jenna Duffy
-Victor Fries,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Mr. Freeze
+Mr. Freeze,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Mr. Freeze
 Zebra Batman,1,128.0,128.0,128.0,128,Li’l Gotham,128,Li’l Gotham,Zebra Batman
 Rickart Graustark,1,130.0,130.0,130.0,130,Thrillkiller,130,Thrillkiller,Rickart Graustark
 Galaxy Communications,1,137.0,137.0,137.0,137,Original Sins,137,Original Sins,Galaxy Communications
@@ -189,7 +188,7 @@ Amanda Waller,2,241.5,181.25,301.75,121,Up Against the Wall,362,Corvalho,Amanda 
 Eliot Ness,1,242.0,242.0,242.0,242,Batman: Scar of the Bat,242,Batman: Scar of the Bat,Eliot Ness
 "Peter Merkel, Jr.",2,244.5,206.75,282.25,169,A Debt of Significant Blood,320,Villains United #1-6,"Peter Merkel, Jr."
 Secret Six III,2,244.5,206.75,282.25,169,A Debt of Significant Blood,320,Villains United #1-6,Secret Six III
-Thomas Blake,2,244.5,206.75,282.25,169,A Debt of Significant Blood,320,Villains United #1-6,Thomas Blake
+Thomas Blake,2,244.5,206.75,282.25,169,A Debt of Significant Blood,320,Villains United #1-6,Catman
 Kendra Saunders,4,247.5,174.5,274.5,26,Final Crisis,285,Whitewater,Kendra Saunders
 Lara Lane-Kent,1,248.0,248.0,248.0,248,Injustice Gods Among Us- Year 3 V.1,248,Injustice Gods Among Us- Year 3 V.1,Lara Lane-Kent
 Nimue Inwudu,1,248.0,248.0,248.0,248,Injustice Gods Among Us- Year 3 V.1,248,Injustice Gods Among Us- Year 3 V.1,Nimue Inwudu
@@ -214,6 +213,7 @@ Projectra Wind'zzor,1,276.0,276.0,276.0,276,Batman ’66 Meets the Legion of Sup
 Reep Daggle,1,276.0,276.0,276.0,276,Batman ’66 Meets the Legion of Super-Heroes #1,276,Batman ’66 Meets the Legion of Super-Heroes #1,Reep Daggle
 Tasmia Mallor,1,276.0,276.0,276.0,276,Batman ’66 Meets the Legion of Super-Heroes #1,276,Batman ’66 Meets the Legion of Super-Heroes #1,Tasmia Mallor
 Timothy Drake,36,276.5,95.0,458.25,15,Batman: R.I.P.,691,Red Robin,Tim Drake
+Riddler,2,277.0,182.0,372.0,87,Batman: Black and White V.4,467,Madmen Across the Water,Riddler
 Jean-Paul Valley,7,278.0,105.5,378.5,65,Sword of Azrael (2022) #1-6,431,Tally Man,Jean-Paul Valley
 Ace the Bat-Hound,2,279.0,248.0,310.0,217,Hounded,341,Batman V.3 Annual #1,Ace the Bat-Hound
 Matthew Ryder,4,284.0,246.0,360.5,204,Final Night,518,Zero Hour,Matthew Ryder
@@ -410,10 +410,9 @@ Lobo II,1,459.0,459.0,459.0,459,Justice League Vs. Suicide Squad #1-6,459,Justic
 Daniel Cassidy,2,466.0,404.5,527.5,343,Underworld Unleashed,589,DCU Infinite Holiday Special #1,Daniel Cassidy
 Bane,5,467.0,169.0,480.0,151,Batman: The Vengeance of Bane II,529,Arkham War,Bane
 Jonathan Crane,3,467.0,429.5,498.0,392,Gotham Villains 80th Anniversary Giant,529,Arkham War,Scarecrow
-Aaron Helzinger,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Aaron Helzinger
+Aaron Helzinger,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Amygdala
 Cornelius Stirk,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Cornelius Stirk
 Doctor Faustus,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Doctor Faustus
-Edward Nashton,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Riddler (Edward Nashton)
 Jervis Tetch,1,467.0,467.0,467.0,467,Madmen Across the Water,467,Madmen Across the Water,Mad Hatter
 Tatsu Toro,2,469.5,464.25,474.75,459,Justice League Vs. Suicide Squad #1-6,480,Batman & Robin Eternal #1-26,Tatsu Toro
 James Gordon II,1,470.0,470.0,470.0,470,Batman: Digital Justice OGN,470,Batman: Digital Justice OGN,James Gordon II
@@ -442,15 +441,15 @@ Lawrence Bolatinsky,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Ark
 Match,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Arkham,Match
 Natalia Metternich,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Arkham,Natalia Metternich
 Peter Howard,1,489.0,489.0,489.0,489,Assault On Arkham,489,Assault On Arkham,Peter Howard
-Rex Mason,6,494.0,393.5,538.25,25,Leviathan Strikes,666,Justice League: The Nail #1-3,Rex Mason
+Rex Mason,6,494.0,393.5,538.25,25,Leviathan Strikes,666,Justice League: The Nail #1-3,Metamorpho
 Waylon Jones,2,494.0,476.5,511.5,459,Justice League Vs. Suicide Squad #1-6,529,Arkham War,Killer Croc
 Outsiders,5,497.0,361.0,552.0,25,Leviathan Strikes,666,Justice League: The Nail #1-3,Outsiders
 Adam Strange,1,498.0,498.0,498.0,498,Final Christmas,498,Final Christmas,Adam Strange
 Claire Clover,1,499.0,499.0,499.0,499,I Am Gotham,499,I Am Gotham,Claire Clover
-Raymond Palmer,6,501.0,367.0,640.25,218,DC One Million,707,Identity Crisis,Raymond Palmer
+Raymond Palmer,6,501.0,367.0,640.25,218,DC One Million,707,Identity Crisis,The Atom (Ray Palmer)
 Lois Lane,3,501.0,277.5,569.5,54,Super Friends: Date Night,638,Superman: Speeding Bullets,Lois Lane
 Bobo T. Chimpanzee,2,502.5,459.25,545.75,416,DC Rebirth Holiday Special #1,589,DCU Infinite Holiday Special #1,Bobo T. Chimpanzee
-Ted Grant,7,509.0,364.5,592.5,204,Final Night,672,Catwoman/Wildcat #1-4,Ted Grant
+Ted Grant,7,509.0,364.5,592.5,204,Final Night,672,Catwoman/Wildcat #1-4,Wildcat
 William Cobb,2,509.0,499.0,519.0,489,Assault On Arkham,529,Arkham War,William Cobb
 Charles McNider,3,518.0,440.5,592.5,363,Injustice: Year Zero Chapters 1-14,667,America Vs. The Justice Society #1-4,Charles McNider
 Justice Society of America,3,518.0,440.5,592.5,363,Injustice: Year Zero Chapters 1-14,667,America Vs. The Justice Society #1-4,Justice Society of America
@@ -492,13 +491,13 @@ Super Friends,1,591.0,591.0,591.0,591,Imp-Possible,591,Imp-Possible,Super Friend
 Albert Pratt,2,592.5,555.25,629.75,518,Zero Hour,667,America Vs. The Justice Society #1-4,Albert Pratt
 Rex Tyler,2,592.5,555.25,629.75,518,Zero Hour,667,America Vs. The Justice Society #1-4,Rex Tyler
 Wesley Dodds,2,592.5,555.25,629.75,518,Zero Hour,667,America Vs. The Justice Society #1-4,Wesley Dodds
-Terrence McGinnis,5,597.0,537.0,608.0,352,Batman Beyond: Return of the Joker,621,Terry’s Mom Dates a Splicer,Terrence McGinnis
+Terry McGinnis,5,597.0,537.0,608.0,352,Batman Beyond: Return of the Joker,621,Terry’s Mom Dates a Splicer,Terry McGinnis
 Bruss Wayne-son,1,599.0,599.0,599.0,599,Batman: Nosferatu,599,Batman: Nosferatu,Bruss Wayne-son
-Scott Free,6,601.0,474.25,645.25,204,Final Night,687,Bruce Wayne in Bialya,Scott Free
+Scott Free,6,601.0,474.25,645.25,204,Final Night,687,Bruce Wayne in Bialya,Mister Miracle
 Byron Wyatt,1,610.0,610.0,610.0,610,Batman: Hollywood Knights #1-3,610,Batman: Hollywood Knights #1-3,Byron Wyatt
 Mary McGinnis,1,621.0,621.0,621.0,621,Terry’s Mom Dates a Splicer,621,Terry’s Mom Dates a Splicer,Mary McGinnis
-Michael Carter,7,622.0,284.5,670.0,204,Final Night,703,The Wedding,Michael Carter
-Theodore Kord,5,622.0,343.0,653.0,204,Final Night,687,Bruce Wayne in Bialya,Theodore Kord
+Michael Carter,7,622.0,284.5,670.0,204,Final Night,703,The Wedding,Booster Gold
+Theodore Kord,5,622.0,343.0,653.0,204,Final Night,687,Bruce Wayne in Bialya,Blue Beetle (Ted Kord)
 Kent Nelson,3,622.0,570.0,644.5,518,Zero Hour,667,America Vs. The Justice Society #1-4,Kent Nelson
 Ibn al Xu'ffasch,1,623.0,623.0,623.0,623,The Kingdom: Son of the Bat #1,623,The Kingdom: Son of the Bat #1,Ibn al Xu'ffasch
 Adrian Chase,1,627.0,627.0,627.0,627,The Batman and the Vigilante,627,The Batman and the Vigilante,Adrian Chase

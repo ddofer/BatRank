@@ -54,5 +54,5 @@ share: html
 
 check:
 	uv run python -m pytest -q
-	uv run ruff check scripts tests
-	uv run ruff format --check scripts tests
+	uv run ruff check scripts tests notebooks
+	uv run ruff format --check scripts tests notebooks
