@@ -16,7 +16,7 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Can a computer predict BatChat's favorites?](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
 | [Which stories deserve a second look?](notebooks/4.0-batchat-second-look.ipynb) | 20 held-out model disagreements, including ten early-episode case studies | [Run](https://www.kaggle.com/code/danofer/which-batman-stories-deserve-a-second-look) |
-| [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Model weights, held-out SHAP size/direction, story counts, uncertainty, audience comparisons | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
+| [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Ridge and XGBoost, held-out SHAP, interactions, story counts and uncertainty | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
 
 Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from big-cast books and collections; the rogues notebook [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 

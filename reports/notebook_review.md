@@ -27,3 +27,22 @@ A separate subagent reviewed each of the seven notebooks; another reviewed all p
 All seven notebooks were executed after their changes. Numerical claims and the twenty selected case notes were checked against the current CSVs and relevant model inputs. The integration pass inspected regenerated charts, checked notebook structure and code, and retained the table limit below 25 rows. A regression check catches the formerly empty creator-credit table. All 90 tests, lint, formatting and lock-consistency checks pass; clean-environment parser imports also pass.
 
 The twelve CSV exports are unchanged byte for byte. The review did not reacquire the external source websites or recreate their original matching decisions. Existing historical annotations retain their sources; one DC article rejected automated access. Models remain descriptive associations within one ranked snapshot, and a frequency threshold cannot separate a creator from a particular run or era.
+
+
+## Bounded boosted-tree follow-up
+
+The assumption was that one shallow XGBoost configuration would reduce held-out error by roughly five rank places and improve most folds. The same five linked-issue/episode folds, training-only encoders and eight-story vocabulary screen were reused. The CPU-only XGBoost 3.2.0 build used 200 trees, depth three, learning rate 0.05, minimum child weight 10, regularization 10 and 80% row/column sampling; there was no tuning search.
+
+| Fold | Ridge error | XGBoost error |
+|---|---:|---:|
+| 1 | 174.30 | 168.09 |
+| 2 | 182.22 | 177.17 |
+| 3 | 173.65 | 167.85 |
+| 4 | 174.74 | 172.64 |
+| 5 | 165.73 | 162.04 |
+
+Pooled error fell from **174.14 to 169.57**, about 4.6 places, with improvements in all five folds: supported within this snapshot, not an independent confirmation. This justified a compact nonlinear check in the feature-effects notebook, not a second boosting library or a parameter search. The initial smoke run used 20 trees and eight held-out examples before the full run. The feature panel pairs mean magnitudes with signed per-story contributions and input-value colors; its dot spread is story variation, not a confidence interval. Native TreeSHAP contributions reconstruct predictions; native interaction rows reconstruct those contributions. Both identities are asserted in the notebook.
+
+Interaction screening is limited to pairs among the 20 most influential numeric/name inputs, with at least eight jointly observed stories, five linked groups and nonzero contributions in four fits. Era × length leads; the notebook shows observed rank medians beside the extra pair term and masks sparse cells. Credit-related interactions are much smaller and do not establish a creator-team effect. All tree explanations use held-out stories; continuity variants stay separate in the interaction screen.
+
+Reproduce with `uv run python scripts/execute_notebooks.py notebooks/5.0-batchat-what-drives-the-ranking.ipynb`. The CPU package supplies TreeSHAP directly, without the separate SHAP package or GPU dependencies. The CSV exports are unchanged.
