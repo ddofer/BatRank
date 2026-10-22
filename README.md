@@ -1,6 +1,6 @@
 # BatRank
 
-A Batman dataset built from [ComicsXF’s BatChat rankings](https://comicsxf.com/batchat-rankings/), with three notebooks on the stories, their creators, and the podcast’s taste.
+A Batman dataset built from [ComicsXF’s BatChat rankings](https://comicsxf.com/batchat-rankings/), with six notebooks on the stories, their creators, the podcast’s taste, and what drives it.
 
 **740 stories. Rank 1 is best. Snapshot: 21 October 2026.**
 
@@ -10,9 +10,12 @@ By **Dan Ofer** · [Google Scholar](https://scholar.google.com/citations?user=uD
 
 | Notebook | What’s in it | Kaggle |
 |---|---|---|
-| [Who gets the good Batman stories?](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Best and worst-ranked creators and characters, series, Elseworlds, gorillas, sharks, and plot words | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
+| [Who gets the good Batman stories?](notebooks/2.0-batchat-the-art-of-gotham.ipynb) | Writers, artists, letterers, eras, writer–artist pairs | [Run](https://www.kaggle.com/code/danofer/who-gets-the-good-batman-stories) |
+| [Gotham's rogues, ranked](notebooks/2.1-batchat-gothams-rogues.ipynb) | Heroes and villains by rank, the Mad Hatter trick, gorillas and sharks, villain word clouds | [Run](https://www.kaggle.com/code/danofer/gotham-s-rogues-ranked) |
+| [What Batman plots are made of](notebooks/2.2-batchat-plot-words.ipynb) | Series, Elseworlds, plot-summary coverage, plot ingredients, the bat word cloud | [Run](https://www.kaggle.com/code/danofer/what-batman-plots-are-made-of) |
 | [BatChat vs the crowd](notebooks/3.0-batchat-versus-the-crowd.ipynb) | Where Goodreads readers, RoundUp readers, and critics disagree with the hosts | [Run](https://www.kaggle.com/code/danofer/batchat-vs-the-crowd-where-batman-fans-disagree) |
 | [Can a computer predict BatChat's favorites?](notebooks/1.0-batchat-rankings.ipynb) | Regression, plot words, and the stories the models get wrong | [Run](https://www.kaggle.com/code/danofer/batchat-s-favorite-batman-stories) |
+| [What pushes a story up the list?](notebooks/5.0-batchat-what-drives-the-ranking.ipynb) | Model weights, permutation importance, SHAP breakdowns of the mismatches, per audience | [Run](https://www.kaggle.com/code/danofer/what-pushes-a-batman-story-up-batchat-s-list) |
 
 Moench and Kelley Jones made both *Red Rain* (#6) and *Unseen* (#716). Mad Hatter’s low median rank mostly comes from ensemble books and collections; the EDA [checks his actual role](data/external/hatter_story_roles.csv). Goodreads prefers *White Knight* to *Red Rain*; BatChat strongly disagrees.
 
@@ -46,7 +49,7 @@ make share       # stage data/kaggle/ + dataset-metadata.json; then: kaggle data
 make check       # tests and lint
 ```
 
-The notebooks are self-contained: pandas, seaborn, scikit-learn, and scipy only. No scraping or API keys.
+The notebooks are self-contained: pandas, seaborn, scikit-learn, scipy, and shap only. No scraping or API keys.
 
 ## Processing code
 
